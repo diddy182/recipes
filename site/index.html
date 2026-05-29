@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jordan&#x27;s Recipes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header home">
+<a class="brand" href="index.html">Jordan&#x27;s Recipes</a>
+</header>
+<main class="home-main">
+<section class="hero-band">
+<h1>Jordan&#x27;s Recipes</h1>
+<p class="tagline">4 recipes, all in one place.</p>
+<input id="search" type="search" placeholder="Search recipes, ingredients, tags…" autocomplete="off">
+<div class="chips"><button class="chip active" data-cat="all">All</button><button class="chip" data-cat="breakfast">Breakfast</button><button class="chip" data-cat="dessert">Dessert</button><button class="chip" data-cat="dinner">Dinner</button><button class="chip" data-cat="side dish">Side Dish</button></div>
+</section>
+<div id="empty" class="empty" hidden>No recipes match your search.</div>
+<section class="grid" id="grid">
+<a class="card" href="recipes/amish-broccoli-bake.html"
+  data-title="amish broccoli bake"
+  data-category="side dish"
+  data-tags="side dish casserole broccoli amish vegetable cheese comfort food side dish">
+  <div class="card-img"><img loading="lazy" src="images/amish-broccoli-bake.jpg" alt="Amish Broccoli Bake"></div>
+  <div class="card-body">
+    <span class="card-cat">Side Dish</span>
+    <h2>Amish Broccoli Bake</h2>
+    <span class="card-time">35 mins</span>
+  </div>
+</a>
+<a class="card" href="recipes/low-carb-crack-slaw.html"
+  data-title="low carb crack slaw"
+  data-category="dinner"
+  data-tags="low carb keto dinner ground beef asian quick skillet american dinner">
+  <div class="card-img"><div class="noimg">🍴</div></div>
+  <div class="card-body">
+    <span class="card-cat">Dinner</span>
+    <h2>Low Carb Crack Slaw</h2>
+    <span class="card-time">35 mins</span>
+  </div>
+</a>
+<a class="card" href="recipes/robert-redford-dessert.html"
+  data-title="robert redford dessert"
+  data-category="dessert"
+  data-tags="dessert no-bake chocolate pudding layered pecans cream cheese dessert">
+  <div class="card-img"><div class="noimg">🍴</div></div>
+  <div class="card-body">
+    <span class="card-cat">Dessert</span>
+    <h2>Robert Redford Dessert</h2>
+    <span class="card-time">35 mins</span>
+  </div>
+</a>
+<a class="card" href="recipes/the-very-best-blueberry-muffins.html"
+  data-title="the very best blueberry muffins"
+  data-category="breakfast"
+  data-tags="muffins blueberry baking breakfast snack breakfast">
+  <div class="card-img"><img loading="lazy" src="images/the-very-best-blueberry-muffins.jpg" alt="The Very Best Blueberry Muffins"></div>
+  <div class="card-body">
+    <span class="card-cat">Breakfast</span>
+    <h2>The Very Best Blueberry Muffins</h2>
+    <span class="card-time">36 mins</span>
+  </div>
+</a>
+</section>
+</main>
+<footer class="site-footer">Jordan&#x27;s Recipes</footer>
+<script src="assets/app.js"></script>
+</body>
+</html>

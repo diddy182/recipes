@@ -1,0 +1,54 @@
+{
+  "slug": "the-very-best-blueberry-muffins",
+  "title": "The Very Best Blueberry Muffins",
+  "description": "Tender, bakery-style blueberry muffins with a craggy coarse-sugar top and a subtle bright note of lemon zest.",
+  "source_name": "Mel's Kitchen Cafe",
+  "source_url": "https://www.melskitchencafe.com/the-very-best-blueberry-muffins/",
+  "yield": "16 muffins",
+  "prep_time": "20 mins",
+  "cook_time": "16 mins",
+  "total_time": "36 mins",
+  "category": "Breakfast",
+  "tags": ["muffins", "blueberry", "baking", "breakfast", "snack"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1 cup (212 g) granulated sugar",
+        "½ cup neutral-flavored oil (like vegetable, canola, grapeseed)",
+        "½ cup milk or buttermilk",
+        "2 large eggs",
+        "1 tablespoon fresh lemon zest (see note)",
+        "1 teaspoon vanilla extract",
+        "2 cups (284 g) all-purpose flour",
+        "1 ½ teaspoons baking powder",
+        "½ teaspoon salt",
+        "¼ teaspoon baking soda",
+        "2 cups (340 g) blueberries, fresh or frozen (don't thaw if frozen)",
+        "1-2 teaspoons all-purpose flour",
+        "⅓ to ½ cup coarse sugar, for topping (optional)"
+      ]
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 375 degrees F. Line two muffin tins with paper liners or lightly grease with cooking spray (the recipe makes 16 muffins).",
+    "In a large bowl, whisk together the sugar, oil, milk (or buttermilk), eggs, lemon zest, and vanilla until well-combined.",
+    "Add the flour, baking powder, salt and baking soda and mix until a few dry streaks remain. Don't over mix.",
+    "Toss the blueberries with the 1-2 teaspoons flour and then add the blueberries and flour to the batter.",
+    "Stir and fold gently so as not to crush the blueberries. Mix until the batter is just combined. Don't over mix.",
+    "Fill muffin liners about 2/3 full and sprinkle each muffin with coarse sugar (optional).",
+    "Bake for 16-18 minutes until the tops spring back lightly to the touch. Remove from the oven and immediately remove the muffins from the tin to cool completely on a wire rack."
+  ],
+  "notes": [
+    {
+      "label": "Lemon zest",
+      "text": "You can leave out the lemon zest if you don't have it on hand, but if you do have it, I encourage you to use it! It adds a very subtle bright lemon note to the muffins."
+    },
+    {
+      "label": "Coarse sugar",
+      "text": "The coarse sugar for topping is also optional. I love the craggy/crackly top it gives the muffins. You can use turbinado or regular granulated sugar in place of the coarse sugar."
+    }
+  ],
+  "pdf": "The Very Best Blueberry Muffins - Mel's Kitchen Cafe.pdf",
+  "image": "the-very-best-blueberry-muffins.jpg"
+}

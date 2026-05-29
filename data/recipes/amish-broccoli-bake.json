@@ -1,0 +1,40 @@
+{
+  "slug": "amish-broccoli-bake",
+  "title": "Amish Broccoli Bake",
+  "description": "A rich and creamy Amish-style vegetable casserole layered with broccoli, sharp cheddar, and herbed stuffing — comfort food that might just win over the veggie skeptics.",
+  "source_name": "MrFood.com",
+  "source_url": null,
+  "yield": "8 servings",
+  "prep_time": null,
+  "cook_time": "35 mins",
+  "total_time": null,
+  "category": "Side Dish",
+  "tags": ["side dish", "casserole", "broccoli", "amish", "vegetable", "cheese", "comfort food"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1 (10¾-ounce) can cream of mushroom soup",
+        "1 cup mayonnaise",
+        "½ cup chopped onion",
+        "½ teaspoon salt",
+        "¼ teaspoon black pepper",
+        "2 (10-ounce) packages frozen chopped broccoli, thawed",
+        "1 cup shredded sharp Cheddar cheese",
+        "1 (6-ounce) box herbed stuffing mix",
+        "¼ cup (½ stick) butter, melted and divided"
+      ]
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 350 degrees F. Coat a 3-quart casserole dish with cooking spray.",
+    "In a medium bowl, combine soup, mayonnaise, onion, salt, and pepper; mix well.",
+    "Place half the broccoli in the casserole dish. Sprinkle with half the cheese and half the stuffing mix. Pour half the butter and half the soup mixture over stuffing. Repeat layers one more time.",
+    "Bake 35 to 40 minutes, or until hot in center."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Amish Broccoli Bake MrFood.com.pdf",
+  "image": null
+}

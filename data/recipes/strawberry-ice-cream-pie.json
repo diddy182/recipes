@@ -1,0 +1,38 @@
+{
+  "slug": "strawberry-ice-cream-pie",
+  "title": "Strawberry Ice Cream Pie",
+  "description": "A no-fuss frozen pie with a baked graham cracker crust filled with softened strawberry ice cream.",
+  "source_name": "butterwithasideofbread.com",
+  "source_url": null,
+  "yield": "8 slices",
+  "prep_time": "10 mins",
+  "cook_time": "10 mins",
+  "total_time": "20 mins",
+  "category": "Dessert",
+  "tags": ["dessert", "pie", "ice cream", "strawberry", "frozen", "no-bake filling"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1½ cups graham crackers, crushed",
+        "1 tablespoon brown sugar",
+        "3 tablespoons butter, melted",
+        "3 cups softened strawberry ice cream"
+      ]
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 375°F. Remove ice cream from freezer and allow to soften.",
+    "In a food processor, crush graham crackers until fine. This will take about 12 graham crackers. Add in the melted butter and brown sugar, pulse until a sand-like mixture has formed.",
+    "Press the graham cracker crust evenly into the bottom of a 9-inch pie pan, making sure to cover the bottom and up the sides of the pan. Use the back of a measuring cup or large spoon to press the crust.",
+    "Bake the crust in the heated oven for 8-10 minutes or until golden brown. Remove from the oven and place on a cooling rack. Cool for a few minutes before adding the ice cream.",
+    "With a spatula, spread the softened ice cream, filling the pie pan to the top with the ice cream. Cover with plastic wrap and place in the freezer for at least 3 hours, or overnight.",
+    "Store tightly covered in the freezer. Remove from the freezer 5-10 minutes before serving for easier slicing."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Strawberry Ice Cream Pie.pdf",
+  "contributor": null,
+  "image": null
+}

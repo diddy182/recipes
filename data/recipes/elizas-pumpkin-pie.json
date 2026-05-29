@@ -1,0 +1,59 @@
+{
+  "slug": "elizas-pumpkin-pie",
+  "title": "Eliza's Pumpkin Pie",
+  "description": "A from-scratch spiced pumpkin pie in a homemade crust, decorated with sugared cranberries and pie-crust leaves for the holidays.",
+  "source_name": "sallysbakingaddiction.com",
+  "source_url": null,
+  "yield": "1 pie",
+  "prep_time": "45 mins",
+  "cook_time": "55 mins",
+  "total_time": null,
+  "category": "Dessert",
+  "tags": ["dessert", "pie", "pumpkin", "thanksgiving", "holiday", "fall", "family"],
+  "ingredients": [
+    {
+      "heading": "Sugared Cranberries",
+      "items": [
+        "1 cup (120g) fresh cranberries",
+        "2 cups (400g) granulated sugar, divided",
+        "1 cup (240ml) water"
+      ]
+    },
+    {
+      "heading": "Pumpkin Pie",
+      "items": [
+        "Homemade pie crust (full recipe makes 2 crusts: 1 for bottom, 1 for leaf decor)",
+        "One 15oz can (about 2 cups; 450g) pumpkin puree",
+        "3 large eggs",
+        "1¼ cups (250g) packed light or dark brown sugar",
+        "1 Tablespoon (8g) cornstarch",
+        "½ teaspoon salt",
+        "1½ teaspoons ground cinnamon",
+        "½ teaspoon ground ginger",
+        "¼ teaspoon ground or freshly grated nutmeg",
+        "⅛ teaspoon ground cloves",
+        "⅛ teaspoon fresh ground black pepper",
+        "1 cup (240ml) heavy cream",
+        "¼ cup (60ml) milk",
+        "Egg wash: 1 large egg beaten with 1 Tablespoon milk"
+      ]
+    }
+  ],
+  "instructions": [
+    "For the cranberries: Place cranberries in a large bowl; set aside. In a medium saucepan, bring 1 cup of sugar and the water to a boil and whisk until the sugar is dissolved. Remove from heat and cool for 5 minutes. Pour the syrup over the cranberries and stir. Let sit at room temperature or in the refrigerator for 6 hours or overnight (ideal). Drain the cranberries from the thickened syrup, pour 1 cup of sugar on top, and toss to coat. Spread on a parchment- or silicone-lined baking sheet and let dry for at least 2 hours.",
+    "Make the pie crust through chilling, or use store-bought.",
+    "For the filling: Whisk the pumpkin, eggs, and brown sugar together until combined. Add the cornstarch, salt, cinnamon, ginger, nutmeg, cloves, pepper, cream, and milk. Vigorously whisk until everything is combined; the filling will be a little thick.",
+    "Preheat oven to 375°F (190°C).",
+    "Roll out the chilled pie dough on a lightly floured surface into a 12-inch circle, turning a quarter turn after every few rolls. Carefully place into a 9-inch pie dish, tuck it in, and trim and crimp the edges. Brush the edges lightly with egg wash. Using pie weights, pre-bake the crust for 10 minutes.",
+    "Pour the pumpkin filling into the warm pre-baked crust, filling only about ¾ of the way up. Bake until the center is almost set, about 55–60 minutes; a small part of the center will be wobbly — that's ok. After 25 minutes, cover the edges with foil or a pie crust shield to prevent over-browning. Check for doneness at 50, 55, and 60 minutes.",
+    "Transfer the pie to a wire rack and cool completely for at least 3 hours. Decorate with sugared cranberries and pie crust leaves. Serve with whipped cream if desired."
+  ],
+  "notes": [
+    {"label": "Make ahead", "text": "Pumpkin pie freezes well up to 3 months; thaw overnight in the fridge. Pie crust dough also freezes up to 3 months. The filling can be made the night before — preferred, as it lets the spices, pumpkin, and brown sugar flavors blend. If decorating with sugared cranberries, start them the night before."}
+  ],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Eliza/Eliza's Pumpkin Pie Recipe.pdf",
+  "contributor": "Eliza",
+  "image": null
+}

@@ -5,27 +5,31 @@ For each recipe JSON it:
   - ensures a hero image exists in site/images/ (extracts from the PDF if missing)
   - copies the source PDF to site/pdfs/<slug>.pdf for a clean download URL
   - renders site/recipes/<slug>.html
-Then it renders site/index.html (search + category filters + cards) and writes
-the CSS/JS assets.
+Then it renders site/index.html (search + category filters + cards), writes the
+CSS/JS assets, and the PWA manifest + service worker.
+
+All asset URLs are absolute ("/assets/...", "/icons/...") because the Apache
+docroot is the site/ folder itself.
 
 Usage: python scripts/build.py
 """
 import json
 import shutil
 import html
-import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "recipes"
 SRC_PDFS = ROOT / "src-pdfs"
+SRC_IMAGES = ROOT / "src-images"
 SITE = ROOT / "site"
 IMAGES = SITE / "images"
 PDFS = SITE / "pdfs"
 RECIPES_OUT = SITE / "recipes"
 ASSETS = SITE / "assets"
 
-SITE_TITLE = "Jordan's Recipes"
+SITE_TITLE = "Recipes"
+FOOTER_TEXT = f"{SITE_TITLE} · developed by Jordan Herrick"
 
 for d in (IMAGES, PDFS, RECIPES_OUT, ASSETS):
     d.mkdir(parents=True, exist_ok=True)
@@ -46,15 +50,20 @@ def load_recipes():
 def ensure_assets(recipe):
     """Make sure the hero image and downloadable PDF exist for a recipe."""
     slug = recipe["slug"]
-    # PDF: copy source -> site/pdfs/<slug>.pdf
     src_pdf = SRC_PDFS / recipe["pdf"] if recipe.get("pdf") else None
     has_pdf = False
     if src_pdf and src_pdf.exists():
         shutil.copyfile(src_pdf, PDFS / f"{slug}.pdf")
         has_pdf = True
-    # Image: extract if referenced but missing
     img_name = recipe.get("image")
-    has_img = bool(img_name) and (IMAGES / img_name).exists()
+    has_img = False
+    if img_name:
+        src_img = SRC_IMAGES / img_name
+        if src_img.exists():
+            shutil.copyfile(src_img, IMAGES / img_name)
+            has_img = True
+        elif (IMAGES / img_name).exists():
+            has_img = True
     if not has_img and src_pdf and src_pdf.exists():
         try:
             import sys
@@ -69,7 +78,14 @@ def ensure_assets(recipe):
     return has_pdf, has_img
 
 
-META_ROW = """<div class="meta">{cells}</div>"""
+def ingredient_text(recipe):
+    """Flatten all ingredient lines into one lowercase search string."""
+    parts = []
+    for group in recipe.get("ingredients", []):
+        if group.get("heading"):
+            parts.append(group["heading"])
+        parts.extend(group.get("items", []))
+    return " ".join(parts).lower()
 
 
 def meta_cells(recipe):
@@ -85,7 +101,7 @@ def meta_cells(recipe):
         f'<span class="meta-value">{e(v)}</span></div>'
         for l, v in rows if v
     )
-    return META_ROW.format(cells=cells) if cells else ""
+    return f'<div class="meta">{cells}</div>' if cells else ""
 
 
 def render_ingredients(recipe):
@@ -129,31 +145,57 @@ def render_nutrition(recipe):
 
 
 def render_source(recipe):
+    """Bottom-of-page provenance: contributor (who shared it) + original source."""
+    lines = []
+    contributor = recipe.get("contributor")
+    if contributor:
+        lines.append(f'<p class="source">From the kitchen of <strong>{e(contributor)}</strong></p>')
     name = recipe.get("source_name")
     url = recipe.get("source_url")
     if url:
         label = name or "original source"
-        return (f'<p class="source">Recipe from '
-                f'<a href="{e(url)}" target="_blank" rel="noopener">{e(label)}</a></p>')
-    if name:
-        return f'<p class="source">Recipe from {e(name)}</p>'
-    return ""
+        lines.append('<p class="source">Recipe from '
+                     f'<a href="{e(url)}" target="_blank" rel="noopener">{e(label)}</a></p>')
+    elif name:
+        lines.append(f'<p class="source">Recipe from {e(name)}</p>')
+    return "\n".join(lines)
 
 
-def page_shell(title, body, rel="../"):
+HEAD_META = """<meta name="theme-color" content="#1a1a1a">
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="/icons/icon-32.png">
+<link rel="apple-touch-icon" href="/icons/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Recipes">"""
+
+SW_REG = """<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js'));
+}
+</script>"""
+
+
+def page_shell(title, body, description=""):
+    desc = f'<meta name="description" content="{e(description)}">' if description else ""
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{e(title)}</title>
+{desc}
+{HEAD_META}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{rel}assets/style.css">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Karla:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
 {body}
+{SW_REG}
 </body>
 </html>"""
 
@@ -162,23 +204,27 @@ def render_recipe_page(recipe):
     slug = recipe["slug"]
     img = recipe.get("image")
     img_exists = bool(img) and (IMAGES / img).exists()
-    hero = (f'<img class="hero" src="../images/{e(img)}" alt="{e(recipe["title"])}">'
+    hero = (f'<figure class="hero"><img src="/images/{e(img)}" alt="{e(recipe["title"])}"></figure>'
             if img_exists else "")
     top_class = "recipe-top" if img_exists else "recipe-top no-hero"
-    source = render_source(recipe)
     desc = f'<p class="recipe-desc">{e(recipe["description"])}</p>' if recipe.get("description") else ""
+    contributor = recipe.get("contributor")
+    eyebrow_bits = [recipe.get("category") or "Recipe"]
+    if contributor:
+        eyebrow_bits.append(f"from {contributor}")
+    eyebrow = '<span>' + '</span><span>'.join(e(b) for b in eyebrow_bits) + '</span>'
     body = f"""<header class="site-header">
-<a class="brand" href="../index.html">{e(SITE_TITLE)}</a>
-<a class="back" href="../index.html">&larr; All recipes</a>
+<a class="brand" href="/index.html">{e(SITE_TITLE)}</a>
+<a class="back" href="/index.html">All recipes</a>
 </header>
 <main class="recipe">
 <div class="{top_class}">
 <div class="recipe-head">
-<p class="eyebrow">{e(recipe.get("category") or "Recipe")}</p>
+<p class="eyebrow">{eyebrow}</p>
 <h1>{e(recipe["title"])}</h1>
 {desc}
 {meta_cells(recipe)}
-<a class="download-btn" href="../pdfs/{e(slug)}.pdf" download>Download PDF</a>
+<a class="download-btn" href="/pdfs/{e(slug)}.pdf" download>Download PDF</a>
 </div>
 {hero}
 </div>
@@ -188,36 +234,41 @@ def render_recipe_page(recipe):
 {render_ingredients(recipe)}
 </section>
 <section class="instructions-section">
-<h2>Instructions</h2>
+<h2>Method</h2>
 {render_instructions(recipe)}
 </section>
 </div>
 {render_notes(recipe)}
 {render_nutrition(recipe)}
-{source}
+<div class="provenance">{render_source(recipe)}</div>
 </main>
-<footer class="site-footer">{e(SITE_TITLE)}</footer>"""
-    return page_shell(f'{recipe["title"]} — {SITE_TITLE}', body, rel="../")
+<footer class="site-footer">{e(FOOTER_TEXT)}</footer>"""
+    return page_shell(f'{recipe["title"]} — {SITE_TITLE}', body,
+                      description=recipe.get("description", ""))
 
 
 def render_card(recipe):
     slug = recipe["slug"]
     img = recipe.get("image")
     img_exists = bool(img) and (IMAGES / img).exists()
-    thumb = (f'<img loading="lazy" src="images/{e(img)}" alt="{e(recipe["title"])}">'
-             if img_exists else '<div class="noimg">🍴</div>')
-    time = recipe.get("total_time") or recipe.get("cook_time") or ""
-    time_html = f'<span class="card-time">{e(time)}</span>' if time else ""
-    tags = " ".join((recipe.get("tags") or []) + [recipe.get("category") or ""])
-    return f"""<a class="card" href="recipes/{e(slug)}.html"
-  data-title="{e(recipe['title'].lower())}"
-  data-category="{e((recipe.get('category') or '').lower())}"
-  data-tags="{e(tags.lower())}">
+    thumb = (f'<img loading="lazy" src="/images/{e(img)}" alt="{e(recipe["title"])}">'
+             if img_exists else '<div class="noimg"></div>')
+    contributor = recipe.get("contributor")
+    cat = recipe.get("category") or ""
+    meta_bits = [b for b in (cat, f"from {contributor}" if contributor else "") if b]
+    meta_html = "".join(f"<span>{e(b)}</span>" for b in meta_bits)
+    tags = " ".join((recipe.get("tags") or []) + [cat, contributor or ""])
+    haystack = " ".join([
+        recipe["title"].lower(), tags.lower(),
+        ingredient_text(recipe),
+    ])
+    return f"""<a class="card" href="/recipes/{e(slug)}.html"
+  data-category="{e(cat.lower())}"
+  data-search="{e(haystack)}">
   <div class="card-img">{thumb}</div>
   <div class="card-body">
-    <span class="card-cat">{e(recipe.get('category') or '')}</span>
+    <p class="card-meta">{meta_html}</p>
     <h2>{e(recipe['title'])}</h2>
-    {time_html}
   </div>
 </a>"""
 
@@ -232,102 +283,149 @@ def render_index(recipes):
                       sorted(recipes, key=lambda r: r["title"].lower()))
     count = len(recipes)
     body = f"""<header class="site-header home">
-<a class="brand" href="index.html">{e(SITE_TITLE)}</a>
+<a class="brand" href="/index.html">{e(SITE_TITLE)}</a>
 </header>
 <main class="home-main">
-<section class="hero-band">
+<section class="masthead">
 <h1>{e(SITE_TITLE)}</h1>
-<p class="tagline">{count} recipe{'s' if count != 1 else ''}, all in one place.</p>
-<input id="search" type="search" placeholder="Search recipes, ingredients, tags…" autocomplete="off">
+<p class="tagline">A collection of {count} recipe{'s' if count != 1 else ''} — clipped, cooked, and kept.</p>
+<input id="search" type="search" placeholder="Search by name, ingredient, or tag…" autocomplete="off">
 <div class="chips">{chips}</div>
 </section>
-<div id="empty" class="empty" hidden>No recipes match your search.</div>
+<p id="empty" class="empty" hidden>No recipes match your search.</p>
 <section class="grid" id="grid">
 {cards}
 </section>
 </main>
-<footer class="site-footer">{e(SITE_TITLE)}</footer>
-<script src="assets/app.js"></script>"""
-    return page_shell(SITE_TITLE, body, rel="")
+<footer class="site-footer">{e(FOOTER_TEXT)}</footer>
+<script src="/assets/app.js"></script>"""
+    return page_shell(SITE_TITLE, body,
+                      description=f"A personal collection of {count} recipes.")
 
 
 CSS = r""":root{
-  --bg:#faf7f2; --card:#fff; --ink:#2c2620; --muted:#8a7f70;
-  --accent:#c2410c; --accent-soft:#fde7d8; --line:#ece5da; --shadow:0 1px 3px rgba(60,40,20,.08),0 8px 24px rgba(60,40,20,.06);
+  --dark:#1a1a1a; --text2:#3a3a3a; --muted:#6e6e6e; --muted2:#9a9a9a;
+  --border:#ebe8e2; --border-soft:#f3f1ec; --gray:#fafaf8; --light:#fff;
+  --serif:'EB Garamond',Georgia,serif;
+  --sans:'Karla',system-ui,-apple-system,sans-serif;
 }
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:'Inter',system-ui,sans-serif;line-height:1.6}
+html{font-size:16px}
+body{margin:0;background:var(--light);color:var(--dark);
+  font-family:var(--serif);font-size:1.125rem;line-height:1.6;
+  -webkit-font-smoothing:antialiased}
 a{color:inherit;text-decoration:none}
-h1,h2,h3{font-family:'Fraunces',Georgia,serif;font-weight:600;line-height:1.15;margin:0}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;
+  letter-spacing:-.01em;margin:0}
 
-.site-header{display:flex;align-items:center;justify-content:space-between;padding:18px 24px;border-bottom:1px solid var(--line);background:rgba(250,247,242,.85);backdrop-filter:blur(8px);position:sticky;top:0;z-index:10}
-.brand{font-family:'Fraunces',serif;font-weight:700;font-size:1.25rem;color:var(--accent)}
-.back{color:var(--muted);font-size:.92rem}
-.site-footer{text-align:center;color:var(--muted);padding:48px 0 64px;font-size:.85rem}
+/* Header / footer */
+.site-header{display:flex;align-items:center;justify-content:space-between;
+  max-width:1140px;margin:0 auto;padding:28px 32px;
+  border-bottom:1px solid var(--border)}
+.brand{font-family:var(--serif);font-weight:500;font-size:1.5rem;letter-spacing:-.01em}
+.back{font-family:var(--sans);font-weight:500;font-size:.8125rem;
+  text-transform:uppercase;letter-spacing:.08em;color:var(--muted);
+  border-bottom:1px solid transparent;padding-bottom:1px;transition:.15s}
+.back:hover{color:var(--dark);border-bottom-color:var(--dark)}
+.site-footer{font-family:var(--sans);text-align:center;color:var(--muted2);
+  padding:56px 0 72px;font-size:.8125rem;letter-spacing:.08em;text-transform:uppercase}
 
-/* Home */
-.home-main{max-width:1120px;margin:0 auto;padding:0 24px}
-.hero-band{text-align:center;padding:56px 0 36px}
-.hero-band h1{font-size:clamp(2.2rem,5vw,3.4rem)}
-.tagline{color:var(--muted);margin:.5rem 0 1.8rem}
-#search{width:100%;max-width:560px;padding:14px 18px;font-size:1rem;border:1px solid var(--line);border-radius:14px;background:#fff;box-shadow:var(--shadow);outline:none}
-#search:focus{border-color:var(--accent)}
-.chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:20px}
-.chip{border:1px solid var(--line);background:#fff;color:var(--muted);padding:7px 16px;border-radius:999px;font-size:.88rem;cursor:pointer;font-family:inherit;transition:.15s}
-.chip:hover{border-color:var(--accent);color:var(--accent)}
-.chip.active{background:var(--accent);border-color:var(--accent);color:#fff}
+/* Home masthead */
+.home-main{max-width:1140px;margin:0 auto;padding:0 32px}
+.masthead{text-align:center;padding:64px 0 40px;border-bottom:1px solid var(--border)}
+.masthead h1{font-size:clamp(2.4rem,6vw,3.6rem)}
+.tagline{font-style:italic;color:var(--muted);margin:.6rem 0 2rem;font-size:1.1875rem}
+#search{width:100%;max-width:520px;font-family:var(--serif);font-size:1.0625rem;
+  padding:13px 18px;border:1px solid var(--border);background:var(--light);
+  border-radius:0;outline:none;transition:border-color .15s}
+#search:focus{border-color:var(--dark)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:22px}
+.chip{font-family:var(--sans);font-size:.8125rem;font-weight:500;
+  color:var(--text2);background:var(--gray);border:1px solid var(--border-soft);
+  padding:7px 15px;border-radius:999px;cursor:pointer;transition:.15s}
+.chip:hover{background:var(--light);border-color:var(--border);color:var(--dark)}
+.chip.active{background:var(--dark);border-color:var(--dark);color:var(--light)}
 
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(248px,1fr));gap:22px;padding-bottom:24px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:var(--shadow);transition:transform .18s,box-shadow .18s;display:flex;flex-direction:column}
-.card:hover{transform:translateY(-4px);box-shadow:0 6px 14px rgba(60,40,20,.12),0 18px 40px rgba(60,40,20,.10)}
-.card-img{aspect-ratio:4/3;background:var(--accent-soft);overflow:hidden}
-.card-img img{width:100%;height:100%;object-fit:cover;display:block}
-.noimg{display:flex;align-items:center;justify-content:center;height:100%;font-size:2.4rem;opacity:.5}
-.card-body{padding:14px 16px 18px}
-.card-cat{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--accent);font-weight:600}
-.card-body h2{font-size:1.12rem;margin:4px 0 6px}
-.card-time{font-size:.85rem;color:var(--muted)}
-.empty{text-align:center;color:var(--muted);padding:48px 0}
+/* Grid of recipe cards */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
+  gap:36px 28px;padding:48px 0 24px}
+.card{display:flex;flex-direction:column}
+.card-img{aspect-ratio:1/1;background:var(--gray);overflow:hidden}
+.card-img img{width:100%;height:100%;object-fit:cover;display:block;
+  transition:transform .4s ease}
+.card:hover .card-img img{transform:scale(1.04)}
+.noimg{width:100%;height:100%;background:var(--border-soft)}
+.card-body{padding:14px 2px 0}
+.card-meta{font-family:var(--sans);font-size:.6875rem;font-weight:500;
+  text-transform:uppercase;letter-spacing:.07em;color:var(--muted);
+  margin:0 0 5px;display:flex;flex-wrap:wrap;gap:0 6px}
+.card-meta > * + *::before{content:'·';margin-right:6px;color:var(--muted2)}
+.card-body h2{font-size:1.375rem;font-weight:500}
+.empty{font-family:var(--sans);text-align:center;color:var(--muted);padding:64px 0}
 
 /* Recipe page */
-.recipe{max-width:860px;margin:0 auto;padding:32px 24px 0}
-.recipe-top{display:grid;grid-template-columns:1fr 320px;gap:32px;align-items:start;margin-bottom:8px}
-.eyebrow{font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);font-weight:600;margin:0 0 6px}
-.recipe-head h1{font-size:clamp(1.9rem,4vw,2.6rem);margin-bottom:.5rem}
-.recipe-desc{color:var(--muted);margin:0 0 18px}
-.hero{width:100%;border-radius:16px;box-shadow:var(--shadow);aspect-ratio:1/1;object-fit:cover}
-.meta{display:flex;flex-wrap:wrap;gap:18px;margin:0 0 20px;padding:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.meta-item{display:flex;flex-direction:column}
-.meta-label{font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
-.meta-value{font-weight:600}
-.download-btn{display:inline-block;background:var(--accent);color:#fff;padding:12px 22px;border-radius:12px;font-weight:600;box-shadow:var(--shadow);transition:.15s}
-.download-btn:hover{background:#9a330a}
+.recipe{max-width:880px;margin:0 auto;padding:48px 32px 0}
+.recipe-top{display:grid;grid-template-columns:1fr 300px;gap:44px;
+  align-items:start;margin-bottom:8px}
+.recipe-top.no-hero{grid-template-columns:1fr;max-width:680px}
+.eyebrow{font-family:var(--sans);font-size:.75rem;font-weight:600;
+  text-transform:uppercase;letter-spacing:.1em;color:var(--muted);
+  margin:0 0 12px;display:flex;flex-wrap:wrap;gap:0 6px}
+.eyebrow > * + *::before{content:'·';margin-right:6px;color:var(--muted2)}
+.recipe-head h1{font-size:clamp(2rem,4.5vw,2.9rem);margin-bottom:.6rem}
+.recipe-desc{font-style:italic;color:var(--muted);margin:0 0 22px;font-size:1.1875rem}
+.hero{margin:0}
+.hero img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block;background:var(--gray)}
+.meta{display:flex;flex-wrap:wrap;gap:26px;margin:0 0 26px;padding:18px 0;
+  border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.meta-item{display:flex;flex-direction:column;gap:3px}
+.meta-label{font-family:var(--sans);font-size:.6875rem;font-weight:600;
+  text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.meta-value{font-size:1.0625rem}
+.download-btn{display:inline-block;font-family:var(--sans);font-weight:600;
+  font-size:.8125rem;text-transform:uppercase;letter-spacing:.08em;
+  background:var(--dark);color:var(--light);padding:13px 26px;
+  border-radius:0;transition:background .15s}
+.download-btn:hover{background:var(--text2)}
 
-.recipe-body{display:grid;grid-template-columns:1fr 1.4fr;gap:40px;margin-top:28px}
-.recipe-body h2{font-size:1.4rem;margin-bottom:14px;padding-bottom:8px;border-bottom:2px solid var(--accent-soft)}
+.recipe-body{display:grid;grid-template-columns:1fr 1.5fr;gap:52px;
+  margin-top:40px;padding-top:40px;border-top:1px solid var(--border)}
+.recipe-body h2{font-size:1.625rem;margin-bottom:18px}
 .ingredients{list-style:none;padding:0;margin:0}
-.ingredients li{padding:7px 0 7px 26px;position:relative;border-bottom:1px dashed var(--line)}
-.ingredients li:before{content:"";position:absolute;left:4px;top:15px;width:7px;height:7px;border-radius:50%;background:var(--accent)}
-.ing-heading{font-size:1rem;margin:14px 0 6px}
-.instructions{padding-left:0;list-style:none;counter-reset:step;margin:0}
-.instructions li{position:relative;padding:0 0 18px 46px;counter-increment:step}
-.instructions li:before{content:counter(step);position:absolute;left:0;top:0;width:30px;height:30px;background:var(--accent-soft);color:var(--accent);border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.9rem}
-.recipe-top.no-hero{grid-template-columns:1fr}
-.card-img .noimg{background:linear-gradient(135deg,var(--accent-soft),#fff)}
-.notes{max-width:860px;margin:24px auto 0;padding:24px;background:var(--accent-soft);border-radius:16px}
-.notes h2{font-size:1.3rem;margin-bottom:10px}
-.notes-list{margin:0;padding-left:20px}
-.notes-list li{margin-bottom:8px}
-.nutrition{max-width:860px;margin:24px auto 0;padding-top:18px;border-top:1px solid var(--line)}
-.nutrition h2{font-size:1.15rem;margin-bottom:8px}
-.nutrition p{color:var(--muted);font-size:.88rem;margin:0}
-.source{max-width:860px;margin:24px auto 0;color:var(--muted);font-size:.9rem}
-.source a{color:var(--accent);text-decoration:underline}
+.ingredients li{padding:9px 0;border-bottom:1px solid var(--border-soft);line-height:1.45}
+.ing-heading{font-size:1.125rem;font-weight:600;margin:20px 0 6px}
+.instructions{padding:0;list-style:none;counter-reset:step;margin:0}
+.instructions li{position:relative;padding:0 0 22px 48px;counter-increment:step}
+.instructions li:before{content:counter(step,decimal-leading-zero);
+  position:absolute;left:0;top:1px;font-family:var(--sans);font-weight:700;
+  font-size:.875rem;color:var(--muted2);letter-spacing:.02em}
 
-@media(max-width:720px){
-  .recipe-top{grid-template-columns:1fr}
-  .hero{max-width:320px}
-  .recipe-body{grid-template-columns:1fr;gap:28px}
+.notes{max-width:880px;margin:40px auto 0;padding:28px 32px;background:var(--gray);
+  border:1px solid var(--border-soft)}
+.notes h2{font-size:1.375rem;margin-bottom:12px}
+.notes-list{margin:0;padding-left:20px}
+.notes-list li{margin-bottom:10px;line-height:1.5}
+.nutrition{max-width:880px;margin:40px auto 0;padding-top:24px;border-top:1px solid var(--border)}
+.nutrition h2{font-size:1.25rem;margin-bottom:8px}
+.nutrition p{color:var(--muted);font-size:1rem;margin:0}
+.provenance{max-width:880px;margin:36px auto 0;padding-top:24px;border-top:1px solid var(--border)}
+.source{font-family:var(--sans);color:var(--muted);font-size:.9375rem;margin:0 0 6px}
+.source strong{color:var(--text2);font-weight:600}
+.source a{color:var(--dark);border-bottom:1px solid var(--border);padding-bottom:1px}
+.source a:hover{border-bottom-color:var(--dark)}
+
+@media(max-width:768px){
+  .recipe-top{grid-template-columns:1fr;gap:28px}
+  .recipe-top .hero{order:-1}
+  .hero img{aspect-ratio:4/3}
+  .recipe-body{grid-template-columns:1fr;gap:36px}
+}
+@media(max-width:600px){
+  .site-header{padding:22px 22px}
+  .home-main{padding:0 22px}
+  .recipe{padding:36px 22px 0}
+  .masthead{padding:44px 0 32px}
+  .grid{gap:30px 20px;padding:36px 0 16px}
 }
 """
 
@@ -342,8 +440,7 @@ function apply(){
   const q = search.value.trim().toLowerCase();
   let shown = 0;
   cards.forEach(card => {
-    const hay = card.dataset.title + ' ' + card.dataset.tags;
-    const matchText = !q || hay.includes(q);
+    const matchText = !q || card.dataset.search.includes(q);
     const matchCat = activeCat === 'all' || card.dataset.category === activeCat;
     const show = matchText && matchCat;
     card.style.display = show ? '' : 'none';
@@ -361,6 +458,73 @@ chips.forEach(chip => chip.addEventListener('click', () => {
 }));
 """
 
+MANIFEST = {
+    "name": "Jordan's Recipes",
+    "short_name": "Recipes",
+    "description": "A personal collection of recipes.",
+    "start_url": "/index.html",
+    "scope": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#1a1a1a",
+    "icons": [
+        {"src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+        {"src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png"},
+        {"src": "/icons/icon-maskable-512.png", "sizes": "512x512",
+         "type": "image/png", "purpose": "maskable"},
+    ],
+}
+
+SW = r"""/* Jordan's Recipes — service worker */
+const CACHE_VERSION = 'recipes-v1';
+const SHELL = [
+  '/',
+  '/index.html',
+  '/assets/style.css',
+  '/assets/app.js',
+  '/manifest.json',
+  '/icons/icon-192.png',
+  '/icons/icon-512.png',
+  '/icons/icon-180.png',
+];
+
+self.addEventListener('install', (event) => {
+  event.waitUntil(
+    caches.open(CACHE_VERSION).then((cache) => cache.addAll(SHELL))
+      .then(() => self.skipWaiting())
+  );
+});
+
+self.addEventListener('activate', (event) => {
+  event.waitUntil(
+    caches.keys().then((keys) =>
+      Promise.all(keys.filter((k) => k !== CACHE_VERSION).map((k) => caches.delete(k)))
+    ).then(() => self.clients.claim())
+  );
+});
+
+self.addEventListener('fetch', (event) => {
+  const req = event.request;
+  if (req.method !== 'GET') return;
+  const url = new URL(req.url);
+  if (url.origin !== self.location.origin) return;
+  // PDFs are large — let them hit the network directly.
+  if (url.pathname.startsWith('/pdfs/')) return;
+
+  event.respondWith(
+    fetch(req)
+      .then((resp) => {
+        if (resp && resp.ok && resp.type === 'basic') {
+          const copy = resp.clone();
+          caches.open(CACHE_VERSION).then((cache) => cache.put(req, copy));
+        }
+        return resp;
+      })
+      .catch(() => caches.match(req).then((hit) => hit || caches.match('/index.html')))
+  );
+});
+"""
+
 
 def main():
     recipes = load_recipes()
@@ -373,7 +537,9 @@ def main():
     (SITE / "index.html").write_text(render_index(recipes), encoding="utf-8")
     (ASSETS / "style.css").write_text(CSS, encoding="utf-8")
     (ASSETS / "app.js").write_text(JS, encoding="utf-8")
-    print(f"Done. Open site/index.html")
+    (SITE / "manifest.json").write_text(json.dumps(MANIFEST, indent=2), encoding="utf-8")
+    (SITE / "sw.js").write_text(SW, encoding="utf-8")
+    print("Done. Open site/index.html")
 
 
 if __name__ == "__main__":

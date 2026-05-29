@@ -1,0 +1,48 @@
+{
+  "slug": "cabbage-soup",
+  "title": "Cabbage Soup",
+  "description": "A hearty, low-calorie vegetable soup loaded with cabbage, carrots, zucchini, celery, and green beans in a tomato-herb broth.",
+  "source_name": "sweetandsavorymeals.com",
+  "source_url": null,
+  "yield": "6 servings",
+  "prep_time": "15 mins",
+  "cook_time": "30 mins",
+  "total_time": "45 mins",
+  "category": "Soup",
+  "tags": ["soup", "cabbage", "vegetable", "low cal", "dinner", "vegetarian"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "3 tablespoons olive oil",
+        "1 yellow onion (diced)",
+        "4 cloves garlic (minced)",
+        "2 tablespoons tomato paste",
+        "14.5 ounces can diced tomatoes",
+        "1 teaspoon kosher salt",
+        "½ teaspoon dried thyme",
+        "½ teaspoon dried Italian seasoning herbs",
+        "½ teaspoon black pepper, or to taste",
+        "½ head cabbage (chopped into 1-2 inch chunks)",
+        "3 carrots (peeled and chopped)",
+        "1 small zucchini (chopped)",
+        "2 stalks celery (chopped)",
+        "8 ounces green beans (trimmed and halved)",
+        "8 cups vegetable broth (or low sodium chicken broth)"
+      ]
+    }
+  ],
+  "instructions": [
+    "In a large pot or Dutch oven over medium heat, add the olive oil. Once it starts simmering, add the onion and garlic and cook until the onions are translucent, about 3-4 minutes.",
+    "Add the tomato paste, stir, and cook for 1 minute.",
+    "Add the rest of the ingredients and the broth.",
+    "Bring to a boil, reduce heat to low-medium, and simmer for 30 minutes, or until the veggies are tender.",
+    "Serve hot."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Cabbage Soup.pdf",
+  "contributor": null,
+  "image": null
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "elizas-buttery-herb-stuffing",
+  "title": "Eliza's Buttery Herb Stuffing",
+  "description": "A classic buttery herb stuffing built on toasted bread cubes, sweet onion, celery, and a generous mix of fresh sage, parsley, and rosemary, bound with stock and eggs.",
+  "source_name": "howsweeteats.com",
+  "source_url": null,
+  "yield": "8 servings",
+  "prep_time": "45 mins",
+  "cook_time": "50 mins",
+  "total_time": "1 hr 35 mins",
+  "category": "Side Dish",
+  "tags": ["side dish", "stuffing", "holiday", "thanksgiving", "herbs", "bread"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "24 ounces bread cubes (preferably toasted or stale)",
+        "1 cup unsalted butter",
+        "3 cups diced sweet onion (roughly 2 large onions)",
+        "2 cups diced celery",
+        "6 garlic cloves, minced",
+        "Kosher salt and pepper",
+        "3 tablespoons chopped fresh sage",
+        "3 tablespoons chopped fresh parsley",
+        "3 tablespoons chopped fresh rosemary",
+        "2½ cups chicken or vegetable stock",
+        "2 large eggs",
+        "A mixture of fresh herbs for sprinkling"
+      ]
+    }
+  ],
+  "instructions": [
+    "Preheat the oven to 350°F. Brush a 9x13 baking dish with melted butter or olive oil, or spray with nonstick spray. Place the bread in a large mixing bowl (easier for stirring) or directly in the 9x13 baking dish.",
+    "Heat the butter in a large skillet or dutch oven over medium heat. Once melted, stir in the onion, celery, and garlic with a big pinch of salt and pepper — at least ½ to 1 teaspoon each. Cook until the onions and celery soften, about 8 to 10 minutes. Stir in the sage, parsley, and rosemary and cook another minute. Stir in 1 cup of the stock.",
+    "Pour the onion-celery mixture over the bread cubes and toss well to coat.",
+    "In a small bowl or measuring cup, whisk together the remaining 1½ cups stock and the 2 eggs.",
+    "Pour that mixture into the bread cubes and stir and fold until thoroughly combined. Bake for 45 to 50 minutes, until the internal temperature registers 160°F. If the stuffing is getting too browned, tent it with foil."
+  ],
+  "notes": [
+    {"label": "Bread cubes", "text": "Stale or toasty bread works best. Cube 1½ lb bread, tent with foil, and let sit overnight; or toast cubes at 350°F until crouton-like, about 15 minutes; or buy bagged toasted cubes. A mix of stale and fresh, and two kinds of bread (like sourdough and Italian), gives great texture."},
+    {"label": "Make ahead", "text": "Can be made a day ahead and reheated — just as good. The mixture can also be used to stuff the bird."},
+    {"label": "Scaling", "text": "To serve 4, halve the recipe and bake in an 8x8 or 9x9 dish for the same time. To serve 12–16, double it and bake in a 10x15 roasting pan or two 9x13 dishes, about 15 minutes longer."}
+  ],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Eliza/Eliza's Buttery Herb Stuffing.pdf",
+  "contributor": "Eliza",
+  "image": null
+}

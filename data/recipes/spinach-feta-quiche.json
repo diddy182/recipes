@@ -1,0 +1,43 @@
+{
+  "slug": "spinach-feta-quiche",
+  "title": "Spinach & Feta Quiche",
+  "description": "A crustless quiche of spinach, onion, and feta in a dill-and-lemon egg custard.",
+  "source_name": "eatingwell.com",
+  "source_url": null,
+  "yield": "12 servings",
+  "prep_time": "20 mins",
+  "cook_time": "30 mins",
+  "total_time": "1 hr",
+  "category": "Breakfast",
+  "tags": ["breakfast", "quiche", "spinach", "feta", "eggs", "vegetarian"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1 teaspoon extra-virgin olive oil",
+        "½ cup finely chopped onion",
+        "2 cloves garlic, minced",
+        "10 oz frozen chopped spinach, thawed and squeezed dry",
+        "1¼ cups almond milk",
+        "4 large eggs, beaten",
+        "1 tablespoon chopped fresh dill",
+        "1 teaspoon lemon zest",
+        "1 teaspoon salt",
+        "¼ teaspoon ground pepper",
+        "¾ cup crumbled feta cheese"
+      ]
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 325°F. Lightly coat a 9-inch pie pan with cooking spray.",
+    "Heat oil in a large skillet over medium heat. Add onion and cook, stirring, until softened, about 3 minutes. Add garlic and cook, stirring, until fragrant, about 1 minute. Stir in spinach; remove from heat.",
+    "Meanwhile, whisk milk, eggs, dill, lemon zest, salt, and pepper together in a medium bowl.",
+    "Spread the spinach mixture evenly in the prepared pie plate. Sprinkle with feta, then pour in egg mixture. Bake until firm to the touch and a knife inserted into the center comes out dry, 45 to 50 minutes. Let stand for 10 minutes before serving. Garnish with additional fresh chopped dill, if desired."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": "70 kcal each egg cup",
+  "pdf": "Spinach & Feta Quiche.pdf",
+  "contributor": null,
+  "image": null
+}

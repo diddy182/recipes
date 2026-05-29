@@ -1,0 +1,48 @@
+{
+  "slug": "healthy-chocolate-chip-oatmeal-bars",
+  "title": "Healthy Chocolate Chip Oatmeal Bars",
+  "description": "Naturally sweetened oat flour bars with maple syrup, coconut oil, and chocolate chips — an easy gluten-free treat.",
+  "source_name": "healthfulblondie.com",
+  "source_url": null,
+  "yield": "12 servings",
+  "prep_time": "5 mins",
+  "cook_time": "20 mins",
+  "total_time": "25 mins",
+  "category": "Dessert",
+  "tags": ["dessert", "bars", "oatmeal", "chocolate chip", "gluten-free", "healthy", "snack"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "2 large eggs",
+        "⅓ cup almond milk, unsweetened",
+        "⅓ cup pure maple syrup",
+        "½ cup melted coconut oil",
+        "1½ teaspoons vanilla extract",
+        "¼ cup coconut sugar",
+        "1¼ cups homemade oat flour",
+        "⅔ cup rolled oats, gluten-free or regular",
+        "½ teaspoon baking powder",
+        "½ teaspoon cinnamon",
+        "½ cup chocolate chips"
+      ]
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 350°F. Line or grease an 8x8 pan with parchment and set aside.",
+    "In a large mixing bowl, whisk together the eggs, almond milk, maple syrup, melted coconut oil, vanilla extract, and coconut sugar.",
+    "Add in the oat flour, rolled oats, baking powder, and cinnamon. Mix and gently fold in the chocolate chips.",
+    "Evenly pour the batter into the lined pan and sprinkle extra chocolate chips on top.",
+    "Bake for 18-20 minutes or until a toothpick comes out clean and the bars are golden brown.",
+    "Let cool before cutting into bars and enjoy!"
+  ],
+  "notes": [
+    {"label": "Homemade Oat Flour", "text": "Blend rolled oats in a high-speed blender until it resembles a flour-like consistency."},
+    {"label": null, "text": "Almond milk can be substituted with another nut milk or regular milk. Coconut sugar can be substituted 1:1 with light brown sugar."}
+  ],
+  "nutrition": null,
+  "calories": "179 kcal",
+  "pdf": "Healthy Chocolate Chip Oatmeal Bars - Healthful Blondie.pdf",
+  "contributor": null,
+  "image": null
+}

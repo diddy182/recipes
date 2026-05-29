@@ -1,0 +1,36 @@
+{
+  "slug": "memeres-crepes",
+  "title": "Memere's Crepes",
+  "description": "A simple family crepe batter of milk, flour, eggs, and a touch of sugar and vanilla, cooked in a frying pan.",
+  "source_name": "Memere",
+  "source_url": null,
+  "yield": null,
+  "prep_time": null,
+  "cook_time": null,
+  "total_time": null,
+  "category": "Breakfast",
+  "tags": ["breakfast", "crepes", "family", "dessert"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1½ cups milk",
+        "1 cup flour",
+        "2 eggs",
+        "1 tablespoon oil",
+        "2 tablespoons sugar",
+        "1 teaspoon vanilla"
+      ]
+    }
+  ],
+  "instructions": [
+    "Mix all ingredients together.",
+    "Cook in a frying pan."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Memeres Crepes.pdf",
+  "contributor": null,
+  "image": null
+}

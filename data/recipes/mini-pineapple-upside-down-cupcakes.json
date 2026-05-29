@@ -1,0 +1,39 @@
+{
+  "slug": "mini-pineapple-upside-down-cupcakes",
+  "title": "Mini Pineapple Upside-Down Cupcakes",
+  "description": "Individual upside-down cupcakes made from yellow cake mix with a brown sugar-butter base, pineapple slices, and maraschino cherries.",
+  "source_name": "foodandbevy.com",
+  "source_url": null,
+  "yield": "24 cupcakes",
+  "prep_time": null,
+  "cook_time": null,
+  "total_time": null,
+  "category": "Dessert",
+  "tags": ["dessert", "cupcakes", "pineapple", "cake mix", "baking"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1 can (20 ounces) pineapple slices, drained, juice reserved",
+        "1 box yellow cake mix",
+        "½ cup vegetable oil",
+        "3 eggs",
+        "⅓ cup melted butter",
+        "⅔ cup packed brown sugar",
+        "12 maraschino cherries, cut in half"
+      ]
+    }
+  ],
+  "instructions": [
+    "Heat the oven to 350°F. Spray 24 regular-size muffin cups with cooking spray.",
+    "Cut every pineapple slice into 4 pieces; set aside. In a bowl, beat cake mix, oil, eggs, and the reserved pineapple juice with an electric mixer on low speed 30 seconds. Whisk on speed for 2 minutes, scraping bowl occasionally.",
+    "In a small bowl, mix the melted butter and brown sugar together. Put 1½ teaspoons of the butter mixture into each muffin cup. Lay two slices of pineapple on top of each. Place half of a cherry in the center of the pineapple pieces. Put a quarter cup of the batter in each cup.",
+    "Bake 20 to 25 minutes. Cool for 5 minutes. Run a knife around the edge of each cupcake to unmold it, then turn out onto a cookie sheet."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Mini Pineapple Upside-Down Cupcakes.pdf",
+  "contributor": null,
+  "image": null
+}

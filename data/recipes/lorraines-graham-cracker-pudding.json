@@ -1,0 +1,46 @@
+{
+  "slug": "lorraines-graham-cracker-pudding",
+  "title": "Lorraine's Memere's Graham Cracker Pudding",
+  "description": "A no-bake layered icebox dessert of graham crackers, vanilla and chocolate pudding, peanut butter, and Cool Whip, chilled until the crackers soften.",
+  "source_name": "justapinch.com",
+  "source_url": null,
+  "yield": "8 servings",
+  "prep_time": "1 hr",
+  "cook_time": null,
+  "total_time": "1 hr",
+  "category": "Dessert",
+  "tags": ["dessert", "pudding", "graham cracker", "no-bake", "icebox", "peanut butter", "family"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1 box graham crackers",
+        "2 boxes vanilla pudding (large, 5.1 oz each)",
+        "1 box chocolate pudding (small, 3.9 oz)",
+        "1 jar peanut butter",
+        "1 package softened Cool Whip (8 oz)"
+      ]
+    }
+  ],
+  "instructions": [
+    "Prepare the puddings according to package instructions. Prepare the vanilla pudding and set aside.",
+    "Prepare the chocolate pudding.",
+    "Spread peanut butter on the graham crackers. Place the first layer of graham cracker/peanut butter on the bottom of a 9x13 pan (peanut butter side up).",
+    "Spread ⅓ of the vanilla pudding on top of that.",
+    "Spread a layer of Cool Whip (works best if soft) on top of the vanilla pudding.",
+    "Continue layering in order as above.",
+    "Layer until there's just enough room to spread chocolate pudding on top as a finish (use chocolate pudding to top the dessert only).",
+    "Crush the remaining graham crackers. Sprinkle them over the chocolate pudding for garnish.",
+    "Refrigerate 1-2 hours or until the graham crackers are soft."
+  ],
+  "notes": [
+    {"label": null, "text": "Memere doesn't add peanut butter."},
+    {"label": null, "text": "You can use any flavor graham cracker and any flavor pudding you wish. Cinnamon crackers with cream cheese pudding is great."},
+    {"label": null, "text": "You can also make the puddings from scratch if you prefer, but that requires more effort and time — this is the quick version."}
+  ],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Lorraine/Memere’s Graham Cracker Pudding.pdf",
+  "contributor": "Lorraine",
+  "image": null
+}

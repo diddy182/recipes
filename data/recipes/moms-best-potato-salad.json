@@ -1,0 +1,58 @@
+{
+  "slug": "moms-best-potato-salad",
+  "title": "Mom's Best Potato Salad",
+  "description": "A classic, creamy potato salad with tender potatoes and eggs in a tangy mayonnaise and sour cream dressing with sweet pickle relish and dill.",
+  "source_name": "Favorite Family Recipes",
+  "source_url": null,
+  "yield": "10 servings",
+  "prep_time": "20 mins",
+  "cook_time": "40 mins",
+  "total_time": "1 hr",
+  "category": "Side Dish",
+  "tags": ["side dish", "potato salad", "american", "potato", "eggs", "salad"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "5 medium potatoes",
+        "8 eggs",
+        "½ cup mayonnaise",
+        "½ cup sour cream",
+        "2 tablespoons sugar",
+        "1 teaspoon yellow mustard",
+        "½ cup sweet pickle relish",
+        "1 teaspoon dill weed",
+        "Paprika",
+        "Celery",
+        "Green onion",
+        "Kosher salt",
+        "Black pepper"
+      ]
+    }
+  ],
+  "instructions": [
+    "In a large pot, boil potatoes with peel on for about 25-30 minutes until potatoes are fork tender, but still firm. After potatoes are cooked, drain the water and allow to cool until cool enough to handle. Peel and dice into small cubes and place in a large bowl.",
+    "Peel and dice 6 of the eggs (save 2 eggs for garnish) and place in the bowl with the potatoes. Add salt and pepper and lightly toss.",
+    "In a small bowl, stir mayonnaise, sour cream, sugar, mustard, relish, dill, and any other mix-ins together. Fold mixture into the eggs and potatoes until well combined.",
+    "Slice remaining 2 eggs and layer on top of salad. Garnish with dill weed or paprika. Refrigerate overnight (or at least 6-8 hours)."
+  ],
+  "notes": [
+    {
+      "label": null,
+      "text": "To get the best flavor from the dried dill, crush it between your hands before adding it to the salad."
+    },
+    {
+      "label": null,
+      "text": "Make things even easier on yourself and prepare your potatoes and eggs in the Instant Pot at the same time! It's a huge time-saver and you dirty fewer dishes."
+    },
+    {
+      "label": null,
+      "text": "For this recipe Best Foods/Hellmann's mayonnaise is the absolute best for the sauce. It has the perfect creamy, tangy flavor that blends deliciously with the potatoes, eggs, and spices."
+    }
+  ],
+  "nutrition": "Calories: 236kcal | Carbohydrates: 21g | Protein: 8g | Fat: 14g | Saturated Fat: 4g | Cholesterol: 142mg | Sodium: 246mg | Potassium: 505mg | Fiber: 3g | Sugar: 7g | Vitamin A: 420IU | Vitamin C: 12.4mg | Calcium: 64mg | Iron: 4.2mg",
+  "calories": "236kcal",
+  "pdf": "Mom's Best Potato Salad Recipe - Favorite Family Recipes.pdf",
+  "contributor": null,
+  "image": null
+}

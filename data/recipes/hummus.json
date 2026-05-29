@@ -1,0 +1,42 @@
+{
+  "slug": "hummus",
+  "title": "Hummus",
+  "description": "Ultra-creamy homemade hummus made from chickpeas, tahini, lemon, garlic, and cumin, blended until silky smooth.",
+  "source_name": "feastingathome.com",
+  "source_url": null,
+  "yield": "2 cups",
+  "prep_time": "10 mins",
+  "cook_time": null,
+  "total_time": "10 mins",
+  "category": "Appetizer",
+  "tags": ["appetizer", "dip", "hummus", "chickpeas", "tahini", "mediterranean", "vegan", "no-cook"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "¼ cup lemon juice",
+        "½ -¾ cup tahini paste (make sure it tastes fresh, not bitter or rancid)",
+        "2-3 garlic cloves",
+        "¼ cup olive oil",
+        "¼ cup water, more to desired consistency",
+        "1 teaspoon salt, more to taste",
+        "¼ teaspoon pepper (white pepper recommended)",
+        "1 teaspoon cumin",
+        "1 can chickpeas, rinsed and drained (or ½ cup dried chickpeas, cooked)"
+      ]
+    }
+  ],
+  "instructions": [
+    "Place the lemon juice, garlic cloves, tahini paste, olive oil, and water in a food processor — whip this up until creamy. Then add the salt, pepper, cumin, and chickpeas and blend until really smooth. Add more cold water, a tablespoon at a time, until it is the consistency you like and blend the heck out of it! Blend for at least a full minute or two. Taste and adjust salt and lemon.",
+    "Spoon the ultra-creamy hummus into a wide shallow bowl or onto a plate, creating a \"well\" for the olive oil (or other sauces) with the back of your spoon.",
+    "If using garden veggies, peel the carrots, prep other veggies, cutting all into small bite-sized crudités and arrange, tucking into the hummus.",
+    "Drizzle with olive oil. Scatter with fresh herbs. Sprinkle with spices.",
+    "Voila!"
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Hummus.pdf",
+  "contributor": null,
+  "image": null
+}

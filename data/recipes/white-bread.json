@@ -1,0 +1,42 @@
+{
+  "slug": "white-bread",
+  "title": "White Bread",
+  "description": "Classic homemade white sandwich bread that yields two soft, golden loaves.",
+  "source_name": "platedcravings.com",
+  "source_url": null,
+  "yield": "2 loaves",
+  "prep_time": "15 mins",
+  "cook_time": "30 mins",
+  "total_time": "2 hrs 15 mins",
+  "category": "Bread",
+  "tags": ["bread", "white bread", "yeast", "sandwich", "baking"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1⅔ cups lukewarm water (divided)",
+        "2¼ teaspoons instant yeast (or active dry yeast)",
+        "1 teaspoon sugar",
+        "1 tablespoon honey (or more sugar)",
+        "1 teaspoon salt",
+        "1½ tablespoons unsalted butter, cubed at room temperature",
+        "4½ cups all-purpose flour",
+        "1½ tablespoons butter, melted for brushing"
+      ]
+    }
+  ],
+  "instructions": [
+    "In the bowl of a stand mixer fitted with the dough hook, combine half of the lukewarm water, instant yeast, and sugar. Let sit for 5-10 minutes until foamy (if using active dry yeast, let sit for 15 minutes).",
+    "Add remaining water, honey, salt, cubed butter, and 4 cups flour to the bowl. Knead at low speed until the dough comes together and is soft but not sticky. Add a few more tablespoons flour if necessary. Continue to knead for 6-9 minutes until the dough pulls away from the sides of the bowl and is soft and smooth.",
+    "Transfer the dough to a lightly greased bowl and make sure that it is completely coated. Cover with plastic wrap and let rise in a warm and draft-free place for about 45 minutes or until doubled in size.",
+    "Lightly flour your work surface and turn out the dough onto it. Divide it into two equally sized portions. Use your fingers to gently pat each half into an 8x12 inch rectangle while pressing it all over to remove any air pockets. Starting at the short end, roll up the rectangle into a tight roll and pinch the seams to seal. Tuck the ends of the roll slightly under the roll to create some tension on the surface and place each loaf into a greased 8x4 inch loaf pan tucked ends and seam side down. Cover with a greased piece of plastic wrap and let rise for about 45 minutes in a warm and draft-free place until doubled in size.",
+    "Preheat oven to 390°F and adjust oven rack to lower-middle position.",
+    "Bake loaves for 25-30 minutes until golden brown (and the loaf registers 208 to 210°F)."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "White Bread.pdf",
+  "contributor": null,
+  "image": null
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "bethanys-fish-chowder",
+  "title": "Bethany's Fish Chowder",
+  "description": "A rich, brothy New England fish chowder built on golden potatoes, clam juice, and a trio of cream, half-and-half, and milk, finished with tender cubes of white fish and fresh parsley.",
+  "source_name": null,
+  "source_url": null,
+  "yield": "4–6 servings",
+  "prep_time": "15 mins",
+  "cook_time": "35–45 mins",
+  "total_time": null,
+  "category": "Soup",
+  "tags": [
+    "soup",
+    "chowder",
+    "fish",
+    "seafood",
+    "potato",
+    "creamy",
+    "new england",
+    "comfort food"
+  ],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1 large yellow onion, diced",
+        "1 can corn",
+        "1 heart of celery, chopped",
+        "2 sticks unsalted butter",
+        "Splash of olive oil",
+        "1–2 tsp dried thyme",
+        "1 tsp paprika",
+        "Pinch cayenne pepper",
+        "Black pepper, to taste",
+        "Salt, to taste",
+        "2–3 bay leaves",
+        "4–6 cloves garlic, minced",
+        "3–4 lbs golden potatoes, diced",
+        "3 jars clam juice or equivalent fish stock",
+        "1 pint heavy cream (half carton)",
+        "1 pint half-and-half (half carton)",
+        "2 cups whole milk",
+        "~2.5 lbs white fish, cut into 2-inch cubes",
+        "Fresh parsley, chopped"
+      ]
+    }
+  ],
+  "instructions": [
+    "In a large pot, heat butter and a splash of olive oil. Add onions and celery; cook until translucent.",
+    "Add thyme, paprika, cayenne, black pepper, salt, bay leaves, and garlic. Cook briefly to release aromas.",
+    "Add diced potatoes. Pour in clam juice/fish stock to cover. Bring to a simmer, then reduce to medium and cook until potatoes are tender.",
+    "In a separate pot, gently heat heavy cream, half-and-half, and milk over medium-low — do not boil.",
+    "When potatoes are done, add the fish cubes to the main pot. Cover and steam-cook until fish is just cooked through.",
+    "Combine the fish-and-potato mixture with the warmed milk mixture. Stir gently to combine.",
+    "Add chopped parsley and adjust seasoning to taste. Serve hot."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Bethany/Bethany's Fish Chowder.pdf",
+  "contributor": "Bethany",
+  "image": "bethanys-fish-chowder.png"
+}

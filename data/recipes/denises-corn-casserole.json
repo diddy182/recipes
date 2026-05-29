@@ -1,0 +1,36 @@
+{
+  "slug": "denises-corn-casserole",
+  "title": "Denise's Corn Casserole",
+  "description": "The classic five-ingredient corn pudding casserole built on Jiffy mix, whole and creamed corn, sour cream, and butter — mix, pour, and bake.",
+  "source_name": "tastesoflizzyt.com",
+  "source_url": null,
+  "yield": null,
+  "prep_time": null,
+  "cook_time": "45 mins",
+  "total_time": null,
+  "category": "Side Dish",
+  "tags": ["side dish", "corn", "casserole", "jiffy", "holiday", "family", "easy"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "8 ounces Jiffy Corn Muffin mix",
+        "15 ounces whole kernel corn, drained",
+        "15 ounces creamed corn, not drained",
+        "1 cup sour cream",
+        "½ cup melted butter"
+      ]
+    }
+  ],
+  "instructions": [
+    "Preheat the oven to 350°F.",
+    "In a bowl, mix all of the ingredients together and pour into a greased 8\"x8\" baking pan.",
+    "Bake uncovered for 45–50 minutes, or until lightly browned."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Denise/Denise's Corn Casserole.pdf",
+  "contributor": "Denise",
+  "image": null
+}

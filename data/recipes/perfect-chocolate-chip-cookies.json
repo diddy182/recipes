@@ -1,0 +1,52 @@
+{
+  "slug": "perfect-chocolate-chip-cookies",
+  "title": "Perfect Chocolate Chip Cookies",
+  "description": "A detailed bakery-style chocolate chip cookie made with three sugars, chopped dark chocolate, and an overnight chill for deep flavor and chocolate puddles.",
+  "source_name": "cloudykitchen.com",
+  "source_url": null,
+  "yield": "28 cookies",
+  "prep_time": "15 mins",
+  "cook_time": "30 mins",
+  "total_time": "2 hrs",
+  "category": "Dessert",
+  "tags": ["dessert", "cookies", "chocolate chip", "baking", "american"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "225g unsalted butter, at room temperature",
+        "170g dark brown or muscovado sugar",
+        "100g granulated / white sugar",
+        "50g raw / turbinado sugar",
+        "1 large egg (about 50g not including shell)",
+        "1 tsp vanilla bean paste or vanilla extract",
+        "300g all-purpose flour",
+        "½ tsp baking soda",
+        "½ tsp baking powder",
+        "3g salt (1 tsp kosher or ½ tsp table salt)",
+        "350g good quality dark chocolate, roughly chopped, plus a little extra for chocolate puddles",
+        "Flaky sea salt such as Maldon for finishing"
+      ]
+    }
+  ],
+  "instructions": [
+    "In the bowl of a stand mixer fitted with the paddle attachment, or with an electric mixer, cream together the butter and sugars on high speed for 5 minutes, until pale, light, and fluffy. Add the egg and vanilla, and mix to combine, scraping down the bowl when necessary.",
+    "Sift together the flour, baking soda, baking powder, and salt. Add to the mixing bowl and mix on low to just combine (you still want a few streaks of flour remaining that will get mixed in when you add the chocolate).",
+    "Add the chopped chocolate and mix until just incorporated. Remove the bowl from the mixer and give a few mixes by hand using a flexible spatula, to ensure even incorporation of the chocolate.",
+    "Using a 2 Tbsp cookie scoop, scoop out balls of dough onto a baking sheet lined with parchment paper (you can place them close together). If you want big puddles on top, flatten a ball of dough, press chocolate onto the top side, then roll it into a ball for even chocolate distribution as the cookie bakes.",
+    "If you are not adding additional chocolate, there is no need to re-shape into a ball — you can bake right from the scooped shape. Cover the sheet pan with plastic wrap and chill the dough balls for an hour in the fridge, or up to overnight.",
+    "Toward the end of the chilling process, preheat the oven to 350°F / 180°C. Line 2-3 baking sheets with parchment paper (you can bake these in batches).",
+    "Arrange 6 cookie dough balls on a baking sheet, leaving room for spreading. Leave the remainder of the dough balls in the fridge.",
+    "Bake for 13-14 minutes, or until lightly golden and beginning to set. Baking time depends on personal preference — for soft, bake 13 minutes; for a tiny bit crispy, bake 14. Remove from the oven, and if desired, use a round cookie cutter slightly larger than the cookie to scoot them into a perfectly round shape.",
+    "Sprinkle liberally with flaky sea salt. Allow to cool on the pan — the cookies will deflate slightly as they cool. Repeat the baking process with the remaining cookies.",
+    "Store leftovers in an airtight container at room temperature."
+  ],
+  "notes": [
+    {"label": null, "text": "If you cannot find raw / turbinado sugar, it can be substituted with 25g white and 25g brown sugar."}
+  ],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "How To Make Perfect Chocolate Chip Cookies - Cloudy Kitchen.pdf",
+  "contributor": null,
+  "image": null
+}

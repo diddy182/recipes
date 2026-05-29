@@ -1,0 +1,39 @@
+{
+  "slug": "elizas-baked-brie",
+  "title": "Eliza's Baked Brie",
+  "description": "Warm baked brie topped with a maple, brown sugar, and cinnamon pecan sauce — an easy holiday appetizer.",
+  "source_name": "motherthyme.com",
+  "source_url": null,
+  "yield": "4 to 6 servings",
+  "prep_time": "20 mins",
+  "cook_time": "45 mins",
+  "total_time": "1 hr",
+  "category": "Appetizer",
+  "tags": ["appetizer", "dip", "brie", "cheese", "pecans", "maple", "holiday", "family"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1 round (8 ounce) brie",
+        "¼ cup light brown sugar",
+        "¼ cup pure maple syrup",
+        "¼ teaspoon ground cinnamon",
+        "¾ cup chopped pecans"
+      ]
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 350°F.",
+    "Place the brie in a small baking dish or pie plate and bake for about 15-20 minutes until warm.",
+    "Meanwhile, add the sugar, maple syrup, and cinnamon to a small saucepan and cook over medium heat, stirring occasionally, until the sugar dissolves and the mixture just begins to boil.",
+    "Immediately remove from heat and stir in the pecans.",
+    "Pour the mixture over the brie and serve warm.",
+    "The mixture might harden slightly, which adds a nice sweet crunch with the warm brie; however, if you prefer it not so hard, simply heat the pecan mixture up for a few seconds and it will soften. Same goes for the brie — if you have it sitting out, just pop it in the oven or the microwave and it will quickly warm up and become creamy."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Eliza/Eliza’s Baked Brie.pdf",
+  "contributor": "Eliza",
+  "image": null
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "trader-joes-copycat-curried-chicken",
+  "title": "Trader Joe's Copycat Curried Chicken",
+  "description": "A creamy curried chicken salad with Greek yogurt, carrots, raisins, and almonds — a copycat of the Trader Joe's deli favorite.",
+  "source_name": "homesweetjones.com",
+  "source_url": null,
+  "yield": "4 servings",
+  "prep_time": "5 mins",
+  "cook_time": "5 mins",
+  "total_time": "10 mins",
+  "category": "Lunch",
+  "tags": ["lunch", "chicken salad", "curry", "copycat", "chicken", "salad"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "½ tablespoon honey",
+        "1 cup nonfat Greek yogurt",
+        "2 tablespoons light mayonnaise",
+        "2 tablespoons good quality curry powder, more or less to taste",
+        "1 lb raw chicken breast, poached and cubed",
+        "½ cup shredded carrots",
+        "½ cup raisins",
+        "2 scallions, chopped, whites discarded",
+        "1 stalk celery, minced",
+        "¼ cup sliced almonds",
+        "Salt and freshly ground black pepper, to taste (optional)"
+      ]
+    }
+  ],
+  "instructions": [
+    "Whisk together honey, yogurt, mayonnaise, and curry powder in a small bowl and set aside. Season to taste with salt and pepper.",
+    "Combine remaining ingredients in a large bowl and stir in desired amount of dressing.",
+    "Enjoy!"
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Trader Joe’s Copycat Curried Chicken.pdf",
+  "contributor": null,
+  "image": null
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "elizas-guacamole",
+  "title": "Eliza's Guacamole",
+  "description": "Fresh, easy, authentic guacamole with avocado, onion, Roma tomato, cilantro, jalapeño, garlic, and lime.",
+  "source_name": null,
+  "source_url": null,
+  "yield": null,
+  "prep_time": "10 mins",
+  "cook_time": null,
+  "total_time": "10 mins",
+  "category": "Appetizer",
+  "tags": ["appetizer", "dip", "guacamole", "avocado", "mexican", "snack", "no-cook"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "3 avocados",
+        "½ small yellow onion",
+        "2 Roma tomatoes",
+        "3 tablespoons finely chopped fresh cilantro",
+        "1 jalapeño pepper",
+        "2 garlic cloves",
+        "1 lime",
+        "½ teaspoon sea salt"
+      ]
+    }
+  ],
+  "instructions": [
+    "Slice the avocados in half, remove the pit, and scoop into a mixing bowl.",
+    "Mash the avocado with a fork and make it as chunky or smooth as you'd like.",
+    "Add the remaining ingredients and stir together. Taste and add a pinch more salt or lime juice if needed.",
+    "Serve the guacamole with tortilla chips."
+  ],
+  "notes": [
+    {"label": null, "text": "Look for large avocados; if you can only find small ones, add an extra."},
+    {"label": null, "text": "Use fresh limes rather than bottled juice — the flavor difference is worth it."}
+  ],
+  "nutrition": "Calories: 184.8kcal | Carbohydrates: 12.3g | Protein: 2.5g | Fat: 15.8g | Saturated Fat: 2.2g | Sodium: 305.5mg | Fiber: 7.6g | Sugar: 1.7g",
+  "calories": "185 kcal",
+  "pdf": "Eliza/Eliza's Guacamole.pdf",
+  "contributor": "Eliza",
+  "image": null
+}

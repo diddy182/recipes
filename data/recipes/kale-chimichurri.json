@@ -1,0 +1,41 @@
+{
+  "slug": "kale-chimichurri",
+  "title": "Kale Chimichurri",
+  "description": "A fresh, garlicky blender sauce of kale, green herbs, olive oil, lime, nuts or seeds, and a punch of red pepper flakes.",
+  "source_name": "pinchofyum.com",
+  "source_url": null,
+  "yield": "1¼ cups (5 servings of ¼ cup each)",
+  "prep_time": null,
+  "cook_time": null,
+  "total_time": "5 mins",
+  "category": "Sauce",
+  "tags": ["sauce", "chimichurri", "kale", "herbs", "vegan", "gluten-free", "no-cook"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1 cup packed kale (stems removed)",
+        "1 cup packed cilantro and/or parsley",
+        "½ cup olive oil",
+        "¼ cup water",
+        "Juice of 2 limes (or ¼ cup white vinegar)",
+        "¼ cup cashews, sunflower seeds, or almonds",
+        "1 clove garlic",
+        "1 teaspoon coarse salt",
+        "½ teaspoon red pepper flakes"
+      ]
+    }
+  ],
+  "instructions": [
+    "Blend all the sauce ingredients together in a small blender or food processor until mostly smooth.",
+    "Pour on everything and feel like a kale-loaded million bucks."
+  ],
+  "notes": [
+    {"label": null, "text": "Vegan and gluten-free with no adaptation needed. Not freezable. Keeps in the fridge about 5 days."}
+  ],
+  "nutrition": null,
+  "calories": "235 kcal",
+  "pdf": "Kale Chimichurri Recipe - Pinch of Yum.pdf",
+  "contributor": null,
+  "image": null
+}

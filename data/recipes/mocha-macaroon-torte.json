@@ -1,0 +1,47 @@
+{
+  "slug": "mocha-macaroon-torte",
+  "title": "Mocha Macaroon Torte",
+  "description": "A chocolate chip cookie crust topped with a coconut-coffee cream cheese filling and a pecan and chocolate chip topping.",
+  "source_name": "Pillsbury.com",
+  "source_url": null,
+  "yield": "12 servings",
+  "prep_time": "20 mins",
+  "cook_time": null,
+  "total_time": "3 hrs 35 mins",
+  "category": "Dessert",
+  "tags": ["dessert", "torte", "chocolate", "coffee", "coconut", "cream cheese", "baking"],
+  "ingredients": [
+    {
+      "heading": "Crust and Filling",
+      "items": [
+        "1 roll (16.5 oz) refrigerated Pillsbury Chocolate Chip Cookie Dough",
+        "1 package (8 oz) cream cheese, softened",
+        "1 egg",
+        "½ cup coconut",
+        "¼ cup sugar",
+        "2 tablespoons brewed coffee",
+        "1 teaspoon vanilla",
+        "⅓ cup semi-sweet baking chips"
+      ]
+    },
+    {
+      "heading": "Topping",
+      "items": [
+        "¼ cup sugar",
+        "¼ cup chopped pecans",
+        "1 cup semi-sweet baking chips (6 oz)"
+      ]
+    }
+  ],
+  "instructions": [
+    "Heat oven to 350°F. Cut cookie dough in half crosswise. Cut each section in half lengthwise. Press dough in bottom of an ungreased 10- or 9-inch springform pan. Bake 12 to 18 minutes or until light golden brown. Remove partially baked crust from oven. Cool 10 minutes.",
+    "While crust is cooling, beat cream cheese in a medium bowl until light and fluffy. Add egg; beat until smooth. Add coconut, ¼ cup sugar, the coffee, and vanilla; blend well. Stir in ⅓ cup baking chips. Spoon and carefully spread mixture over crust. Sprinkle with all topping ingredients.",
+    "Bake 30 to 45 minutes longer or until filling is set and edges are golden brown. Cool 10 minutes. Run knife around sides of pan to loosen; carefully remove sides of pan. Cool 1 hour. Refrigerate 1 to 2 hours or until chilled. If desired, serve with French vanilla ice cream or frozen yogurt and chocolate-covered coffee beans. Cover and refrigerate any remaining torte."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Mocha Macaroon Torte Recipe - Pillsbury.com.pdf",
+  "contributor": null,
+  "image": null
+}

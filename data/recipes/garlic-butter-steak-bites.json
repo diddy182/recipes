@@ -1,0 +1,38 @@
+{
+  "slug": "garlic-butter-steak-bites",
+  "title": "Garlic Butter Steak Bites",
+  "description": "Quick seared New York strip steak cubes cooked in garlic butter and finished with fresh parsley.",
+  "source_name": "Yellowstone Recipe Book",
+  "source_url": null,
+  "yield": "6-8 servings",
+  "prep_time": null,
+  "cook_time": null,
+  "total_time": null,
+  "category": "Main Course",
+  "tags": ["main course", "steak", "beef", "garlic", "dinner", "quick"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "2 lb (1 kg) New York strip steaks, trimmed and cut into 1-inch (2.5-cm) cubes",
+        "Kosher salt and freshly ground black pepper",
+        "4 tablespoons (60 g) unsalted butter",
+        "4 cloves garlic, crushed",
+        "Chopped fresh flat-leaf parsley leaves for garnish (optional)"
+      ]
+    }
+  ],
+  "instructions": [
+    "Place the steak cubes in a bowl and season all over with salt and pepper. Toss to coat.",
+    "In a large cast-iron frying pan over medium-high heat, melt half the butter. Add the steak and sear until nicely browned on one side, about 2 minutes.",
+    "Flip the pieces, add the garlic, and sear the other side, 1-2 minutes longer.",
+    "Add the remaining butter and stir until the steak cubes are medium-rare, 30-60 seconds longer.",
+    "Transfer the steak to a plate, sprinkle with parsley, if using, and serve at once."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Garlic Butter Steak Bites.pdf",
+  "contributor": null,
+  "image": null
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "elizas-thanksgiving-turkey",
+  "title": "Eliza's Thanksgiving Turkey",
+  "description": "Alton Brown's classic brined roast turkey — a flavorful overnight brine followed by a high-heat sear and gentle roast for juicy, evenly cooked meat.",
+  "source_name": "altonbrown.com",
+  "source_url": null,
+  "yield": "10 to 12 servings",
+  "prep_time": "15 mins",
+  "cook_time": null,
+  "total_time": "9 hrs 45 mins",
+  "category": "Dinner",
+  "tags": ["dinner", "turkey", "thanksgiving", "holiday", "roast", "brined", "main course"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1 (14- to 16-pound) frozen natural, young turkey",
+        "1 gallon vegetable broth (packaged, not low-sodium or sodium-free)",
+        "1 cup kosher salt",
+        "½ cup light brown sugar",
+        "1 tablespoon black peppercorns",
+        "1½ teaspoons allspice berries",
+        "1½ teaspoons chopped candied ginger",
+        "1 gallon heavily iced water",
+        "1 red apple, quartered",
+        "½ yellow onion, quartered",
+        "1 cup water",
+        "1 cinnamon stick",
+        "4 sprigs fresh rosemary",
+        "6 leaves fresh sage",
+        "Canola oil"
+      ]
+    }
+  ],
+  "instructions": [
+    "Two to three days before roasting, begin thawing the turkey if frozen. To thaw safely, do so in the refrigerator or in a cooler kept at 38°F.",
+    "Make the brine: Combine the vegetable broth, salt, brown sugar, peppercorns, allspice, and candied ginger in a large stockpot. Bring to a boil over medium-high heat, stirring to dissolve the sugar and salt. Once boiling, remove from heat, cover, and cool to room temperature. Refrigerate until completely chilled.",
+    "Early on the day of (or late the night before), brine the turkey: combine the chilled brine and the ice water in a 5-gallon cooler. Place the turkey (giblets removed) in the brine breast side-down, weighing it down if needed to fully immerse. Brine in a cool area for 8 to 16 hours (12 is the sweet spot), turning the bird halfway through.",
+    "When ready to roast, heat the oven to 500°F. Adjust the racks so the turkey fits on the lowest rack.",
+    "Remove the turkey from the brine, rinse inside and out with cold water, and discard the brine. Place the bird on a flat roasting rack on a half-sheet or roasting pan and pat very dry.",
+    "Pre-form an aluminum shield (turkey triangle) by folding heavy-duty foil into a triangle. Grease lightly with canola oil, fit it over the breast with the point toward the legs, then remove and set aside.",
+    "Combine the apple, onion, water, and cinnamon stick in a microwave-safe dish and microwave on high for 5 minutes. Add the steeped aromatics (not the water) to the turkey's cavity along with the rosemary and sage. Tuck the wings underneath and coat the skin lightly with canola oil.",
+    "Roast on the lowest level for 30 minutes. Then insert a probe thermometer into the thickest part of the breast (avoiding bone), top with the turkey triangle, and reduce the oven to 350°F. Set the probe alarm to 155°F. A 14- to 16-pound turkey takes an additional 90 minutes to 2 hours — go by temperature, not time.",
+    "Let the turkey rest on the roasting pan, lightly tented with foil, for at least 15 minutes before transferring to a cutting board to carve."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Eliza/Eliza's Thanksgiving Turkey.pdf",
+  "contributor": "Eliza",
+  "image": null
+}

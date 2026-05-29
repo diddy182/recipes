@@ -1,0 +1,43 @@
+{
+  "slug": "pumpkin-pancakes",
+  "title": "Pumpkin Pancakes",
+  "description": "Fluffy spiced pancakes made with pumpkin puree, brown sugar, and warm fall spices.",
+  "source_name": "allrecipes.com",
+  "source_url": null,
+  "yield": "8 pancakes",
+  "prep_time": "20 mins",
+  "cook_time": "20 mins",
+  "total_time": "40 mins",
+  "category": "Breakfast",
+  "tags": ["breakfast", "pancakes", "pumpkin", "fall", "baking"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1½ cups milk",
+        "1 cup pumpkin puree",
+        "1 egg",
+        "2 tablespoons vegetable oil",
+        "2 tablespoons vinegar",
+        "2 cups all-purpose flour",
+        "3 tablespoons brown sugar",
+        "2 teaspoons baking powder",
+        "1 teaspoon baking soda",
+        "1 teaspoon ground allspice",
+        "1 teaspoon ground cinnamon",
+        "½ teaspoon ground ginger",
+        "½ teaspoon salt"
+      ]
+    }
+  ],
+  "instructions": [
+    "In a bowl, mix together the milk, pumpkin, egg, oil, and vinegar. Combine the flour, brown sugar, baking powder, baking soda, allspice, cinnamon, ginger, and salt in a separate bowl. Stir into the pumpkin mixture just enough to combine.",
+    "Heat a lightly oiled griddle or frying pan over medium-high heat. Pour or scoop the batter onto the griddle, using approximately ¼ cup for each pancake. Brown on both sides and serve hot."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Pumpkin Pancakes Recipe.pdf",
+  "contributor": null,
+  "image": null
+}

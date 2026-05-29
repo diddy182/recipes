@@ -1,0 +1,38 @@
+{
+  "slug": "js-hot-chocolate",
+  "title": "J's Hot Chocolate",
+  "description": "Rich homemade hot chocolate made from scratch with whole milk, cocoa powder, and real bittersweet chocolate, served with whipped cream.",
+  "source_name": "joyfoodsunshine.com",
+  "source_url": null,
+  "yield": "4 servings",
+  "prep_time": "2 mins",
+  "cook_time": "5 mins",
+  "total_time": "7 mins",
+  "category": "Drinks",
+  "tags": ["drinks", "hot chocolate", "chocolate", "cocoa", "dessert", "winter"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "2½ cups whole milk",
+        "¼ cup granulated sugar",
+        "2 tablespoons unsweetened cocoa powder",
+        "6 oz (1 cup) bittersweet chocolate (or semisweet, milk, etc.)",
+        "1 teaspoon pure vanilla extract",
+        "Homemade whipped cream (for serving)"
+      ]
+    }
+  ],
+  "instructions": [
+    "Add the milk, sugar, and cocoa powder to a medium saucepan.",
+    "Heat over medium heat, whisking occasionally, until the mixture just begins to bubble but does not boil.",
+    "Add the chocolate and vanilla and whisk until the chocolate is melted and the mixture is smooth.",
+    "Pour into 4 small mugs and serve with homemade whipped cream."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Jordan/J’s Hot Chocolate.pdf",
+  "contributor": null,
+  "image": null
+}

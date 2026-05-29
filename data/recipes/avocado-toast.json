@@ -1,0 +1,38 @@
+{
+  "slug": "avocado-toast",
+  "title": "Avocado Toast",
+  "description": "Simple avocado toast with mashed avocado, lemon, and olive oil on toasted whole grain bread.",
+  "source_name": "cookinglight.com",
+  "source_url": null,
+  "yield": "1 serving",
+  "prep_time": "10 mins",
+  "cook_time": null,
+  "total_time": "10 mins",
+  "category": "Breakfast",
+  "tags": ["breakfast", "avocado", "toast", "quick", "healthy", "vegetarian"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "½ small avocado",
+        "½ teaspoon fresh lemon juice",
+        "⅛ teaspoon kosher salt",
+        "⅛ teaspoon freshly ground black pepper",
+        "1 (1 oz.) slice whole grain bread, toasted",
+        "½ teaspoon extra-virgin olive oil",
+        "Toppings: Maldon sea salt flakes, red pepper flakes"
+      ]
+    }
+  ],
+  "instructions": [
+    "In a small bowl, combine the avocado, lemon juice, salt, and pepper. Gently mash with the back of a fork.",
+    "Top the toasted bread with the mashed avocado mixture. Drizzle with olive oil and sprinkle over desired toppings.",
+    "For perfect avocado toast, ingredient quality is key. Use fresh, crusty whole-wheat bread and the best extra-virgin olive oil you can find."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Avocado Toast.pdf",
+  "contributor": null,
+  "image": null
+}

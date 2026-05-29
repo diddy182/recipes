@@ -1,0 +1,34 @@
+{
+  "slug": "peanut-butter-cookies",
+  "title": "Peanut Butter Cookies",
+  "description": "Three-ingredient flourless peanut butter cookies with the classic criss-cross fork pattern.",
+  "source_name": "feelgoodfoodie.net",
+  "source_url": null,
+  "yield": "9 servings",
+  "prep_time": "10 mins",
+  "cook_time": "10 mins",
+  "total_time": "20 mins",
+  "category": "Dessert",
+  "tags": ["dessert", "cookies", "peanut butter", "baking", "flourless"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1 cup peanut butter (no sugar added)",
+        "¾ cup granulated sugar",
+        "1 egg"
+      ]
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 350°F. Line two baking sheets with parchment paper.",
+    "Mix peanut butter, sugar, and egg together in a bowl using an electric mixer or spoon, until smooth and creamy. Roll mixture into small balls and arrange on a baking sheet; flatten each with the back of a fork, making a criss-cross pattern.",
+    "Bake in the preheated oven for 10 minutes. Cool cookies on the baking sheet for 2 minutes before moving to a cooling rack for a few more minutes."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Peanut Butter Cookies.pdf",
+  "contributor": null,
+  "image": null
+}

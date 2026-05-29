@@ -1,0 +1,80 @@
+{
+  "slug": "elizas-pb-chocolate-cake",
+  "title": "Eliza's Chocolate Peanut Butter Cake",
+  "description": "A decadent layered milk chocolate cake with a peanut butter filling and peanut butter vanilla frosting, topped with peanuts and shaved dark chocolate.",
+  "source_name": "Baked Elements, by Matt Lewis and Renato Poliafito",
+  "source_url": null,
+  "yield": "12 servings",
+  "prep_time": "20 mins",
+  "cook_time": "35 mins",
+  "total_time": null,
+  "category": "Dessert",
+  "tags": ["dessert", "cake", "chocolate", "peanut butter", "layer cake", "baking", "american"],
+  "ingredients": [
+    {
+      "heading": "Milk Chocolate Layers",
+      "items": [
+        "2 ounces milk chocolate",
+        "½ cup dark unsweetened cocoa powder",
+        "⅔ cup hot coffee",
+        "⅓ cup whole milk",
+        "1⅓ cups all-purpose flour",
+        "1 teaspoon baking soda",
+        "½ teaspoon salt",
+        "5 ounces unsalted butter",
+        "1 cup dark brown sugar",
+        "½ cup granulated sugar",
+        "3 large eggs",
+        "1 teaspoon vanilla extract"
+      ]
+    },
+    {
+      "heading": "Peanut Butter Filling",
+      "items": [
+        "2 ounces unsalted butter",
+        "½ cup smooth peanut butter",
+        "½ cup plus 2 tablespoons confectioner's sugar",
+        "1 teaspoon vanilla"
+      ]
+    },
+    {
+      "heading": "Peanut Butter Vanilla Frosting",
+      "items": [
+        "1 cup granulated sugar",
+        "¼ cup all-purpose flour",
+        "1 cup whole milk",
+        "¼ cup heavy cream",
+        "8 ounces unsalted butter",
+        "1 tablespoon plus 1 teaspoon Peanut Butter Filling",
+        "1 teaspoon vanilla"
+      ]
+    },
+    {
+      "heading": "For Decorating the Top",
+      "items": [
+        "¼ cup roasted salted peanuts",
+        "2 ounces dark chocolate"
+      ]
+    }
+  ],
+  "instructions": [
+    "For the chocolate layers: Preheat oven to 325°F. Butter two 8-inch round cake pans, line the bottoms with parchment paper, and butter the parchment. Dust lightly with flour.",
+    "Place the chocolate and cocoa powder in a medium-sized heatproof bowl. Pour hot coffee over the chocolate and cocoa and whisk until combined. Add the milk and whisk until smooth.",
+    "In another bowl, sift together the flour, baking soda, and salt. Set aside.",
+    "In the bowl of a mixer fitted with the paddle attachment, beat the butter and both sugars on medium speed until light and fluffy, about 3 minutes. Add the eggs one at a time, beating well after each addition, then add the vanilla and beat until incorporated. Scrape down the sides and bottom of the bowl and mix again for 30 seconds.",
+    "Add the flour mixture in three parts, alternating with the chocolate mixture, beginning and ending with the flour mixture.",
+    "Divide the batter between the prepared pans and smooth the tops. Bake for 35 to 40 minutes, rotating the pans halfway, until a toothpick inserted comes out clean. Transfer the pans to a wire rack and let cool for 20 minutes. Invert onto the rack and let cool completely.",
+    "For the peanut butter filling: In a mixer, beat the butter on high until smooth. Add the peanut butter and beat on medium-low speed until just combined. Add the confectioner's sugar and the vanilla and beat until smooth. Set aside.",
+    "For the peanut butter vanilla frosting: In a medium heavy-bottomed saucepan, whisk the sugar and flour together. Add the milk and cream and cook over medium heat, whisking occasionally, until the mixture comes to a boil and has thickened, 10 to 15 minutes.",
+    "Transfer the mixture to the bowl of a mixer. Beat on high until cool, at least 7 minutes. Reduce the speed to low and add the butter, mixing until thoroughly incorporated. Increase speed to medium-high and beat until the frosting is light and fluffy, 1 to 2 minutes.",
+    "Add 1 tablespoon plus 1 teaspoon of reserved Peanut Butter Filling and the vanilla and continue mixing until combined. If the frosting is too soft, refrigerate to chill slightly then beat again to proper consistency. If the frosting is too firm, set the bowl over a pot of simmering water and beat with a wooden spoon until it is the proper consistency.",
+    "Assembling the cake: Place the bottom layer on a serving platter. Evenly spread with Peanut Butter Filling, then spread about ¼ cup of Vanilla Peanut Butter Frosting on top of the filling.",
+    "Add the next layer and frost the top and sides with the remaining Vanilla Peanut Butter Frosting. Sprinkle peanuts and shaved chocolate around the edge of the cake. Cake can be stored at room temperature, covered, for up to 3 days."
+  ],
+  "notes": [],
+  "nutrition": "Serving: 1 serving | Calories: 674kcal | Carbohydrates: 72g | Protein: 9g | Fat: 44g | Saturated Fat: 24g | Polyunsaturated Fat: 3g | Monounsaturated Fat: 13g | Trans Fat: 1g | Cholesterol: 126mg | Sodium: 287mg | Potassium: 306mg | Fiber: 3g | Sugar: 49g | Vitamin A: 1064IU | Vitamin C: 0.03mg | Calcium: 87mg | Iron: 3mg",
+  "calories": "674 kcal",
+  "pdf": "Eliza/Elizas PB Chocolate Cake.pdf",
+  "contributor": "Eliza",
+  "image": null
+}

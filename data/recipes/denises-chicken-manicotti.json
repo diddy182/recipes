@@ -1,0 +1,38 @@
+{
+  "slug": "denises-chicken-manicotti",
+  "title": "Denise's Chicken Manicotti",
+  "description": "An easy weeknight bake: raw chicken tenders stuffed into uncooked manicotti shells, blanketed in pasta sauce and mozzarella, and baked until tender.",
+  "source_name": "bettycrocker.com",
+  "source_url": null,
+  "yield": null,
+  "prep_time": "20 mins",
+  "cook_time": null,
+  "total_time": "1 hr 20 mins",
+  "category": "Dinner",
+  "tags": ["dinner", "pasta", "chicken", "manicotti", "casserole", "italian", "family"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1 jar (25.5 oz) Muir Glen organic pasta sauce (any variety)",
+        "¾ cup water",
+        "1 teaspoon garlic salt",
+        "1½ lb uncooked chicken breast tenders (not breaded)",
+        "14 uncooked manicotti shells (8 oz)",
+        "2 cups shredded mozzarella cheese (8 oz)",
+        "Chopped fresh basil leaves, if desired"
+      ]
+    }
+  ],
+  "instructions": [
+    "Heat oven to 350°F. In a medium bowl, mix pasta sauce and water. Spread about ⅓ of the pasta sauce mixture in an ungreased 13x9-inch (3-quart) glass baking dish.",
+    "Sprinkle garlic salt on chicken. Insert chicken into uncooked manicotti shells, stuffing from each end of the shell to fill if necessary. Place shells on the pasta sauce in the baking dish. Pour remaining pasta sauce evenly over the shells, covering completely. Cover with foil.",
+    "Bake about 1 hour or until chicken is no longer pink in center and shells are tender. Sprinkle with cheese. Bake uncovered about 5 minutes or until cheese is melted. Sprinkle with basil."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Denise/Denise's Chicken Manicotti Recipe.pdf",
+  "contributor": "Denise",
+  "image": null
+}

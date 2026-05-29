@@ -2,28 +2,38 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Amish Broccoli Bake — Jordan&#x27;s Recipes</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Amish Broccoli Bake — Recipes</title>
+<meta name="description" content="A rich and creamy Amish-style vegetable casserole layered with broccoli, sharp cheddar, and herbed stuffing — comfort food that might just win over the veggie skeptics.">
+<meta name="theme-color" content="#1a1a1a">
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="/icons/icon-32.png">
+<link rel="apple-touch-icon" href="/icons/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Recipes">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/style.css">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Karla:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
 <header class="site-header">
-<a class="brand" href="../index.html">Jordan&#x27;s Recipes</a>
-<a class="back" href="../index.html">&larr; All recipes</a>
+<a class="brand" href="/index.html">Recipes</a>
+<a class="back" href="/index.html">All recipes</a>
 </header>
 <main class="recipe">
 <div class="recipe-top">
 <div class="recipe-head">
-<p class="eyebrow">Side Dish</p>
+<p class="eyebrow"><span>Side Dish</span></p>
 <h1>Amish Broccoli Bake</h1>
 <p class="recipe-desc">A rich and creamy Amish-style vegetable casserole layered with broccoli, sharp cheddar, and herbed stuffing — comfort food that might just win over the veggie skeptics.</p>
 <div class="meta"><div class="meta-item"><span class="meta-label">Yield</span><span class="meta-value">8 servings</span></div><div class="meta-item"><span class="meta-label">Cook</span><span class="meta-value">35 mins</span></div></div>
-<a class="download-btn" href="../pdfs/amish-broccoli-bake.pdf" download>Download PDF</a>
+<a class="download-btn" href="/pdfs/amish-broccoli-bake.pdf" download>Download PDF</a>
 </div>
-<img class="hero" src="../images/amish-broccoli-bake.jpg" alt="Amish Broccoli Bake">
+<figure class="hero"><img src="/images/amish-broccoli-bake.jpg" alt="Amish Broccoli Bake"></figure>
 </div>
 <div class="recipe-body">
 <section class="ingredients-section">
@@ -41,7 +51,7 @@
 </ul>
 </section>
 <section class="instructions-section">
-<h2>Instructions</h2>
+<h2>Method</h2>
 <ol class="instructions"><li>Preheat oven to 350 degrees F. Coat a 3-quart casserole dish with cooking spray.</li>
 <li>In a medium bowl, combine soup, mayonnaise, onion, salt, and pepper; mix well.</li>
 <li>Place half the broccoli in the casserole dish. Sprinkle with half the cheese and half the stuffing mix. Pour half the butter and half the soup mixture over stuffing. Repeat layers one more time.</li>
@@ -50,8 +60,13 @@
 </div>
 
 
-<p class="source">Recipe from MrFood.com</p>
+<div class="provenance"><p class="source">Recipe from MrFood.com</p></div>
 </main>
-<footer class="site-footer">Jordan&#x27;s Recipes</footer>
+<footer class="site-footer">Recipes · developed by Jordan Herrick</footer>
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js'));
+}
+</script>
 </body>
 </html>

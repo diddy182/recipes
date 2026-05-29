@@ -1,0 +1,50 @@
+{
+  "slug": "susans-cheesecake-supreme",
+  "title": "Susan's Cheesecake Supreme",
+  "description": "A classic tall, creamy cheesecake on a graham cracker crust, baked with sour cream and topped with cherry pie filling.",
+  "source_name": "food.com",
+  "source_url": null,
+  "yield": "10 servings",
+  "prep_time": "20 mins",
+  "cook_time": "1 hr 20 mins",
+  "total_time": "1 hr 40 mins",
+  "category": "Dessert",
+  "tags": ["dessert", "cheesecake", "cream cheese", "cherry", "graham cracker", "baking"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1 cup graham cracker crumbs",
+        "3 tablespoons sugar",
+        "3 tablespoons margarine, melted",
+        "32 ounces cream cheese, softened",
+        "1 cup sugar",
+        "3 tablespoons unbleached all-purpose flour",
+        "4 large eggs",
+        "1 cup sour cream",
+        "1 tablespoon vanilla",
+        "1 (21 ounce) can cherry pie filling"
+      ]
+    }
+  ],
+  "instructions": [
+    "Combine the crumbs, 3 tablespoons sugar, and margarine; press onto the bottom of a 9-inch springform pan.",
+    "Bake at 325°F for 10 minutes.",
+    "Combine the cream cheese, 1 cup sugar, and flour, mixing at medium speed on an electric mixer until well blended.",
+    "Add the eggs one at a time, mixing well after each addition.",
+    "Blend in the sour cream and vanilla; pour over the crust.",
+    "Bake at 450°F for 10 minutes.",
+    "Reduce the temperature to 250°F; continue baking for 1 hour.",
+    "Loosen the cake from the rim of the pan; cool before removing the rim of the pan.",
+    "Chill.",
+    "Top with the pie filling just before serving."
+  ],
+  "notes": [
+    {"label": "Variation", "text": "Substitute 1½ cups finely chopped nuts and 2 tablespoons sugar for the graham cracker crumbs and sugar."}
+  ],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Susan/Susan’s Cheesecake Supreme.pdf",
+  "contributor": "Susan",
+  "image": null
+}

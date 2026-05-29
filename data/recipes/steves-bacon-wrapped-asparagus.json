@@ -1,0 +1,45 @@
+{
+  "slug": "steves-bacon-wrapped-asparagus",
+  "title": "Steve's Bacon Wrapped Asparagus",
+  "description": "Asparagus spears wrapped in thick-cut bacon and roasted with a honey-dijon-soy glaze, then broiled until crisp.",
+  "source_name": "noshingwiththenolands.com",
+  "source_url": null,
+  "yield": "6 servings",
+  "prep_time": "15 mins",
+  "cook_time": "20 mins",
+  "total_time": "35 mins",
+  "category": "Appetizer",
+  "tags": ["appetizer", "side", "asparagus", "bacon", "holiday", "vegetable"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1 bunch asparagus",
+        "2 tablespoons extra virgin olive oil",
+        "½ teaspoon cracked peppercorn",
+        "½ teaspoon sea salt",
+        "8 pieces thick center-cut bacon",
+        "2 teaspoons honey",
+        "1 tablespoon dijon mustard",
+        "2 tablespoons soy sauce",
+        "1 teaspoon red pepper flakes",
+        "2 cloves garlic, minced"
+      ]
+    }
+  ],
+  "instructions": [
+    "Preheat the oven to 400°F.",
+    "Wash and dry the asparagus spears. Make a cut from the bottom of the spear and discard. Add the asparagus to a mixing bowl and toss with the olive oil, peppercorn, and sea salt.",
+    "Cut the bacon down the center. Take a strip of bacon and, starting at the top of the asparagus spear, wrap the bacon around the stalk. Tuck the end of the bacon in, or use a toothpick to secure it.",
+    "In a small mixing bowl, combine the honey, dijon mustard, soy sauce, red pepper flakes, and minced garlic. Whisk well.",
+    "Lay the asparagus onto a wire rack-lined baking sheet. Brush each with the glaze.",
+    "Place the baking sheet into the oven on the center rack. Bake for 7 minutes, then remove from the oven. Turn the asparagus over and brush with the glaze. Place back into the oven for 7 more minutes. Turn off the oven.",
+    "Remove the baking sheet from the oven and brush the asparagus with the glaze on both sides. Place under the broiler for 4 minutes, turning halfway through. This will crisp up the bacon."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Steve/Steve's Bacon Wrapped Asparagus.pdf",
+  "contributor": "Steve",
+  "image": null
+}

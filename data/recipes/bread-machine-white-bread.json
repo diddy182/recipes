@@ -1,0 +1,39 @@
+{
+  "slug": "bread-machine-white-bread",
+  "title": "Bread Machine White Bread",
+  "description": "An easy, soft white sandwich loaf made entirely in the bread machine.",
+  "source_name": "tastyoven.com",
+  "source_url": null,
+  "yield": "10 slices",
+  "prep_time": "5 mins",
+  "cook_time": "3 hrs 25 mins",
+  "total_time": "3 hrs 30 mins",
+  "category": "Bread",
+  "tags": ["bread", "white bread", "bread machine", "baking", "loaf"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1½ cups warm water (approximately 110°F)",
+        "2 tablespoons olive oil",
+        "2 tablespoons butter, room temperature and sliced into ¼-inch pieces",
+        "1½ teaspoons salt",
+        "2 tablespoons white sugar",
+        "4 cups bread flour",
+        "2¼ teaspoons yeast"
+      ]
+    }
+  ],
+  "instructions": [
+    "Add the ingredients in the order listed to the bread maker pan. The ingredients are listed in the order that Cuisinart machines require them. Check your brand's manual for the correct order; if it differs, add them in the order your manual states.",
+    "Select the basic/white bread setting. Choose the 2 lb loaf size and your preferred crust color.",
+    "Optional: At the end of the last kneading cycle, remove the kneading paddle. If you miss this step, remove the paddle using oven mitts after the bread cools.",
+    "When baking is complete, remove from the bread pan immediately. Cool on a wire rack for at least 15-30 minutes before slicing."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Bread Machine White Bread.pdf",
+  "contributor": null,
+  "image": null
+}

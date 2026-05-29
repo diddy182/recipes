@@ -1,0 +1,58 @@
+{
+  "slug": "elizas-key-lime-pie",
+  "title": "Eliza's Key Lime Pie",
+  "description": "A tangy key lime pie on a baked graham cracker crust, with a whipped egg yolk, condensed milk, and key lime juice filling, topped with fresh whipped cream.",
+  "source_name": "honestandtasty.com",
+  "source_url": null,
+  "yield": "1 pie",
+  "prep_time": "10 mins",
+  "cook_time": "25 mins",
+  "total_time": "35 mins",
+  "category": "Dessert",
+  "tags": ["dessert", "pie", "key lime", "citrus", "graham cracker", "family", "holiday"],
+  "ingredients": [
+    {
+      "heading": "Graham Cracker Crust",
+      "items": [
+        "7 tablespoons butter, melted",
+        "11 full graham crackers (about 2 cups crumbs)",
+        "¼ cup sugar",
+        "¼ teaspoon sea salt"
+      ]
+    },
+    {
+      "heading": "Pie Filling",
+      "items": [
+        "1½ tablespoons zest from key limes (reserve a pinch for garnish)",
+        "3 egg yolks",
+        "1 can (14 ounces) sweetened condensed milk",
+        "¾ cup key lime juice (from approximately 1 pound of key limes)"
+      ]
+    },
+    {
+      "heading": "Whipped Cream",
+      "items": [
+        "1 cup (8 ounces) heavy cream",
+        "1½ tablespoons sugar"
+      ]
+    }
+  ],
+  "instructions": [
+    "For the crust: make graham cracker crumbs in a food processor, or place crackers in a plastic bag and crush.",
+    "Put butter in a medium-large mixing bowl and mix in the graham cracker crumbs, sugar, and salt until combined.",
+    "Put the mixture into a 9-inch pie dish and pat it down with your fingers to form the crust, bringing it up the edges.",
+    "Bake at 375°F for 10 minutes, or until very lightly browned. Allow to cool while preparing the filling.",
+    "For the filling: whip most of the zest (reserving a pinch for garnish) and the egg yolks in a large mixing bowl for 2 minutes, or until thickened.",
+    "Add the sweetened condensed milk and mix for 3 minutes, or until thickened.",
+    "Add the lime juice and mix until combined. Pour the mixture into the pie crust.",
+    "Bake for 15 minutes. The pie will rise slightly but the filling won't change color.",
+    "Allow to cool for ½ hour at room temperature, then chill completely in the fridge for at least 2 hours (the freezer works to speed it up — just don't let it turn into ice cream).",
+    "For the whipped cream: use an electric mixer to whip the cream and sugar for a few minutes until stiff peaks form. Top the pie with whipped cream and optional zest before serving."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Eliza/Eliza's Key Lime Pie.pdf",
+  "contributor": "Eliza",
+  "image": null
+}

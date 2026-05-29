@@ -1,0 +1,50 @@
+{
+  "slug": "greek-walnut-pie",
+  "title": "Greek Walnut Pie",
+  "description": "A double-crust pie filled with cinnamon-spiced walnuts and butter, soaked in honey-lemon syrup and topped with sweet whipped cream.",
+  "source_name": "pillsbury.com",
+  "source_url": null,
+  "yield": "12 servings",
+  "prep_time": "25 mins",
+  "cook_time": null,
+  "total_time": "4 hrs 15 mins",
+  "category": "Dessert",
+  "tags": ["dessert", "pie", "walnut", "honey", "greek", "baking"],
+  "ingredients": [
+    {
+      "heading": "Pie",
+      "items": [
+        "1 box (14.1 oz) refrigerated Pillsbury Pie Crusts (2 count), softened as directed on box",
+        "2½ cups finely chopped walnuts",
+        "¼ cup packed brown sugar",
+        "2 tablespoons granulated sugar",
+        "1½ teaspoons ground cinnamon",
+        "¾ cup butter or margarine, melted, cooled",
+        "¾ cup honey",
+        "1 tablespoon lemon juice"
+      ]
+    },
+    {
+      "heading": "Topping",
+      "items": [
+        "½ pint (1 cup) heavy whipping cream",
+        "1 teaspoon granulated sugar",
+        "1 teaspoon vanilla"
+      ]
+    }
+  ],
+  "instructions": [
+    "Heat oven to 325°F. Spray a 9-inch glass pie pan with cooking spray. Make the pie crusts as directed on the box for a Two-Crust Pie using the sprayed pie pan.",
+    "In a medium bowl, mix the walnuts, brown sugar, 2 tablespoons granulated sugar, and the cinnamon. Pour and evenly spread ¼ cup of the cooled melted butter over the bottom of the pie crust. Spread the walnut mixture evenly over the butter. Drizzle another ¼ cup butter over the nut mixture.",
+    "Top with the second crust; seal the edge and flute. Cut large slits in several places in the top crust for steam to escape. Drizzle the remaining ¼ cup butter evenly over the top crust.",
+    "Bake at 45 to 55 minutes or until golden brown. About 5 minutes before removing the pie from the oven, in a 1-quart saucepan, cook the honey and lemon juice over medium heat, stirring frequently, until the mixture has a watery consistency.",
+    "Remove the pie from the oven; place on a wire rack. Slowly pour the hot honey mixture evenly over the top of the hot pie, making sure it seeps into the slits in the top crust. Cool at least 3 hours before serving.",
+    "Just before serving, in a small bowl with an electric mixer, beat the topping ingredients on high speed about 2 minutes or until stiff peaks form. Spoon the topping onto individual servings of pie."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Greek Walnut Pie Recipe - Pillsbury.com.pdf",
+  "contributor": null,
+  "image": null
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "zacks-pomegranate-pie",
+  "title": "Zack's Pomegranate Pie",
+  "description": "A no-bake pie with a sweet cream cheese layer topped with fresh pomegranate seeds folded into a strawberry Danish Dessert glaze, finished with whipped cream.",
+  "source_name": null,
+  "source_url": null,
+  "yield": "2 pies",
+  "prep_time": null,
+  "cook_time": null,
+  "total_time": null,
+  "category": "Dessert",
+  "tags": [
+    "dessert",
+    "pie",
+    "pomegranate",
+    "no-bake",
+    "cream cheese",
+    "fruit",
+    "holiday"
+  ],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1 package strawberry Danish Dessert (or raspberry)",
+        "3-4 large pomegranates (4 large, or even 5 small — up to you)",
+        "1 brick cream cheese, softened",
+        "½ cup granulated sugar",
+        "½ cup sour cream",
+        "2 (9-inch) graham cracker pie crusts",
+        "1 tub whipped cream (or make your own homemade)"
+      ]
+    }
+  ],
+  "instructions": [
+    "Prepare the Danish Dessert according to package directions and let it cool to room temperature.",
+    "While the glaze is cooling, harvest the seeds from the pomegranates into a large bowl, being sure to pick out any membranes.",
+    "Beat together the cream cheese, sugar, and sour cream until well incorporated. Divide evenly and spread into the bottom of the two pie crusts.",
+    "Fold the pomegranate seeds into the cooled glaze, being gentle so you don't break the seeds. Spread on top of the cheesecake layer and smooth. It's okay to heap it up above the crust — in fact it looks really pretty!",
+    "Put in the fridge to set up for a few hours or overnight.",
+    "Top with whipped cream."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Zack/Zack's Pomegranate Pie.pdf",
+  "contributor": "Zack",
+  "image": "zacks-pomegranate-pie.png"
+}

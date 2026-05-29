@@ -1,0 +1,43 @@
+{
+  "slug": "chicken-cabbage-soup",
+  "title": "Chicken Cabbage Soup",
+  "description": "A comforting chicken soup with carrots, celery, potatoes, and shredded cabbage in a thyme-scented broth.",
+  "source_name": "Taste of Home",
+  "source_url": null,
+  "yield": "10 servings",
+  "prep_time": null,
+  "cook_time": null,
+  "total_time": null,
+  "category": "Soup",
+  "tags": ["soup", "chicken", "cabbage", "dinner", "comfort food"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "2 tablespoons olive oil",
+        "2 medium carrots, chopped",
+        "2 celery ribs, chopped",
+        "1 medium onion, chopped",
+        "2 garlic cloves, minced",
+        "6 cups chicken broth",
+        "2 medium red potatoes, cubed",
+        "1½ cups shredded cabbage",
+        "1 teaspoon dried thyme",
+        "1½ teaspoons dried parsley flakes",
+        "½ teaspoon salt",
+        "½ teaspoon pepper",
+        "2 cups shredded cooked chicken"
+      ]
+    }
+  ],
+  "instructions": [
+    "In a large saucepan, heat the oil over medium heat. Add the carrots, celery, and onion; cook and stir until crisp-tender, 5-7 minutes. Add the garlic; cook 1 minute longer.",
+    "Stir in the broth, potatoes, cabbage, thyme, salt, and pepper. Bring to a boil. Reduce heat; cover and simmer until vegetables are tender, 10-15 minutes. Stir in the chicken; heat through. If desired, top with parsley."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Chicken Cabbage Soup.pdf",
+  "contributor": null,
+  "image": null
+}

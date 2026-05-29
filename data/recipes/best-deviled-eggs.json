@@ -1,0 +1,43 @@
+{
+  "slug": "best-deviled-eggs",
+  "title": "Best Deviled Eggs",
+  "description": "Classic deviled eggs with hard boiled egg yolks whipped with mayonnaise, Dijon mustard, and apple cider vinegar, finished with a sprinkle of paprika.",
+  "source_name": "downshiftology.com",
+  "source_url": null,
+  "yield": "6 servings (2 deviled eggs each)",
+  "prep_time": "20 mins",
+  "cook_time": "15 mins",
+  "total_time": "35 mins",
+  "category": "Appetizer",
+  "tags": ["appetizer", "snack", "deviled eggs", "eggs", "american", "party"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "6 large eggs",
+        "3 tablespoons mayonnaise",
+        "1 teaspoon Dijon mustard",
+        "1 teaspoon apple cider vinegar",
+        "Kosher salt and ground black pepper",
+        "Paprika"
+      ]
+    }
+  ],
+  "instructions": [
+    "Boil the eggs. Bring a pot of water to a boil. Reduce the heat to low (or off) to ensure the water is no longer boiling or has any bubbles. Use a skimmer to place the eggs in the water. Then increase the heat back to high and set a timer for 14 minutes.",
+    "Make an ice water bath. While the eggs are boiling, prepare an ice water bath and set aside. After 14 minutes, remove the eggs from the water and place them in the ice water bath.",
+    "Peel and slice the eggs. Once the eggs have cooled completely, peel them and slice in half lengthwise. With a small spoon, remove the yolks to a mixing bowl and place the egg whites on a plate.",
+    "Make the filling. Mash the yolks with a fork and add the mayonnaise, mustard, vinegar, salt, and pepper. Stir everything together until smooth. For extra smooth and fluffy filling, you can use a hand mixer.",
+    "Fill and serve. Use a spoon to add a portion of the deviled egg mixture back into the hole of each egg white. Add a little sprinkle of paprika for garnish."
+  ],
+  "notes": [
+    {"label": null, "text": "Use 1 teaspoon (not 1 tablespoon) of vinegar. If you're not a fan of vinegar, you can use pickle juice instead."},
+    {"label": "Storage", "text": "Store deviled eggs in an airtight container in the fridge for 2 to 3 days."},
+    {"label": "Make ahead", "text": "Boil and peel the eggs up to 3 days in advance, and make the filling up to 2 days in advance. Keep the two separate until serving, then pipe or spoon the filling into the egg whites when ready to serve."}
+  ],
+  "nutrition": "Calories: 125.3kcal | Carbohydrates: 0.7g | Protein: 6.4g | Fat: 10.5g | Saturated Fat: 2.4g | Cholesterol: 189.4mg | Sodium: 125.7mg | Sugar: 0.6g",
+  "calories": "125 kcal",
+  "pdf": "BEST Deviled Eggs Recipe - Downshiftology.pdf",
+  "contributor": null,
+  "image": null
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "israeli-couscous-spinach-mushrooms",
+  "title": "Israeli Couscous with Spinach & Mushrooms",
+  "description": "Toasted Israeli couscous tossed with sautéed onions, baby portobello mushrooms, and wilted spinach.",
+  "source_name": "thefitchen.com",
+  "source_url": null,
+  "yield": null,
+  "prep_time": "5 mins",
+  "cook_time": "15 mins",
+  "total_time": "20 mins",
+  "category": "Dinner",
+  "tags": ["dinner", "side", "couscous", "spinach", "mushrooms", "vegetarian"],
+  "ingredients": [
+    {
+      "heading": "Spinach and Mushrooms",
+      "items": [
+        "2 tablespoons olive oil",
+        "1 cup yellow onion, sliced",
+        "2 cloves garlic, minced",
+        "1½ cups baby portobello mushrooms",
+        "6 cups spinach",
+        "½ teaspoon sea salt",
+        "½ teaspoon black pepper",
+        "¼ cup vegetable broth"
+      ]
+    },
+    {
+      "heading": "Couscous",
+      "items": [
+        "1 tablespoon olive oil",
+        "1 cup Israeli couscous",
+        "2 cups water"
+      ]
+    }
+  ],
+  "instructions": [
+    "In a large pot, bring 2 tablespoons of oil to medium heat. Add the onion and sauté for 3-5 minutes, until softened and translucent. Add the garlic and sauté for 2 minutes.",
+    "Add the mushrooms and sauté for 5 minutes.",
+    "Add the spinach, salt, pepper, and broth and stir to combine. Cover and cook until the spinach is wilted, about 5 minutes.",
+    "Remove from heat and set aside.",
+    "In a medium pot, bring 1 tablespoon of oil to medium heat. Pour in the couscous and stir to coat with oil. Cook for 2 minutes, until the couscous starts to smell toasted.",
+    "Pour in 2 cups of water and bring to a boil.",
+    "Once boiling, decrease the heat to a simmer and cover. Cook for 10 minutes, or until al dente, stirring occasionally. Drain off excess liquid.",
+    "Combine the couscous with the spinach and mushroom mixture and stir to combine. Serve and enjoy!"
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Israeli Couscous with Spinach & Mushrooms.pdf",
+  "contributor": null,
+  "image": null
+}

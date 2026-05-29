@@ -1,0 +1,41 @@
+{
+  "slug": "pauls-beef-stew",
+  "title": "Paul's Pepere's Beef Stew",
+  "description": "A simple pressure-cooker beef stew with seared beef, potatoes, carrots, peas, and savory seasonings in a rich broth.",
+  "source_name": "pressurecookingtoday.com",
+  "source_url": null,
+  "yield": null,
+  "prep_time": "15 mins",
+  "cook_time": "45 mins",
+  "total_time": "1 hr",
+  "category": "Dinner",
+  "tags": ["dinner", "beef stew", "beef", "pressure cooker", "stew", "family", "comfort food"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "Garlic",
+        "Onions",
+        "Potatoes",
+        "Carrots",
+        "Peas",
+        "Beef (seasoned)",
+        "Beef stock",
+        "Worcestershire sauce",
+        "Avocado or olive oil",
+        "Seasonings"
+      ]
+    }
+  ],
+  "instructions": [
+    "Sauté the onions, oil, and garlic.",
+    "Cook the beef on its sides to lock in the juices.",
+    "Add it all to the pressure cooker. Cook for 45 minutes."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Paul/Pepere’s Beef Stew.pdf",
+  "contributor": "Paul",
+  "image": null
+}

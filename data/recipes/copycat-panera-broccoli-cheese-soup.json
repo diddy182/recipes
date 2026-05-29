@@ -1,0 +1,43 @@
+{
+  "slug": "copycat-panera-broccoli-cheese-soup",
+  "title": "Copycat Panera Broccoli Cheese Soup",
+  "description": "A rich, cheesy broccoli soup with carrots and cheddar, thickened to a creamy texture — just like the Panera classic.",
+  "source_name": "foodandbevy.com",
+  "source_url": null,
+  "yield": null,
+  "prep_time": null,
+  "cook_time": null,
+  "total_time": null,
+  "category": "Soup",
+  "tags": ["soup", "broccoli", "cheese", "cheddar", "copycat", "dinner", "comfort food"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "¼ cup unsalted butter",
+        "½ cup diced onions (yellow or white)",
+        "1 cup shredded carrots (matchsticks cut into half-inch pieces)",
+        "2½-3 cups broccoli florets, chopped small",
+        "1½ cups chicken broth",
+        "1 cup milk (skim/fat free)",
+        "1 cup heavy whipping cream",
+        "¼ cup all-purpose flour",
+        "1½ teaspoons kosher salt",
+        "½ teaspoon black pepper",
+        "Pinch of crushed red pepper flakes (or more as desired)",
+        "2 cups shredded cheddar cheese"
+      ]
+    }
+  ],
+  "instructions": [
+    "In a large pot over medium-high heat, melt the butter. Add in the onions, carrots, and broccoli. Cook to soften, about 5 minutes (more or less depending on the size you cut the vegetables).",
+    "Slowly add in the broth, milk, and cream. Sprinkle with flour and add the salt, pepper, and red pepper flakes. Continue stirring and heating over medium heat until thickened. This will take about 10-15 minutes.",
+    "Once thick, add the cheese and stir until melted and smooth. Serve soup and enjoy!"
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Copycat Panera Broccoli Cheese Soup.pdf",
+  "contributor": null,
+  "image": null
+}

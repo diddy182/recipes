@@ -1,0 +1,43 @@
+{
+  "slug": "zucchini-pesto-zoodles",
+  "title": "Zucchini Pesto Zoodles",
+  "description": "Raw spiralized zucchini noodles tossed in a creamy zucchini-basil tahini pesto, served with cherry tomatoes.",
+  "source_name": "simple-veganista.com",
+  "source_url": null,
+  "yield": "2 servings",
+  "prep_time": "15 mins",
+  "cook_time": null,
+  "total_time": "15 mins",
+  "category": "Dinner",
+  "tags": ["dinner", "zoodles", "zucchini", "pesto", "vegan", "low calorie", "vegetarian"],
+  "ingredients": [
+    {
+      "heading": "Noodles",
+      "items": [
+        "2 zucchini (1 per person), cucumber would be good too"
+      ]
+    },
+    {
+      "heading": "Pesto",
+      "items": [
+        "2 small zucchini or one large",
+        "2 cups fresh basil",
+        "2 cloves garlic",
+        "2 tablespoons tahini",
+        "½ teaspoon himalayan salt, or to taste"
+      ]
+    }
+  ],
+  "instructions": [
+    "Noodles: Use a spiralizer to create the 'noodle' effect, or you can julienne them. Both ways are great but I do highly recommend the spiralizer if you intend on making raw 'noodles' often.",
+    "Pesto: Cut zucchini into 1-inch chunks. Steam chunks over boiling water for about 3 minutes, or until just tender when pierced with a sharp knife. Keep them a little stiff to keep this as raw as possible.",
+    "Place all pesto ingredients in a food processor/blender and process until finely chopped.",
+    "Serve: Mix your 'noodles' with the pesto and serve with halved cherry tomatoes and a sprinkle of almond parmesan."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Zucchini Pesto Zoodles.pdf",
+  "contributor": null,
+  "image": null
+}

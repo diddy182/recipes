@@ -1,0 +1,39 @@
+{
+  "slug": "denises-fudge",
+  "title": "Denise's Fudge",
+  "description": "An old-fashioned stovetop chocolate fudge with marshmallows and chopped nuts — cooked, poured, cooled, and cut into squares.",
+  "source_name": "foodandbevy.com",
+  "source_url": null,
+  "yield": null,
+  "prep_time": null,
+  "cook_time": null,
+  "total_time": null,
+  "category": "Dessert",
+  "tags": ["dessert", "fudge", "chocolate", "candy", "no-bake", "family", "holiday"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1⅔ cups white sugar",
+        "⅔ cup evaporated milk",
+        "1 tablespoon unsalted butter",
+        "½ teaspoon salt",
+        "1 (6 ounce) package milk chocolate chips",
+        "16 large marshmallows",
+        "1 teaspoon pure vanilla extract",
+        "1 cup chopped nuts"
+      ]
+    }
+  ],
+  "instructions": [
+    "Add the sugar, milk, butter, and salt together in a saucepan. Cook for 5 minutes, stirring constantly.",
+    "Add the chocolate chips while stirring and cook until melted. Remove from heat, add marshmallows, vanilla, and nuts, and stir well.",
+    "Pour into an 8-inch pan, leave it to cool, and cut into squares. Serve!"
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Denise/Denise's Fudge.pdf",
+  "contributor": "Denise",
+  "image": null
+}

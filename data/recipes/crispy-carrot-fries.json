@@ -1,0 +1,43 @@
+{
+  "slug": "crispy-carrot-fries",
+  "title": "Crispy Carrot Fries + Sriracha Mayo",
+  "description": "Oven-baked carrot fries coated in parmesan and seasonings until crispy, served with a sauce of choice.",
+  "source_name": "sammibrondo.com",
+  "source_url": null,
+  "yield": null,
+  "prep_time": "15 mins",
+  "cook_time": "30 mins",
+  "total_time": "45 mins",
+  "category": "Side",
+  "tags": ["side", "carrot fries", "carrots", "baked", "parmesan", "snack", "vegetable"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1 lb carrots, peeled and cut into uniform fry shape",
+        "¼ cup olive oil",
+        "⅓ cup grated parmesan cheese",
+        "1 tablespoon cornstarch",
+        "1 teaspoon onion powder",
+        "1 teaspoon garlic powder",
+        "Salt",
+        "Pepper",
+        "Optional: parsley for garnish, sauce of choice for dipping"
+      ]
+    }
+  ],
+  "instructions": [
+    "Preheat the oven to 400°F. Line a baking sheet with parchment paper.",
+    "In a large bowl, add the olive oil, parmesan, cornstarch, onion powder, garlic powder, salt, and pepper. Mix well to combine.",
+    "Add in the carrots and toss to coat, until all carrots are well coated.",
+    "Spread the carrots evenly on the lined baking sheet. It's very important that they're spread in a single layer and not overlapping to allow them to get crispy.",
+    "Bake in the preheated oven for 30 minutes, flipping the carrots halfway.",
+    "Garnish with fresh parsley and serve with a dipping sauce of choice (ketchup, ranch, pesto, or spicy mayo are recommended)."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Crispy Carrot Fries + Sirracha Mayo.pdf",
+  "contributor": null,
+  "image": null
+}

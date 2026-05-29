@@ -1,0 +1,40 @@
+{
+  "slug": "elizas-grandmothers-pecan-butter-balls",
+  "title": "Eliza's Grandmother's Pecan Butter Balls",
+  "description": "Mildred Trauger's tender pecan butter ball cookies — a buttery shortbread dough rolled with finely chopped pecans, baked, and dusted in powdered sugar.",
+  "source_name": null,
+  "source_url": null,
+  "yield": "2 dozen",
+  "prep_time": "35 mins",
+  "cook_time": "25 mins",
+  "total_time": "50 mins",
+  "category": "Dessert",
+  "tags": ["dessert", "cookies", "pecan", "shortbread", "powdered sugar", "holiday", "family"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "2 cups flour",
+        "¼ cup sugar",
+        "½ tsp. salt",
+        "1 cup butter",
+        "2 tsp. vanilla",
+        "2 cups finely chopped pecans",
+        "1 cup powdered sugar"
+      ]
+    }
+  ],
+  "instructions": [
+    "Sift flour, sugar, and salt; work in the butter and vanilla. Add 2 cups of nuts; mix well.",
+    "Shape into 1-inch balls. Bake on a cookie sheet at 325°F for 25 minutes.",
+    "Roll in powdered sugar."
+  ],
+  "notes": [
+    {"label": null, "text": "From Eliza's grandmother, Mildred Trauger."}
+  ],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Eliza/Eliza's Grandmother Pecan Butter Balls.pdf",
+  "contributor": "Eliza",
+  "image": null
+}

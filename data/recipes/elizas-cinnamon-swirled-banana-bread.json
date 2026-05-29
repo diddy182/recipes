@@ -1,0 +1,51 @@
+{
+  "slug": "elizas-cinnamon-swirled-banana-bread",
+  "title": "Eliza's Cinnamon Swirled Banana Bread",
+  "description": "Moist banana bread with swirls of buttery cinnamon sugar, chocolate chips, and hazelnuts running throughout the loaf.",
+  "source_name": "thebakermama.com",
+  "source_url": null,
+  "yield": "8 servings",
+  "prep_time": "20 mins",
+  "cook_time": "70 mins",
+  "total_time": "1 hr 30 mins",
+  "category": "Dessert",
+  "tags": ["dessert", "banana bread", "cinnamon", "baking", "loaf", "holiday", "breakfast"],
+  "ingredients": [
+    {
+      "heading": "Banana Bread",
+      "items": [
+        "1 cup (2 sticks) unsalted butter, melted",
+        "1 cup granulated sugar",
+        "2 large eggs",
+        "1 teaspoon vanilla",
+        "2 cups all-purpose flour",
+        "1 teaspoon baking soda",
+        "4 ripe bananas, mashed (about 1½ cups)"
+      ]
+    },
+    {
+      "heading": "Cinnamon Sugar Swirl",
+      "items": [
+        "2 tablespoons butter, melted",
+        "3 tablespoons granulated sugar",
+        "3 tablespoons dark brown sugar",
+        "2 tablespoons ground cinnamon",
+        "Chopped hazelnuts & chocolate chips",
+        "6 thin slices of banana, for garnishing"
+      ]
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 350°F. Lightly grease and flour a 9x5-inch loaf pan and set aside.",
+    "In a large bowl, melt the butter and let cool slightly. Whisk in the sugar then the eggs and vanilla. Stir in the flour and baking soda. Fold in the mashed bananas until just combined.",
+    "In a small bowl, use a fork to stir together the cinnamon sugar swirl ingredients until thick and well combined, then add in the chocolate chips and hazelnuts.",
+    "Spread ¼ of the batter evenly into the bottom of the prepared pan. Dollop ¼ of the cinnamon sugar mixture over the batter in the pan, then make a nice thick swirl through the batter with a table knife or the bottom of a wooden spoon. Place ⅓ of the remaining batter evenly over the first layer and swirl with ⅓ of the remaining cinnamon sugar mixture. Place ½ of the remaining batter evenly over the second layer and swirl with ½ of the remaining cinnamon sugar mixture. Spread the remaining batter evenly over the top and dollop with the remaining cinnamon sugar mixture. Make large swirls throughout the entire loaf. Place six thin banana slices down the middle of the batter.",
+    "Place the loaf pan on a baking sheet and bake for 60-70 minutes or until golden brown and a toothpick inserted in the center comes out clean. Let the bread cool in the pan for at least 30 minutes before removing to a wire rack to cool completely."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Eliza/Elizas Cinnamon Swirled Banana Bread.pdf",
+  "contributor": "Eliza",
+  "image": null
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "olive-garden-herb-salmon",
+  "title": "Olive Garden Herb Salmon",
+  "description": "Grilled salmon fillets seasoned with lemon and Italian seasoning, topped with a garlic herb butter.",
+  "source_name": "recipes.net",
+  "source_url": null,
+  "yield": "4 servings",
+  "prep_time": null,
+  "cook_time": null,
+  "total_time": null,
+  "category": "Main Course",
+  "tags": ["main course", "salmon", "seafood", "grilled", "dinner", "italian"],
+  "ingredients": [
+    {
+      "heading": "For Grilled Salmon",
+      "items": [
+        "1 lb salmon fillets with skin",
+        "4 teaspoons extra virgin olive oil",
+        "2 lemons",
+        "2 tablespoons Italian seasoning",
+        "Salt and pepper"
+      ]
+    },
+    {
+      "heading": "For Garlic Herb Butter",
+      "items": [
+        "½ cup unsalted butter",
+        "1 clove garlic",
+        "¾ teaspoon fresh parsley, chopped"
+      ]
+    }
+  ],
+  "instructions": [
+    "Preheat a greased flat griddle to medium heat.",
+    "Using a halved lemon, squeeze its juice around the salmon.",
+    "Season the salmon with salt, pepper, and Italian seasoning, rubbing them well on both sides. Allow the salmon to briefly marinate on a slotted tray, at least for 15 minutes.",
+    "Place the salmon on the grill skin side down and brush with oil on both sides. You may also use cooking spray if preferred.",
+    "Cook the salmon, flipping it regularly until it is cooked through.",
+    "Bring your butter out from the chiller and slice a ½-cm thick ring. Return any excess back to the chiller, and discard any paper wrapping of the cut portion.",
+    "Once the salmon is cooked, serve it with rice, lemon wedges, your garlic butter on top, and your choice of vegetables."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Olive Garden herb salmon.pdf",
+  "contributor": null,
+  "image": null
+}

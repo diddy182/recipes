@@ -1,0 +1,49 @@
+{
+  "slug": "twix-ice-cream-bars",
+  "title": "Twix Ice Cream Bars",
+  "description": "Buttery shortbread bars topped with vanilla ice cream, caramel, and milk chocolate — a Twix-inspired frozen treat.",
+  "source_name": "lecremedelacrumb.com",
+  "source_url": null,
+  "yield": "9 servings",
+  "prep_time": "30 mins",
+  "cook_time": "30 mins",
+  "total_time": "1 hr 30 mins",
+  "category": "Dessert",
+  "tags": ["dessert", "ice cream", "shortbread", "caramel", "chocolate", "frozen", "bars"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1¼ cups flour",
+        "3 tablespoons corn starch",
+        "¼ teaspoon salt",
+        "½ cup brown sugar",
+        "7 tablespoons butter, softened",
+        "2 teaspoons cold water",
+        "Vanilla ice cream",
+        "1 jar caramel ice cream topping",
+        "1 cup milk chocolate chips",
+        "1 tablespoon heavy cream"
+      ]
+    }
+  ],
+  "instructions": [
+    "Whisk together flour, corn starch, salt, and sugar. Add butter and mash with your hands until mixture resembles fine coarse crumbs. Add cold water and continue to mash until dough comes together.",
+    "Press the dough into a ball and wrap it in plastic wrap. Chill for 30 minutes.",
+    "Preheat oven to 325°F. Spray a 9x9 inch pan with cooking spray. Press dough into the pan. Bake for 30 minutes or until a light golden brown. Allow to cool completely on a wire rack.",
+    "For the vanilla ice cream, the easiest method is to use vanilla ice cream that comes in the block. Cut off two ½-inch slices and place them side by side on top of the shortbread so that you have one layer of ice cream covering all of the shortbread. Pour caramel sauce over the ice cream and put the pan in the freezer.",
+    "In a microwave-safe bowl, melt chocolate chips and heavy cream for 2 minutes on half power. Stir the chocolate chips, then return to the microwave for 20 seconds at a time, stirring between each, until chocolate is melted and smooth.",
+    "Pour the chocolate over the caramel layer and return the pan to the freezer. Freeze for at least 30 minutes. Immediately before serving remove from freezer, cut into bars, and serve."
+  ],
+  "notes": [
+    {
+      "label": null,
+      "text": "Store in airtight container in freezer up to three weeks."
+    }
+  ],
+  "nutrition": "Calories: 133kcal | Carbohydrates: 28g | Protein: 2g | Fat: 1g | Saturated Fat: 1g | Cholesterol: 4mg | Sodium: 82mg | Potassium: 52mg | Fiber: 1g | Sugar: 12g | Vitamin A: 44IU | Vitamin C: 1mg | Calcium: 27mg | Iron: 1mg",
+  "calories": "133kcal",
+  "pdf": "Twix Ice Cream Bars.pdf",
+  "contributor": null,
+  "image": null
+}

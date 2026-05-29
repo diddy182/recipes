@@ -1,0 +1,36 @@
+{
+  "slug": "elizas-peanut-butter-pie",
+  "title": "Eliza's Peanut Butter Pie",
+  "description": "A no-bake peanut butter pie: a smooth cream cheese and peanut butter filling folded with whipped topping in a graham cracker crust, garnished with peanut butter cups.",
+  "source_name": "allrecipes.com",
+  "source_url": null,
+  "yield": "1 pie",
+  "prep_time": null,
+  "cook_time": null,
+  "total_time": null,
+  "category": "Dessert",
+  "tags": ["dessert", "pie", "peanut butter", "no-bake", "cream cheese", "family", "holiday"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1 (9 inch) prepared graham cracker crust",
+        "1 (8 ounce) package cream cheese, softened",
+        "½ cup creamy peanut butter",
+        "½ cup confectioners' sugar",
+        "1 (16 ounce) container frozen whipped topping, thawed",
+        "15 miniature chocolate covered peanut butter cups, unwrapped"
+      ]
+    }
+  ],
+  "instructions": [
+    "Mix the cream cheese, confectioners' sugar, and peanut butter together until smooth. Fold in half of the whipped topping. Spoon the mixture into the graham cracker crust.",
+    "Place the remaining whipped topping over the top of the peanut butter mixture and garnish with the peanut butter cups. Chill for at least 2 hours or overnight before serving."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Eliza/Eliza's Peanut Butter Pie Recipe.pdf",
+  "contributor": "Eliza",
+  "image": null
+}

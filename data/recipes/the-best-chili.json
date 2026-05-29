@@ -1,0 +1,47 @@
+{
+  "slug": "the-best-chili",
+  "title": "The Best Chili",
+  "description": "A hearty beef chili with kidney beans, tomatoes, bell pepper, jalapeño, and a splash of beer.",
+  "source_name": "spendwithpennies.com",
+  "source_url": null,
+  "yield": "8 servings",
+  "prep_time": "20 mins",
+  "cook_time": "45 mins",
+  "total_time": "1 hr 5 mins",
+  "category": "Main Course",
+  "tags": ["main course", "chili", "beef", "beans", "dinner", "soup"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "2 lbs lean ground beef",
+        "1 onion, diced",
+        "1 jalapeño, seeded and finely diced",
+        "4 cloves garlic, minced",
+        "2½ tablespoons chili powder, divided (or to taste)",
+        "1 teaspoon cumin",
+        "1 green bell pepper, seeded and diced",
+        "14.5 oz crushed tomatoes (canned)",
+        "19 oz kidney beans (canned, drained & rinsed)",
+        "14.5 oz diced tomatoes (with juice)",
+        "1½ cups beef broth",
+        "1 cup beer",
+        "1 tablespoon tomato paste",
+        "1 tablespoon brown sugar (optional)",
+        "Salt and pepper, to taste"
+      ]
+    }
+  ],
+  "instructions": [
+    "Combine ground beef and 1½ tablespoons chili powder.",
+    "In a large pot, brown ground beef, onion, jalapeño, and garlic. Drain any fat.",
+    "Add in remaining ingredients and bring to a boil. Reduce heat and simmer uncovered 45-60 minutes or until chili has reached desired thickness.",
+    "Top with cheddar cheese, green onions, cilantro, or other favorite toppings."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "The Best Chili Recipe.pdf",
+  "contributor": null,
+  "image": null
+}

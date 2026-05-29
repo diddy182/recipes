@@ -1,0 +1,62 @@
+{
+  "slug": "italian-wedding-soup",
+  "title": "Italian Wedding Soup",
+  "description": "Classic Italian wedding soup with tender homemade beef-and-pork meatballs, acini de pepe pasta, and spinach in a savory broth.",
+  "source_name": "thecozycook.com",
+  "source_url": null,
+  "yield": "6 servings",
+  "prep_time": "20 mins",
+  "cook_time": "25 mins",
+  "total_time": "45 mins",
+  "category": "Soup",
+  "tags": ["soup", "italian wedding soup", "meatballs", "pasta", "spinach", "dinner", "italian"],
+  "ingredients": [
+    {
+      "heading": "Meatballs",
+      "items": [
+        "½ lb. ground beef (80% lean)",
+        "½ lb. ground pork",
+        "1 egg (beaten)",
+        "½ cup Italian breadcrumbs (homemade is best)",
+        "¼ cup Parmesan cheese (finely grated into a powder)",
+        "3 cloves garlic (finely diced)",
+        "⅓ cup fresh parsley (roughly chopped)",
+        "Salt & freshly ground pepper"
+      ]
+    },
+    {
+      "heading": "Soup",
+      "items": [
+        "1 tablespoon olive oil",
+        "1¼ cups carrots (diced)",
+        "1¼ cups yellow onion (diced)",
+        "¾ cup celery (diced)",
+        "1 tablespoon garlic (minced)",
+        "8 cups chicken broth (homemade is best)",
+        "2 teaspoons Italian seasoning",
+        "Salt/pepper",
+        "¾ cup dry Acini de Pepe pasta",
+        "8 oz. fresh spinach",
+        "Fresh parsley (roughly chopped)",
+        "Freshly grated Parmesan cheese"
+      ]
+    }
+  ],
+  "instructions": [
+    "Gently combine the meatball ingredients, don't overwork the meat — we want tender meatballs. Roll the meat into 1-inch balls.",
+    "Heat the olive oil in a large soup pot or dutch oven over medium-high heat.",
+    "Brown the meatballs in batches for 2-3 minutes. The inside of the meatball will finish cooking in the soup. Remove the meatballs and set aside.",
+    "Add the onions, carrots, and celery and sauté for 5 minutes, until softened.",
+    "Add the garlic and sauté 1 minute.",
+    "Add the chicken broth, Italian seasoning, and season with salt and pepper if desired. Bring to a boil.",
+    "Reduce the heat to medium. Add the meatballs and pasta. Simmer for 10 minutes, until the meatballs are cooked through.",
+    "Stir in the spinach.",
+    "Garnish with fresh parsley and Parmesan cheese and serve!"
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Italian Wedding Soup.pdf",
+  "contributor": null,
+  "image": null
+}

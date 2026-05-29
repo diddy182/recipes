@@ -9,8 +9,7 @@ function apply(){
   const q = search.value.trim().toLowerCase();
   let shown = 0;
   cards.forEach(card => {
-    const hay = card.dataset.title + ' ' + card.dataset.tags;
-    const matchText = !q || hay.includes(q);
+    const matchText = !q || card.dataset.search.includes(q);
     const matchCat = activeCat === 'all' || card.dataset.category === activeCat;
     const show = matchText && matchCat;
     card.style.display = show ? '' : 'none';

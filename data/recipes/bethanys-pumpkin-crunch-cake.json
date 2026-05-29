@@ -1,0 +1,48 @@
+{
+  "slug": "bethanys-pumpkin-crunch-cake",
+  "title": "Bethany's Pumpkin Crunch Cake",
+  "description": "A holiday-favorite dump cake: spiced pumpkin custard topped with a buttery spice-cake-and-pecan crunch, chilled and served with whipped cream.",
+  "source_name": "platedcravings.com",
+  "source_url": null,
+  "yield": "20 servings",
+  "prep_time": "10 mins",
+  "cook_time": "50 mins",
+  "total_time": "1 hr",
+  "category": "Dessert",
+  "tags": ["dessert", "cake", "pumpkin", "holiday", "fall", "pecan", "family"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "15 ounce can pumpkin puree",
+        "12 fluid ounce can evaporated milk",
+        "3 large eggs",
+        "½ cup granulated sugar",
+        "½ cup brown sugar",
+        "1½ tsp cinnamon",
+        "½ tsp nutmeg",
+        "½ tsp ginger",
+        "¼ tsp cloves",
+        "1 teaspoon salt",
+        "1 spice cake mix (15.25 ounce package, see notes)",
+        "½ cup unsalted butter, melted",
+        "1½ cups chopped pecans"
+      ]
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 350°F (175°C). Lightly grease and flour the bottom of a 9x13 inch baking pan.",
+    "In a large bowl, combine pumpkin puree, evaporated milk, eggs, white sugar, brown sugar, spices, and salt. Mix until well combined and smooth. Pour into the prepared baking pan.",
+    "Combine cake mix and melted butter with a fork or pastry cutter. Mix in chopped pecans. Sprinkle over pumpkin mixture.",
+    "Bake for 50–55 minutes, or until a wooden skewer inserted in the center comes out clean. Let cool completely in the pan on a wire rack then refrigerate for at least 4 hours or overnight.",
+    "Serve topped with whipped cream."
+  ],
+  "notes": [
+    {"label": "Cake mix", "text": "Use a 15.25 ounce package of spice cake mix; do not prepare it — it goes on dry, cut into the melted butter."}
+  ],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Bethany/Bethany’s Pumpkin Crunch Cake.pdf",
+  "contributor": "Bethany",
+  "image": null
+}

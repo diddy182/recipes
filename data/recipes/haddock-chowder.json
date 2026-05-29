@@ -1,0 +1,55 @@
+{
+  "slug": "haddock-chowder",
+  "title": "Haddock Chowder",
+  "description": "A creamy New England-style fish chowder with bacon, potatoes, corn, and tender flaky fish, finished with heavy cream and parsley.",
+  "source_name": "growagoodlife.com",
+  "source_url": null,
+  "yield": "6 main-dish servings",
+  "prep_time": "10 mins",
+  "cook_time": "20 mins",
+  "total_time": "30 mins",
+  "category": "Soup",
+  "tags": [
+    "soup",
+    "chowder",
+    "haddock",
+    "fish",
+    "seafood",
+    "bacon",
+    "dinner"
+  ],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "4 slices bacon",
+        "1 medium onion (chopped)",
+        "4 cups water (or fish or clam stock)",
+        "1 pound red potatoes (about 3 medium, cut into ¼-inch cubes)",
+        "1 pound skinless haddock or cod fillets (cut into ½-inch pieces)",
+        "1 cup corn",
+        "2 cups heavy cream",
+        "1 tablespoon chopped parsley",
+        "½ teaspoon salt",
+        "⅛ teaspoon ground black pepper",
+        "Butter",
+        "Green onions or chives, as a garnish (optional)"
+      ]
+    }
+  ],
+  "instructions": [
+    "In a large saucepan over medium heat, cook the bacon until crisp. Remove the bacon from the pan, place it on a plate, and crumble once it has cooled. Set aside.",
+    "Add the onions to the bacon drippings in the pan and cook until the onions are soft, about 3-5 minutes.",
+    "Deglaze the pan by adding about ½ cup of the water. As the liquid bubbles and simmers, scrape the bottom of the pan with a wooden spoon to release the flavor-infused brown bits.",
+    "Add the rest of the water and the potatoes. Bring the pan to a boil over medium-high heat, then reduce the heat to medium and simmer until the potatoes are partially cooked, about 5-7 minutes.",
+    "Add the fish and corn to the saucepan and simmer until the fish flakes easily with a fork and the potatoes are soft, about 3-5 minutes.",
+    "Add the heavy cream, parsley, salt, and pepper, and cook while stirring until the chowder thickens. Reduce the heat to medium-low and simmer for 5 minutes longer.",
+    "Serve warm in bowls topped with a pat of butter and the reserved bacon. Makes 6 main-dish servings, or 10 side-dish servings."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Jordan/Haddock Chowder.pdf",
+  "contributor": null,
+  "image": null
+}

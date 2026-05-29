@@ -1,0 +1,33 @@
+{
+  "slug": "avocado-salad",
+  "title": "Avocado Salad",
+  "description": "A quick three-ingredient avocado salad with lime juice, fresh cilantro, and salt.",
+  "source_name": "willcookforsmiles.com",
+  "source_url": null,
+  "yield": "2 servings",
+  "prep_time": "10 mins",
+  "cook_time": null,
+  "total_time": "10 mins",
+  "category": "Side",
+  "tags": ["side", "salad", "avocado", "no-cook", "quick", "healthy"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1 ripe avocado",
+        "1 tablespoon lime juice",
+        "1 tablespoon minced fresh cilantro",
+        "Salt"
+      ]
+    }
+  ],
+  "instructions": [
+    "Cut the avocado in half, take out the pit, and take off the skin. Chop the avocado and add it to a small bowl. Add the lime juice, cilantro, and salt. Gently mix."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Avocado Salad.pdf",
+  "contributor": null,
+  "image": null
+}

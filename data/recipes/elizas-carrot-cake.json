@@ -1,0 +1,57 @@
+{
+  "slug": "elizas-carrot-cake",
+  "title": "Eliza's Carrot Cake",
+  "description": "A moist, spiced carrot cake loaded with coconut, crushed pineapple, and walnuts, layered and frosted with classic cream cheese frosting.",
+  "source_name": "norinesnest.com",
+  "source_url": null,
+  "yield": "12-16 servings",
+  "prep_time": "20 mins",
+  "cook_time": "40 mins",
+  "total_time": "1 hr",
+  "category": "Dessert",
+  "tags": ["dessert", "cake", "carrot cake", "cream cheese frosting", "coconut", "pineapple", "walnut", "family"],
+  "ingredients": [
+    {
+      "heading": "Cake",
+      "items": [
+        "3 eggs",
+        "¾ cup buttermilk",
+        "¾ cup vegetable oil",
+        "1½ cups white sugar",
+        "2 teaspoons vanilla extract",
+        "2 teaspoons ground cinnamon",
+        "¼ teaspoon salt",
+        "2 cups all-purpose flour",
+        "2 teaspoons baking soda",
+        "2 cups shredded carrots",
+        "1 cup flaked coconut",
+        "1 (8 ounce) can crushed pineapple with juice",
+        "1 cup chopped walnuts"
+      ]
+    },
+    {
+      "heading": "Cream Cheese Frosting",
+      "items": [
+        "½ cup butter, softened",
+        "8 oz. cream cheese, softened",
+        "1 tsp vanilla extract",
+        "1 lb. powdered sugar"
+      ]
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 350°F. Grease and flour two or three 8-inch pans, depending on whether you're making a two- or three-layer cake.",
+    "In your mixer bowl, combine eggs, buttermilk, oil, sugar, and vanilla. Mix well.",
+    "Add the flour, baking soda, salt, and cinnamon. Mix till well blended.",
+    "Add the carrots, coconut, crushed pineapple with juice, and chopped walnuts. Mix till just blended.",
+    "Pour into the prepared 8-inch cake rounds and bake at 350°F for 35 minutes. It's done when a finger lightly pressed in the center bounces back.",
+    "Allow to cool in the cake pans. Invert onto a cake plate and frost each layer.",
+    "For the frosting: beat the butter and cream cheese until nice and fluffy. Add the vanilla and sifted powdered sugar and beat until smooth. If too thin, add powdered sugar 2 tablespoons at a time; if too thick, add a teaspoon of milk at a time."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Eliza/Eliza's Carrot Cake.pdf",
+  "contributor": "Eliza",
+  "image": null
+}

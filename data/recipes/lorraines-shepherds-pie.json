@@ -1,0 +1,41 @@
+{
+  "slug": "lorraines-shepherds-pie",
+  "title": "Lorraine's Memere's Shepherd's Pie",
+  "description": "A comforting layered shepherd's pie with seasoned ground beef in gravy, mixed vegetables, and mashed potatoes topped with melted cheddar.",
+  "source_name": "southernhomeexpress.com",
+  "source_url": null,
+  "yield": "6 servings",
+  "prep_time": "10 mins",
+  "cook_time": "30 mins",
+  "total_time": "40 mins",
+  "category": "Dinner",
+  "tags": ["dinner", "shepherd's pie", "ground beef", "casserole", "family", "comfort food"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1 pound ground beef",
+        "2 cups mashed potatoes",
+        "1½ cups canned mixed vegetables",
+        "½ cup shredded cheddar or Colby cheese",
+        "½ cup beef broth",
+        "1 teaspoon cornstarch"
+      ]
+    }
+  ],
+  "instructions": [
+    "Preheat the oven to 400°F. Spray the bottom of a casserole dish with nonstick cooking spray.",
+    "Brown and drain the ground beef. Pour it into the casserole dish and spread it out evenly across the bottom. Salt and pepper to taste.",
+    "Whisk the cornstarch with the beef broth until there are no lumps. Pour this evenly over the ground beef to make a thick gravy.",
+    "Pour the vegetables over the ground beef and spread them out evenly.",
+    "Top the vegetables with mashed potatoes — either ones you made from scratch or the kind that come in a tub, already prepared. Spread them out evenly over the top.",
+    "Cover with foil and bake for 20-25 minutes. If you want the potatoes to be brown on top, you may leave them uncovered.",
+    "Remove the foil cover and sprinkle the shredded cheese over the top of the potatoes. Return to the oven and bake for another 5-10 minutes, until the cheese has melted. Serve hot."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Lorraine/Memere's Shepherd's Pie.pdf",
+  "contributor": "Lorraine",
+  "image": null
+}

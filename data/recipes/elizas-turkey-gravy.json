@@ -1,0 +1,35 @@
+{
+  "slug": "elizas-turkey-gravy",
+  "title": "Eliza's Turkey Gravy",
+  "description": "A classic pan gravy made from turkey drippings, flour, and liquid — the perfect finish for a holiday turkey.",
+  "source_name": "bettycrocker.com",
+  "source_url": null,
+  "yield": null,
+  "prep_time": "5 mins",
+  "cook_time": null,
+  "total_time": "10 mins",
+  "category": "Side",
+  "tags": ["side", "gravy", "turkey", "thanksgiving", "holiday", "sauce"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "¼ cup turkey drippings (fat and juices from roasted turkey)",
+        "¼ cup Gold Medal all-purpose flour",
+        "2 cups liquid (juices from roasted turkey, broth, water)",
+        "½ teaspoon salt, or less, if using turkey drippings",
+        "½ teaspoon pepper"
+      ]
+    }
+  ],
+  "instructions": [
+    "Pour drippings from roasting pan into a bowl, leaving brown particles in the pan. Return ¼ cup drippings to the roasting pan. (Measure accurately because too little fat makes gravy lumpy.) Stir in the flour. (Measure accurately so gravy is not greasy.)",
+    "Cook over medium heat, stirring constantly, until the mixture is smooth and bubbly. Stir in the liquid. Heat to boiling, stirring constantly. Boil and stir 1 minute. Stir in the salt and pepper."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Eliza/Eliza's Turkey Gravy.pdf",
+  "contributor": "Eliza",
+  "image": null
+}

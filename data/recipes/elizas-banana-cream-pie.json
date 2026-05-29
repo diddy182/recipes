@@ -1,0 +1,61 @@
+{
+  "slug": "elizas-banana-cream-pie",
+  "title": "Eliza's Banana Cream Pie",
+  "description": "A homemade banana cream pie with a baked graham cracker crust, layers of from-scratch vanilla custard and sliced bananas, topped with sweetened whipped cream.",
+  "source_name": "chef-in-training.com",
+  "source_url": null,
+  "yield": "1 pie",
+  "prep_time": null,
+  "cook_time": null,
+  "total_time": null,
+  "category": "Dessert",
+  "tags": ["dessert", "pie", "banana", "custard", "graham cracker", "family"],
+  "ingredients": [
+    {
+      "heading": "Crust",
+      "items": [
+        "1½ cups graham cracker crumbs",
+        "⅓ cup sugar",
+        "6 Tablespoons melted butter"
+      ]
+    },
+    {
+      "heading": "Filling",
+      "items": [
+        "¾ cup sugar",
+        "¼ cup cornstarch",
+        "2 cups half and half",
+        "4 egg yolks",
+        "3 Tablespoons butter",
+        "1½ teaspoons vanilla extract",
+        "2 bananas, sliced"
+      ]
+    },
+    {
+      "heading": "Whipped Cream",
+      "items": [
+        "2 cups heavy whipping cream",
+        "½ cup sugar",
+        "½ teaspoon vanilla"
+      ]
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 375°F.",
+    "In a small bowl, combine graham cracker crumbs and sugar and mix well. Add melted butter and mix until well blended.",
+    "Press into a 9-inch pie pan and bake for 7 minutes. Cool completely.",
+    "In a medium saucepan, combine sugar and cornstarch. Add half and half and egg yolks and whisk until well combined. Bring to a boil over medium heat, stirring constantly. Boil 1 minute and remove from heat. Stir in butter and vanilla.",
+    "Pour half of the filling into the crust.",
+    "Top with sliced bananas to cover the filling, then pour the rest of the filling over the bananas.",
+    "Cover with plastic wrap directly on the filling to avoid a sticky film on top. Chill for at least 3 hours.",
+    "Top with another layer of sliced bananas.",
+    "In a medium mixing bowl, beat the whipping cream at high speed. Gradually add sugar and vanilla. Beat until stiff peaks form — not soft, but not turning to butter either.",
+    "Spread the whipped cream over the top of the bananas and garnish with a few more banana slices. Serve."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Eliza/Eliza's Banana Cream Pie.pdf",
+  "contributor": "Eliza",
+  "image": null
+}

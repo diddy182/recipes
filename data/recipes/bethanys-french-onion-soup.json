@@ -1,0 +1,51 @@
+{
+  "slug": "bethanys-french-onion-soup",
+  "title": "Bethany's French Onion Soup",
+  "description": "Deeply caramelized yellow onions cooked low and slow, deglazed with apple brandy and a whole bottle of wine, simmered in beef broth and finished under the broiler with toasted baguette and melted Gruyère.",
+  "source_name": null,
+  "source_url": null,
+  "yield": "4 servings",
+  "prep_time": null,
+  "cook_time": null,
+  "total_time": null,
+  "category": "Soup",
+  "tags": ["soup", "french onion", "onion", "beef broth", "gruyere", "comfort food"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1½ L beef stock (or veal or chicken broth)",
+        "1 bottle of white wine",
+        "5 yellow onions (big ones)",
+        "2 garlic cloves, finely chopped",
+        "50 g butter",
+        "Splash of olive oil",
+        "Apple brandy (optional)",
+        "2 tsp thyme (or two branches of fresh thyme)",
+        "1 bay leaf",
+        "Salt and pepper",
+        "4 slices of dry or toasted bread (thick)",
+        "150 g Gruyère cheese (or Emmental)"
+      ]
+    }
+  ],
+  "instructions": [
+    "Add butter and olive oil to a large pot.",
+    "Add thinly sliced yellow onions — way more than you think you'll need (they reduce by about 5x). Other onions, shallots, etc. don't work right; it has to be yellow onions.",
+    "Cook on mediumish heat, stirring every few minutes, until the onions get nice and caramel colored, with some sticking on the bottom of the pan.",
+    "Don't try to cook faster. Slow and deep color makes the soup.",
+    "Part way through, add a little salt and the bay leaf, plus fresh thyme. Almost before they're done, add the garlic — enough to scare away vampires.",
+    "Add a good healthy pour of apple brandy (optional) and deglaze the pan, scraping the tasty bits off the bottom.",
+    "Add a whole bottle of wine. White is traditional, but red works too.",
+    "Cook the onions in the wine until the liquid is just about gone.",
+    "Add the beef broth (a roasted beef base like Better Than Bouillon works well). Heat to a simmer.",
+    "To serve, ladle into an oven-safe bowl with toasted baguette set inside the soup.",
+    "Cover with Gruyère cheese and broil until melting and just browning."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Bethanys French Onion Soup.pdf",
+  "contributor": "Bethany",
+  "image": null
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "easiest-peanut-butter-fudge",
+  "title": "Easiest Peanut Butter Fudge Ever",
+  "description": "A four-ingredient peanut butter fudge made on the stovetop with sugar, milk, peanut butter, and vanilla.",
+  "source_name": "food.com",
+  "source_url": null,
+  "yield": "20 servings",
+  "prep_time": null,
+  "cook_time": null,
+  "total_time": "2 hrs 10 mins",
+  "category": "Dessert",
+  "tags": [
+    "dessert",
+    "fudge",
+    "peanut butter",
+    "candy",
+    "no-bake",
+    "easy"
+  ],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "2 cups sugar",
+        "½ cup milk",
+        "1 teaspoon vanilla extract",
+        "¾ cup creamy peanut butter"
+      ]
+    }
+  ],
+  "instructions": [
+    "In a saucepan, slowly bring the milk and sugar to a boil over medium-low heat.",
+    "Boil for exactly 2 and a half minutes, stirring constantly to prevent burning.",
+    "Remove from heat, stir in the peanut butter and vanilla.",
+    "Mix until smooth.",
+    "Pour into a greased 8\"x8\" pan, and let cool before cutting. Enjoy!"
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Easiest Peanut Butter Fudge Ever! Recipe - Food.com.pdf",
+  "contributor": null,
+  "image": "easiest-peanut-butter-fudge.png"
+}

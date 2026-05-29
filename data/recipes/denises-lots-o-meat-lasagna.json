@@ -1,0 +1,52 @@
+{
+  "slug": "denises-lots-o-meat-lasagna",
+  "title": "Denise's Lots O' Meat Lasagna",
+  "description": "A hearty, meat-loaded lasagna with ground chuck and Italian sausage in a rich tomato sauce, layered with a cottage-cheese-and-Parmesan filling and oven-ready noodles.",
+  "source_name": "pauladeenmagazine.com",
+  "source_url": null,
+  "yield": "12 servings",
+  "prep_time": null,
+  "cook_time": null,
+  "total_time": null,
+  "category": "Dinner",
+  "tags": ["dinner", "lasagna", "pasta", "beef", "sausage", "italian", "casserole", "family"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1½ pounds ground chuck",
+        "1 pound ground Italian sausage",
+        "1 large onion, chopped",
+        "2 cloves garlic, minced",
+        "2 (15-ounce) cans tomato sauce",
+        "1 (14.5-ounce) can diced tomatoes with basil, garlic, and oregano",
+        "1 (8-ounce) can tomato sauce",
+        "1 (6-ounce) can tomato paste",
+        "2 teaspoons ground oregano",
+        "1 teaspoon ground basil",
+        "¼ teaspoon salt",
+        "1½ cups small curd cottage cheese",
+        "1 (5-ounce) package grated Parmesan cheese",
+        "2 tablespoons chopped parsley",
+        "2 large eggs, lightly beaten",
+        "9 oven-ready lasagna noodles",
+        "2 (8-ounce) packages shredded mozzarella cheese"
+      ]
+    }
+  ],
+  "instructions": [
+    "In a large saucepan, combine ground chuck, sausage, onion, and garlic. Cook over medium heat until meat is browned and crumbled; drain.",
+    "Return meat to the pan and add the tomato sauce and next 6 ingredients. Bring to a boil, reduce heat, and simmer 30 minutes.",
+    "In a small bowl, combine cottage cheese, Parmesan, parsley, and eggs.",
+    "Preheat oven to 350°F.",
+    "Spoon one-fourth of the sauce into the bottom of a 13x9x2-inch baking pan. Place 3 uncooked lasagna noodles on top of the sauce; do not overlap noodles.",
+    "Spread one-third of the cottage cheese mixture over the noodles, top with one-fourth of the sauce and one-third of the mozzarella. Repeat layers, ending with sauce, reserving one-third of the cheese.",
+    "Bake 45 minutes. Top with remaining cheese and bake 15 minutes, or until hot and bubbly. Let rest 10 minutes before serving."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Denise/Denise's Lots O' Meat Lasagna.pdf",
+  "contributor": "Denise",
+  "image": null
+}

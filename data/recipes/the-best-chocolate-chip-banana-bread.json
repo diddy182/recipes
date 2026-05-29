@@ -1,0 +1,54 @@
+{
+  "slug": "the-best-chocolate-chip-banana-bread",
+  "title": "The Best Chocolate Chip Banana Bread",
+  "description": "An ultra-moist banana bread made with sour cream, mini chocolate chips, and walnuts.",
+  "source_name": "Cookies & Cups",
+  "source_url": null,
+  "yield": "serves 8",
+  "prep_time": "10 mins",
+  "cook_time": "60 mins",
+  "total_time": "1 hr 10 mins",
+  "category": "Bread",
+  "tags": ["bread", "banana bread", "chocolate chip", "baking", "dessert"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "3 medium bananas, divided",
+        "½ cup butter, melted",
+        "1 cup granulated sugar",
+        "2 eggs",
+        "2 teaspoons vanilla",
+        "½ cup sour cream",
+        "1 teaspoon baking soda",
+        "1 teaspoon kosher salt",
+        "1½ cups all-purpose flour",
+        "½ cup mini chocolate chips",
+        "½ cup chopped walnuts"
+      ]
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 350°F. Spray a 9x5 loaf pan with nonstick spray. Line the bottom and up the short sides with a strip of parchment paper. Spray again with nonstick spray. Set aside.",
+    "In a medium bowl mash 2 of the bananas with a fork, leaving them slightly lumpy.",
+    "Slice the remaining banana thinly, and set aside.",
+    "In a large bowl stir together the butter and sugar.",
+    "Mix in the eggs and vanilla and stir until smooth.",
+    "Add the sour cream, mashed bananas, baking soda, and salt, and stir until blended.",
+    "Next mix in the flour until incorporated.",
+    "Fold in the chocolate chips, walnuts, and sliced banana.",
+    "Pour batter into the prepared pan and bake for 50-60 minutes, or until a toothpick inserted in the center comes out clean.",
+    "Cool in the pan for 15 minutes, and then using the parchment paper as handles, carefully lift the banana bread out of the pan to cool on a wire rack."
+  ],
+  "notes": [
+    {
+      "label": null,
+      "text": "Store airtight for up to 3 days."
+    }
+  ],
+  "nutrition": "Calories: 561 | Sugar: 38.7g | Sodium: 478.6mg | Fat: 32.7g | Carbohydrates: 63.2g | Protein: 6.6g | Cholesterol: 82mg",
+  "calories": "561",
+  "pdf": "The Best Chocolate Chip Banana Bread Cookies and Cups.pdf",
+  "contributor": null,
+  "image": null
+}

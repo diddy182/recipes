@@ -1,0 +1,51 @@
+{
+  "slug": "denises-sweet-potato-casserole",
+  "title": "Denise's Sweet Potato Casserole",
+  "description": "A classic holiday sweet potato casserole — mashed sweet potatoes with brown sugar and vanilla under a crumbly pecan streusel, with optional toasted marshmallows.",
+  "source_name": "crunchycreamysweet.com",
+  "source_url": null,
+  "yield": "5 servings",
+  "prep_time": "15 mins",
+  "cook_time": "25 mins",
+  "total_time": "40 mins",
+  "category": "Side Dish",
+  "tags": ["side dish", "sweet potato", "casserole", "holiday", "thanksgiving", "pecan", "family"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "2 lbs sweet potatoes",
+        "2 large eggs",
+        "2 Tablespoons butter",
+        "½ cup packed brown sugar",
+        "½ teaspoon salt (divided)",
+        "1 teaspoon pure vanilla extract"
+      ]
+    },
+    {
+      "heading": "Topping",
+      "items": [
+        "½ cup packed brown sugar",
+        "3 Tablespoons all-purpose flour",
+        "2 Tablespoons butter, melted (cooled)",
+        "¼ cup chopped pecans"
+      ]
+    }
+  ],
+  "instructions": [
+    "Butter a 2-quart casserole dish. Set aside.",
+    "Peel and dice the sweet potatoes. Cook in a pot with water until soft.",
+    "Preheat oven to 350°F.",
+    "Once the potatoes are cooked, drain and mash. Add butter, brown sugar, vanilla, salt, and eggs. Mix well (a whisk helps). Spread the potato mixture in the prepared casserole dish. Set aside.",
+    "In another mixing bowl, mix together the sugar, flour, salt, and nuts. Add the melted butter and stir with a fork until it forms a crumbly dough.",
+    "Sprinkle the topping over the mashed potatoes.",
+    "Bake casserole for 25 minutes. If desired, add mini marshmallows, place the dish back in the oven, and bake until the marshmallows are toasted, about 3 to 5 minutes.",
+    "Cool before serving."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Denise/Denise’s Sweet Potato Casserole.pdf",
+  "contributor": "Denise",
+  "image": null
+}

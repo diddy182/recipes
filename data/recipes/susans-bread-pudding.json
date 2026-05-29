@@ -1,0 +1,49 @@
+{
+  "slug": "susans-bread-pudding",
+  "title": "Susan's Bread Pudding with Vanilla Sauce",
+  "description": "A cozy baked bread pudding spiced with cinnamon and nutmeg, served warm under a rich brown sugar vanilla cream sauce.",
+  "source_name": "pillsbury.com",
+  "source_url": null,
+  "yield": "8 servings",
+  "prep_time": "20 mins",
+  "cook_time": null,
+  "total_time": "1 hr 15 mins",
+  "category": "Dessert",
+  "tags": ["dessert", "bread pudding", "vanilla sauce", "cinnamon", "baking", "comfort food"],
+  "ingredients": [
+    {
+      "heading": "Bread Pudding",
+      "items": [
+        "2½ cups unseasoned toasted bread cubes (from 12-oz. pkg.)",
+        "1½ cups milk",
+        "¼ cup firmly packed brown sugar",
+        "½ teaspoon cinnamon",
+        "½ teaspoon nutmeg",
+        "½ teaspoon vanilla",
+        "2 eggs, beaten"
+      ]
+    },
+    {
+      "heading": "Vanilla Sauce",
+      "items": [
+        "⅓ cup sugar",
+        "⅓ cup firmly packed brown sugar",
+        "⅓ cup whipping cream",
+        "⅓ cup butter",
+        "1 teaspoon vanilla"
+      ]
+    }
+  ],
+  "instructions": [
+    "Heat oven to 350°F. Grease a 1-quart casserole. In the greased casserole, combine the bread cubes and milk; mix well.",
+    "In a medium bowl, combine ¼ cup brown sugar, cinnamon, nutmeg, ½ teaspoon vanilla, and eggs; blend well. Add the egg mixture to the bread cube mixture; mix well.",
+    "Bake at 350°F for 45 to 50 minutes or until the pudding is set.",
+    "In a small saucepan, combine the sugar, ⅓ cup brown sugar, whipping cream, and butter; mix well. Cook over medium heat for about 5 minutes or until the mixture comes to a boil, stirring occasionally. Stir in 1 teaspoon vanilla. Serve the warm sauce over the warm pudding."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Susan/Susan’s Bread Pudding with Vanilla Sauce.pdf",
+  "contributor": "Susan",
+  "image": null
+}

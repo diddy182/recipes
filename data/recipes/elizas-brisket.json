@@ -1,0 +1,47 @@
+{
+  "slug": "elizas-brisket",
+  "title": "Eliza's Brisket",
+  "description": "Braised beef brisket taco filling simmered with tamarind, chipotle peppers in adobo, and brown sugar until fall-apart tender, then shredded in its blended sauce.",
+  "source_name": "tabasco.com",
+  "source_url": null,
+  "yield": "10 servings",
+  "prep_time": null,
+  "cook_time": null,
+  "total_time": null,
+  "category": "Main Course",
+  "tags": ["main course", "beef", "brisket", "tacos", "chipotle", "braised", "dinner"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1 (5-pound) beef brisket",
+        "Kosher salt, to taste",
+        "Freshly ground pepper, to taste",
+        "¼ cup canola oil",
+        "2 white onions, quartered",
+        "12 garlic cloves",
+        "1 pound tamarind paste",
+        "2 (7-ounce) cans chipotle peppers in adobo sauce",
+        "TABASCO Chipotle Sauce, to taste",
+        "1 bay leaf",
+        "4 cups light brown sugar",
+        "4 quarts water"
+      ]
+    }
+  ],
+  "instructions": [
+    "Prepare the taco filling: Clean the brisket by trimming off excess fat, cut into 5-inch pieces, and season with salt and pepper.",
+    "Heat the canola oil in a large, heavy-bottomed, stainless steel pot over medium-high heat. Add the brisket to the pot and sear each side until the meat is deep golden brown. Once browned, remove the brisket from the pot and set aside for later.",
+    "In a separate large, heavy-bottomed, stainless steel pot, sauté the onions and garlic until translucent.",
+    "Add the tamarind paste, chipotle peppers in adobo sauce, TABASCO Chipotle Sauce, bay leaf, brown sugar, and water and bring the mixture to a simmer.",
+    "Once the brown sugar has dissolved within the mixture, add the reserved brisket to the pot, cover with aluminum foil, and simmer 3 hours or until tender. Remove the brisket, shred, and set aside.",
+    "In a food processor, blend the remaining liquid and then combine with the shredded brisket in a bowl or pot until ready to serve.",
+    "If preparing the day before, let the shredded brisket and liquid cool before placing in the fridge overnight. Re-heat in a large, medium- to heavy-weight stainless steel pot before serving."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Eliza/Elizas Brisket.pdf",
+  "contributor": "Eliza",
+  "image": null
+}

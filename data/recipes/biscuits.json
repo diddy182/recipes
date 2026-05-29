@@ -1,0 +1,40 @@
+{
+  "slug": "biscuits",
+  "title": "Biscuits",
+  "description": "Flaky, buttery buttermilk biscuits made with cold butter and a quick fold-and-press technique for tall layers.",
+  "source_name": "Yellowstone Recipe Book",
+  "source_url": null,
+  "yield": "8 biscuits",
+  "prep_time": null,
+  "cook_time": null,
+  "total_time": null,
+  "category": "Bread",
+  "tags": ["bread", "biscuits", "buttermilk", "baking", "side"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "2 cups (250 g) all-purpose flour, plus more for dusting",
+        "2 tablespoons baking powder",
+        "¼ teaspoon baking soda",
+        "1 teaspoon kosher salt",
+        "½ cup (115 g) very cold unsalted butter, diced, plus 1 tablespoon, melted",
+        "1 cup (240 ml) buttermilk"
+      ]
+    }
+  ],
+  "instructions": [
+    "Preheat the oven to 450°F (230°C).",
+    "Sift the flour, baking powder, baking soda, and salt in a food processor bowl.",
+    "Add the cold diced butter, pulse until pea-sized. Add the buttermilk, pulse to form a dough.",
+    "Dust flour on a surface, press the dough into a ½-inch thick disk, fold 5 times, then press again.",
+    "Cut biscuits with a 3-inch cutter, place on a baking sheet, spaced apart.",
+    "Bake 10-13 minutes until golden brown. Brush with melted butter."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Biscuits.pdf",
+  "contributor": null,
+  "image": null
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "double-crust-cheesecake",
+  "title": "Double Crust Cheesecake",
+  "description": "A no-bake cheesecake sandwiched between a graham cracker crust on the bottom and a buttery crumb layer pressed over the top.",
+  "source_name": "recipeoftoday.com",
+  "source_url": null,
+  "yield": null,
+  "prep_time": null,
+  "cook_time": null,
+  "total_time": null,
+  "category": "Dessert",
+  "tags": ["dessert", "cheesecake", "no-bake", "cream cheese", "graham cracker"],
+  "ingredients": [
+    {
+      "heading": "Crusts",
+      "items": [
+        "1 box graham crackers (about 27 graham crackers), smashed into soft crumbs",
+        "½ cup light brown sugar",
+        "1 cup salted butter, melted"
+      ]
+    },
+    {
+      "heading": "Cake",
+      "items": [
+        "2 cups heavy whipping cream",
+        "3 (8-ounce) packages cream cheese, room temperature",
+        "½ cup sugar",
+        "¼ cup sour cream",
+        "2 tablespoons powdered sugar",
+        "2 tablespoons cornstarch (or more powdered sugar)",
+        "2 teaspoons lemon juice",
+        "½ tablespoon vanilla extract"
+      ]
+    }
+  ],
+  "instructions": [
+    "Make the crust mixture: Combine the graham cracker crumbs, brown sugar, and melted butter until all the crumbs are evenly saturated. Pour half into the bottom of a 9-inch springform pan and pack tightly, using the bottom of a dry measuring cup to make it really tight. Put the springform pan in the freezer to set, and set the other half of the crust aside on the counter.",
+    "Using a hand mixer or stand mixer, whip the heavy cream for 2 minutes at medium speed, then add 2 tablespoons of powdered sugar or cornstarch to stabilize. Continue whipping until the cream forms stiff peaks, about 4-5 minutes more.",
+    "In a separate bowl, also using a hand or stand mixer, cream together the cream cheese and sugar. Scrape the sides of the bowl as you go, and mix until completely smooth.",
+    "Add the sour cream, vanilla, lemon juice, and powdered sugar. Whip on high until smooth.",
+    "Gently fold in half the whipped cream, then fold in the other half. Remove the bottom crust from the freezer.",
+    "Pour the filling into the pan and smooth, pressing it down while smoothing to prevent air pockets. Leave room for the top crust.",
+    "Once the filling is smooth, use a spoon to sprinkle over half the remaining crumbs. Use the back of the spoon to smooth and gently press them over the top of the cheesecake. Add the remaining crumbs and continue to press as tightly as possible. Chill until set."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Double Crust Cheesecake.pdf",
+  "contributor": null,
+  "image": null
+}

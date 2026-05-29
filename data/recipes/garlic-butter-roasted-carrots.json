@@ -1,0 +1,39 @@
+{
+  "slug": "garlic-butter-roasted-carrots",
+  "title": "Garlic Butter Roasted Carrots",
+  "description": "Rainbow carrots roasted with garlic butter, salt, and pepper, finished with fresh parsley.",
+  "source_name": "dinnerthendessert.com",
+  "source_url": null,
+  "yield": "6 servings",
+  "prep_time": "10 mins",
+  "cook_time": "30 mins",
+  "total_time": "40 mins",
+  "category": "Side",
+  "tags": ["side", "carrots", "garlic", "roasted", "vegetable", "holiday"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "3 pounds rainbow carrots (any color carrots is fine)",
+        "2 tablespoons butter, melted",
+        "2 tablespoons canola oil",
+        "3 cloves garlic, minced",
+        "Kosher salt and cracked black pepper, to taste",
+        "Parsley (chopped) for garnish"
+      ]
+    }
+  ],
+  "instructions": [
+    "Preheat the oven to 375°F.",
+    "Slice thick carrots in half lengthwise, keep smaller carrots whole.",
+    "Toss with the butter, canola oil, garlic, salt, and pepper (about ½ teaspoon salt and ¼ teaspoon pepper).",
+    "Spread onto a baking sheet and cook for 30-35 minutes.",
+    "Garnish with parsley if desired."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Garlic Butter Roasted Carrots.pdf",
+  "contributor": null,
+  "image": null
+}

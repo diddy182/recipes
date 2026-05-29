@@ -1,0 +1,44 @@
+{
+  "slug": "denises-haddock-broccoli-casserole",
+  "title": "Denise's Haddock & Broccoli Casserole",
+  "description": "A comforting baked haddock casserole layered over rice and broccoli with Muenster cheese and a buttery Ritz cracker crumb topping.",
+  "source_name": null,
+  "source_url": null,
+  "yield": "10 servings",
+  "prep_time": "20 mins",
+  "cook_time": "50 mins",
+  "total_time": "1 hr 10 mins",
+  "category": "Dinner",
+  "tags": ["dinner", "fish", "haddock", "seafood", "broccoli", "casserole", "family"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "2 lb. haddock",
+        "2 tbsp. lemon juice",
+        "¼ c. melted butter",
+        "8–10 slices Muenster cheese",
+        "Salt & pepper",
+        "Rice (cooked, amount to taste)",
+        "1 bag frozen broccoli"
+      ]
+    },
+    {
+      "heading": "Crumb Topping",
+      "items": [
+        "Ritz crackers, crushed",
+        "¼ c. melted butter"
+      ]
+    }
+  ],
+  "instructions": [
+    "Cook the rice. Add rice and frozen broccoli to a 9x13 casserole dish. Lay cheese on top, then lay the fish on top. Lay the cracker crumb on top and pour over the melted butter.",
+    "Bake at 350°F for 40 minutes, removing the tin foil for the last 20 minutes or so."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Denise/Denise's Haddock & Broccoli Casserole.pdf",
+  "contributor": "Denise",
+  "image": null
+}

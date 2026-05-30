@@ -1,0 +1,38 @@
+{
+  "slug": "avocado-egg-salad",
+  "title": "Avocado Egg Salad",
+  "description": "A creamy, no-mayo-heavy egg salad blended with avocado, red wine vinegar, and chives in the food processor. Serve on a sandwich or over a thick slice of tomato.",
+  "source_name": "thepioneerwoman.com",
+  "source_url": null,
+  "yield": "4 servings",
+  "prep_time": "5 mins",
+  "cook_time": null,
+  "total_time": "5 mins",
+  "category": "Salad",
+  "tags": ["salad", "egg salad", "eggs", "avocado", "lunch", "sandwich"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "8 whole hard-boiled eggs, peeled",
+        "2 whole avocados, pitted",
+        "4 Tbsp mayonnaise",
+        "3 tsp red wine vinegar",
+        "½ tsp kosher salt",
+        "black pepper, to taste",
+        "1 tsp chives, chopped"
+      ]
+    }
+  ],
+  "instructions": [
+    "Combine all ingredients (scrape avocado from skin) except for the chopped chives in the bowl of a food processor. Pulse a few times, scraping the bowl once or twice if necessary. Continue pulsing until the salad reaches the consistency you want: chunky or more smooth.",
+    "Remove the blade from the bowl and stir in the chives. Check seasoning and adjust as necessary.",
+    "Serve on a sandwich (spread bread with a mix of Dijon and mayonnaise) or serve on a thick slice of tomato as a cool salad. Sprinkle on extra chives."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "pdf": "Avocado Egg Salad.pdf",
+  "contributor": null,
+  "image": null
+}

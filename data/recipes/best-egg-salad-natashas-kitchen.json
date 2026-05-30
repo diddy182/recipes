@@ -1,0 +1,54 @@
+{
+  "slug": "best-egg-salad-natashas-kitchen",
+  "title": "Best Egg Salad",
+  "description": "The easiest egg salad recipe. Hard-boiled eggs with chives, dill, celery, and onion in the creamiest Dijon mayonnaise dressing. Serve it as a side salad, in a sandwich, over greens, or in lettuce cups.",
+  "source_name": "natashaskitchen.com",
+  "source_url": null,
+  "yield": "4 servings",
+  "prep_time": "5 mins",
+  "cook_time": "15 mins",
+  "total_time": "20 mins",
+  "category": "Salad",
+  "tags": ["salad", "egg salad", "eggs", "lunch", "sandwich", "low carb"],
+  "ingredients": [
+    {
+      "heading": "For the Salad",
+      "items": [
+        "8 hard-boiled eggs",
+        "2 Tbsp celery, finely chopped",
+        "3 Tbsp red onion, finely chopped",
+        "3 Tbsp dill, chopped",
+        "3 Tbsp chives, chopped"
+      ]
+    },
+    {
+      "heading": "For the Dressing",
+      "items": [
+        "⅓ cup mayonnaise",
+        "2 tsp lemon juice",
+        "2 tsp Dijon mustard",
+        "1 garlic clove, minced or pressed",
+        "¼ tsp salt, or to taste",
+        "¼ tsp paprika, or to taste",
+        "¼ tsp ground pepper"
+      ]
+    }
+  ],
+  "instructions": [
+    "Cook eggs — Hard-boil eggs then cool in ice water. Once cooled, peel and chop eggs (we like ours chunky) and place them into a salad bowl.",
+    "Add aromatics and herbs — Add finely chopped celery, red onion, dill and chives.",
+    "Make the dressing — In a separate bowl, combine the ingredients for the dressing.",
+    "Combine — Gently stir the dressing into the egg salad until coated. Season to taste as needed and serve."
+  ],
+  "notes": [
+    {
+      "label": "Make-Ahead and Storage",
+      "text": "Leftover egg salad should not be left at room temperature for longer than 2 hours. Store in an airtight container in the refrigerator for 3–5 days. Since the flavors mellow as the salad stands, season to taste before serving."
+    }
+  ],
+  "nutrition": null,
+  "calories": "290",
+  "pdf": "Best Egg Salad Recipe - NatashasKitchen.com.pdf",
+  "contributor": null,
+  "image": null
+}

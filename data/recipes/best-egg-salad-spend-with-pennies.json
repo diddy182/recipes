@@ -1,0 +1,48 @@
+{
+  "slug": "best-egg-salad-spend-with-pennies",
+  "title": "The Best Egg Salad",
+  "description": "This classic egg salad recipe is easy to make and perfect for egg salad sandwiches — mashed yolks and mayo with chopped egg whites, green onion, celery, and fresh dill.",
+  "source_name": "spendwithpennies.com",
+  "source_url": "https://www.spendwithpennies.com/best-egg-salad-recipe/",
+  "yield": "4 servings",
+  "prep_time": "15 mins",
+  "cook_time": "10 mins",
+  "total_time": "25 mins",
+  "category": "Salad",
+  "tags": ["salad", "egg salad", "eggs", "lunch", "sandwich", "low carb"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "8 large hard-boiled eggs",
+        "½ cup mayonnaise",
+        "1½ teaspoons yellow mustard",
+        "1 green onion",
+        "1 rib celery",
+        "2 teaspoons chopped fresh dill",
+        "salt and black pepper"
+      ]
+    }
+  ],
+  "instructions": [
+    "Cut the eggs in half. Remove the yolks and place them in a bowl or a shallow dish. Finely chop the egg whites.",
+    "Using a fork, mash the egg yolks with mayonnaise, mustard, and a pinch of salt and pepper until smooth and creamy.",
+    "Add the chopped egg whites, green onion, celery, and dill. Stir well. Taste and season with additional salt and pepper if desired.",
+    "Serve on bread or over lettuce."
+  ],
+  "notes": [
+    {
+      "label": "To Hard Boil Eggs",
+      "text": "Place eggs in a saucepan and cover with water ½-inch above the eggs. Bring to a rolling boil over high heat. Remove from the heat and let stand covered for 15–17 minutes (for large eggs). Transfer the eggs to a bowl of ice water for 5 minutes."
+    },
+    {
+      "label": "Storage",
+      "text": "Store leftover egg salad in a covered container in the fridge for up to 4 days."
+    }
+  ],
+  "nutrition": "Calories: 320 | Carbohydrates: 1g | Protein: 11g | Fat: 29g | Saturated Fat: 6g | Cholesterol: 339mg | Sodium: 332mg | Potassium: 147mg | Sugar: 1g | Vitamin A: 570IU | Vitamin C: 0.9mg | Calcium: 53mg | Iron: 1.6mg",
+  "calories": "320",
+  "pdf": "The Best Egg Salad Recipe - Spend With Pennies.pdf",
+  "contributor": null,
+  "image": null
+}

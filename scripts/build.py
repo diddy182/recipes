@@ -161,6 +161,37 @@ def render_source(recipe):
     return "\n".join(lines)
 
 
+def _valid_ratings(recipe):
+    return [r for r in (recipe.get("ratings") or [])
+            if isinstance(r.get("score"), (int, float))]
+
+
+def avg_rating(recipe):
+    rs = _valid_ratings(recipe)
+    return sum(r["score"] for r in rs) / len(rs) if rs else None
+
+
+def fmt_rating(v):
+    """One decimal, but drop it for whole numbers: 8.0 -> '8', 7.5 -> '7.5'."""
+    return f"{v:.0f}" if abs(v - round(v)) < 1e-9 else f"{v:.1f}"
+
+
+def render_ratings(recipe):
+    rs = _valid_ratings(recipe)
+    if not rs:
+        return ""
+    avg = sum(r["score"] for r in rs) / len(rs)
+    people = "".join(
+        f'<li><span class="r-name">{e(r["name"])}</span>'
+        f'<span class="r-score">{fmt_rating(r["score"])}</span></li>'
+        for r in rs
+    )
+    return ('<div class="ratings">'
+            f'<div class="ratings-score"><span class="ratings-avg">{fmt_rating(avg)}</span>'
+            '<span class="ratings-out">/10</span></div>'
+            f'<ul class="ratings-people">{people}</ul></div>')
+
+
 HEAD_META = """<meta name="theme-color" content="#1a1a1a">
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.ico" sizes="any">
@@ -224,6 +255,7 @@ def render_recipe_page(recipe):
 <h1>{e(recipe["title"])}</h1>
 {desc}
 {meta_cells(recipe)}
+{render_ratings(recipe)}
 <a class="download-btn" href="/pdfs/{e(slug)}.pdf" download>Download PDF</a>
 </div>
 {hero}
@@ -253,6 +285,9 @@ def render_card(recipe):
     img_exists = bool(img) and (IMAGES / img).exists()
     thumb = (f'<img loading="lazy" src="/images/{e(img)}" alt="{e(recipe["title"])}">'
              if img_exists else '<div class="noimg"></div>')
+    rating = avg_rating(recipe)
+    badge = (f'<span class="card-rating">{fmt_rating(rating)}<span class="cr-out">/10</span></span>'
+             if rating is not None else "")
     contributor = recipe.get("contributor")
     cat = recipe.get("category") or ""
     meta_bits = [b for b in (cat, f"from {contributor}" if contributor else "") if b]
@@ -265,7 +300,7 @@ def render_card(recipe):
     return f"""<a class="card" href="/recipes/{e(slug)}.html"
   data-category="{e(cat.lower())}"
   data-search="{e(haystack)}">
-  <div class="card-img">{thumb}</div>
+  <div class="card-img">{badge}{thumb}</div>
   <div class="card-body">
     <p class="card-meta">{meta_html}</p>
     <h2>{e(recipe['title'])}</h2>
@@ -350,7 +385,12 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
   gap:36px 28px;padding:48px 0 24px}
 .card{display:flex;flex-direction:column}
-.card-img{aspect-ratio:1/1;background:var(--gray);overflow:hidden}
+.card-img{position:relative;aspect-ratio:1/1;background:var(--gray);overflow:hidden}
+.card-rating{position:absolute;top:9px;right:9px;z-index:1;
+  font-family:var(--sans);font-weight:700;font-size:.8125rem;line-height:1;
+  background:rgba(26,26,26,.82);color:#fff;padding:5px 9px;border-radius:999px;
+  letter-spacing:.01em;-webkit-backdrop-filter:blur(2px);backdrop-filter:blur(2px)}
+.card-rating .cr-out{font-weight:500;opacity:.7;font-size:.6875rem}
 .card-img img{width:100%;height:100%;object-fit:cover;display:block;
   transition:transform .4s ease}
 .card:hover .card-img img{transform:scale(1.04)}
@@ -387,6 +427,17 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;
   background:var(--dark);color:var(--light);padding:13px 26px;
   border-radius:0;transition:background .15s}
 .download-btn:hover{background:var(--text2)}
+.ratings{display:flex;align-items:center;gap:28px;flex-wrap:wrap;
+  margin:0 0 26px;padding:18px 0;
+  border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.ratings-score{display:flex;align-items:baseline;gap:2px}
+.ratings-avg{font-family:var(--sans);font-weight:700;font-size:2.1rem;line-height:1}
+.ratings-out{font-family:var(--sans);font-size:.95rem;color:var(--muted)}
+.ratings-people{list-style:none;margin:0;padding:0;display:flex;gap:24px;flex-wrap:wrap}
+.ratings-people li{display:flex;flex-direction:column;gap:3px}
+.r-name{font-family:var(--sans);font-size:.6875rem;font-weight:600;
+  text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.r-score{font-family:var(--sans);font-size:1.0625rem;font-weight:600}
 
 .recipe-body{display:grid;grid-template-columns:1fr 1.5fr;gap:52px;
   margin-top:40px;padding-top:40px;border-top:1px solid var(--border)}

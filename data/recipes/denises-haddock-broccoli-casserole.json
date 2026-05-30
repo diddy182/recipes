@@ -38,6 +38,10 @@
   "notes": [],
   "nutrition": null,
   "calories": null,
+  "ratings": [
+    {"name": "Jordan", "score": 9},
+    {"name": "Jamie", "score": 7}
+  ],
   "pdf": "Denise/Denise's Haddock & Broccoli Casserole.pdf",
   "contributor": "Denise",
   "image": null

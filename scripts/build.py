@@ -16,6 +16,7 @@ Usage: python scripts/build.py
 import json
 import shutil
 import html
+import hashlib
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -222,7 +223,7 @@ def page_shell(title, body, description=""):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Karla:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/style.css">
+<link rel="stylesheet" href="/assets/style.css?v={ASSET_VER}">
 </head>
 <body>
 {body}
@@ -333,7 +334,7 @@ def render_index(recipes):
 </section>
 </main>
 <footer class="site-footer">{e(FOOTER_TEXT)}</footer>
-<script src="/assets/app.js"></script>"""
+<script src="/assets/app.js?v={ASSET_VER}"></script>"""
     return page_shell(SITE_TITLE, body,
                       description=f"A personal collection of {count} recipes.")
 
@@ -527,12 +528,12 @@ MANIFEST = {
 }
 
 SW = r"""/* Jordan's Recipes — service worker */
-const CACHE_VERSION = 'recipes-v1';
+const CACHE_VERSION = 'recipes-__ASSET_VER__';
 const SHELL = [
   '/',
   '/index.html',
-  '/assets/style.css',
-  '/assets/app.js',
+  '/assets/style.css?v=__ASSET_VER__',
+  '/assets/app.js?v=__ASSET_VER__',
   '/manifest.json',
   '/icons/icon-192.png',
   '/icons/icon-512.png',
@@ -577,6 +578,11 @@ self.addEventListener('fetch', (event) => {
 """
 
 
+# Content hash of the CSS/JS — appended to asset URLs (?v=…) so a new deploy
+# always serves under a fresh URL, defeating Cloudflare/browser caching of stale assets.
+ASSET_VER = hashlib.md5((CSS + JS).encode("utf-8")).hexdigest()[:8]
+
+
 def main():
     recipes = load_recipes()
     print(f"Building {len(recipes)} recipe(s)…")
@@ -589,7 +595,7 @@ def main():
     (ASSETS / "style.css").write_text(CSS, encoding="utf-8")
     (ASSETS / "app.js").write_text(JS, encoding="utf-8")
     (SITE / "manifest.json").write_text(json.dumps(MANIFEST, indent=2), encoding="utf-8")
-    (SITE / "sw.js").write_text(SW, encoding="utf-8")
+    (SITE / "sw.js").write_text(SW.replace("__ASSET_VER__", ASSET_VER), encoding="utf-8")
     print("Done. Open site/index.html")
 
 

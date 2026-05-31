@@ -1,0 +1,46 @@
+{
+  "slug": "jamies-pasta-salad",
+  "title": "Jamie's Pasta Salad",
+  "description": "A hearty cold pasta salad: tri-color rotini tossed with tuna, crunchy bell peppers, cucumber, and whole cherry tomatoes in ranch dressing.",
+  "source_name": null,
+  "source_url": null,
+  "yield": "8 servings",
+  "prep_time": "20 mins",
+  "cook_time": "10 mins",
+  "total_time": "30 mins, plus chilling",
+  "category": "Salad",
+  "tags": ["salad", "pasta salad", "tuna", "rotini", "ranch", "cold", "potluck"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "2 boxes tri-color rotini",
+        "1 red bell pepper",
+        "1 yellow bell pepper",
+        "1 green bell pepper",
+        "1 large cucumber",
+        "1 bottle ranch or bacon ranch dressing",
+        "1–2 cans tuna, drained",
+        "Cherry tomatoes, lots (1–2 pints), left whole"
+      ]
+    }
+  ],
+  "instructions": [
+    "Boil the tri-color rotini until al dente, then drain. Put it in a mixing bowl and refrigerate until cool.",
+    "Cut the bell peppers into 1–2 cm strips. Cut the cucumber into quarters lengthwise, then slice.",
+    "Add ranch dressing to the cooled pasta, then add the drained tuna.",
+    "Add the vegetables, leaving the cherry tomatoes whole. Stir until well mixed."
+  ],
+  "notes": [
+    {
+      "label": "Tip",
+      "text": "Bacon ranch works great here too. Keep chilled until ready to serve."
+    }
+  ],
+  "nutrition": null,
+  "calories": null,
+  "added": "2026-05-31",
+  "pdf": null,
+  "contributor": "Jamie",
+  "image": "jamies-pasta-salad.png"
+}

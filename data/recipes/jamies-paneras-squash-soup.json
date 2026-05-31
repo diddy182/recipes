@@ -1,0 +1,47 @@
+{
+  "slug": "jamies-paneras-squash-soup",
+  "title": "Jamie's Paneras Squash Soup",
+  "description": "Seared cubed chicken thigh and tender pearl onions stirred into Panera's Autumn Squash Soup, seasoned with garlic and rosemary. Served with buttered scali bread.",
+  "source_name": null,
+  "source_url": null,
+  "yield": "3–4 servings",
+  "prep_time": "10 mins",
+  "cook_time": "20 mins",
+  "total_time": "30 mins",
+  "category": "Soup",
+  "tags": ["soup", "chicken", "squash", "pearl onions", "panera", "comfort food", "dinner"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1 tub frozen Panera Autumn Squash Soup",
+        "1 large chicken thigh",
+        "1 can or bag pearl onions",
+        "Garlic, minced (to taste)",
+        "Rosemary (1 sprig or to taste)",
+        "Olive oil, for searing",
+        "Salt and pepper, to taste",
+        "Scali bread, buttered, for serving"
+      ]
+    }
+  ],
+  "instructions": [
+    "Heat the soup in a medium saucepan.",
+    "Cut the chicken thigh into cubes, removing some of the fat — keep the fat.",
+    "In a frying pan, sear the chicken in olive oil with salt, pepper, garlic, the pearl onions, and the separated chicken fat. Sear until the chicken has a slight char on the outside and is cooked through, and the onions are tender.",
+    "Season the soup with salt, pepper, garlic, and rosemary. Once hot, add the chicken and onions, leaving the fat behind in the pan.",
+    "Serve with buttered scali bread."
+  ],
+  "notes": [
+    {
+      "label": "Tip",
+      "text": "Scali bread is a soft Italian sesame loaf — buttered and lightly toasted, it's perfect for dipping."
+    }
+  ],
+  "nutrition": null,
+  "calories": null,
+  "added": "2026-05-31",
+  "pdf": null,
+  "contributor": "Jamie",
+  "image": "jamies-paneras-squash-soup.png"
+}

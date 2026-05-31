@@ -1,0 +1,38 @@
+{
+  "slug": "jamies-eggs-in-a-basket",
+  "title": "Jamie's Eggs in a Basket",
+  "description": "Buttered bread with a circle cut from the center, fried with an egg cracked into the hole and the cut-out round fried alongside. Finished with butter and maple syrup.",
+  "source_name": null,
+  "source_url": null,
+  "yield": "1 serving",
+  "prep_time": "5 mins",
+  "cook_time": "5 mins",
+  "total_time": "10 mins",
+  "category": "Breakfast",
+  "tags": ["breakfast", "eggs", "egg in a basket", "bread", "quick", "kids"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1 slice white or wheat bread",
+        "1 egg",
+        "Butter",
+        "Maple syrup, for serving"
+      ]
+    }
+  ],
+  "instructions": [
+    "Butter the bread. Using a small round cutter (or a cup) that fits within the bread, cut out a circle from the center.",
+    "Place both the bread and the separated buttered circle in a frying pan.",
+    "Crack an egg into the middle of the hole in the bread.",
+    "Fry until the egg is mostly set on the bottom, then flip the bread. Flip the buttered circle too.",
+    "Top with more butter and maple syrup."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "added": "2026-05-31",
+  "pdf": null,
+  "contributor": "Jamie",
+  "image": "jamies-eggs-in-a-basket.png"
+}

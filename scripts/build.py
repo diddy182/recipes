@@ -245,6 +245,8 @@ def render_recipe_page(recipe):
     if contributor:
         eyebrow_bits.append(f"from {contributor}")
     eyebrow = '<span>' + '</span><span>'.join(e(b) for b in eyebrow_bits) + '</span>'
+    pdf_btn = (f'<a class="download-btn" href="/pdfs/{e(slug)}.pdf" download>Download PDF</a>'
+               if (PDFS / f"{slug}.pdf").exists() else "")
     body = f"""<header class="site-header">
 <a class="brand" href="/index.html">{e(SITE_TITLE)}</a>
 <a class="back" href="/index.html"><span class="arr">←</span> All recipes</a>
@@ -258,7 +260,7 @@ def render_recipe_page(recipe):
 {desc}
 {meta_cells(recipe)}
 {render_ratings(recipe)}
-<a class="download-btn" href="/pdfs/{e(slug)}.pdf" download>Download PDF</a>
+{pdf_btn}
 </div>
 {hero}
 </div>

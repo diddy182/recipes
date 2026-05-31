@@ -41,6 +41,11 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;
   border-radius:0;outline:none;transition:border-color .15s}
 #search:focus{border-color:var(--dark)}
 .chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:22px}
+.people-row{display:flex;align-items:center;justify-content:center;gap:12px;
+  flex-wrap:wrap;margin-top:14px;padding-top:14px;border-top:1px solid var(--border-soft)}
+.people-label{font-family:var(--sans);font-size:.6875rem;font-weight:700;
+  text-transform:uppercase;letter-spacing:.12em;color:var(--muted2);white-space:nowrap}
+.people-chips{margin-top:0}
 .chip{font-family:var(--sans);font-size:.8125rem;font-weight:500;
   color:var(--text2);background:var(--gray);border:1px solid var(--border-soft);
   padding:7px 15px;border-radius:999px;cursor:pointer;transition:.15s}

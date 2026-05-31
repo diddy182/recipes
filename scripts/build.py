@@ -303,6 +303,7 @@ def render_card(recipe):
     ])
     return f"""<a class="card" href="/recipes/{e(slug)}.html"
   data-category="{e(cat.lower())}"
+  data-contributor="{e((contributor or '').lower())}"
   data-search="{e(haystack)}">
   <div class="card-img">{badge}{thumb}</div>
   <div class="card-body">
@@ -312,7 +313,7 @@ def render_card(recipe):
 </a>"""
 
 
-def render_recent(recipes, n=8):
+def render_recent(recipes, n=12):
     """Strip of the most-recently-added recipes (those with an 'added' date)."""
     dated = [r for r in recipes if r.get("added")]
     if not dated:
@@ -331,6 +332,11 @@ def render_index(recipes):
     chips += "".join(
         f'<button class="chip" data-cat="{e(c.lower())}">{e(c)}</button>' for c in cats
     )
+    people = sorted({r.get("contributor") for r in recipes if r.get("contributor")})
+    people_chips = '<button class="chip active" data-person="all">Everyone</button>'
+    people_chips += "".join(
+        f'<button class="chip" data-person="{e(p.lower())}">{e(p)}</button>' for p in people
+    )
     cards = "\n".join(render_card(r) for r in
                       sorted(recipes, key=lambda r: r["title"].lower()))
     count = len(recipes)
@@ -343,6 +349,10 @@ def render_index(recipes):
 <p class="tagline">A collection of {count} recipe{'s' if count != 1 else ''} — clipped, cooked, and kept.</p>
 <input id="search" type="search" placeholder="Search by name, ingredient, or tag…" autocomplete="off">
 <div class="chips">{chips}</div>
+<div class="people-row">
+<span class="people-label">By person</span>
+<div class="chips people-chips">{people_chips}</div>
+</div>
 </section>
 {render_recent(recipes)}
 <h2 class="section-title all-title" id="all-title">All Recipes</h2>
@@ -400,6 +410,11 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;
   border-radius:0;outline:none;transition:border-color .15s}
 #search:focus{border-color:var(--dark)}
 .chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:22px}
+.people-row{display:flex;align-items:center;justify-content:center;gap:12px;
+  flex-wrap:wrap;margin-top:14px;padding-top:14px;border-top:1px solid var(--border-soft)}
+.people-label{font-family:var(--sans);font-size:.6875rem;font-weight:700;
+  text-transform:uppercase;letter-spacing:.12em;color:var(--muted2);white-space:nowrap}
+.people-chips{margin-top:0}
 .chip{font-family:var(--sans);font-size:.8125rem;font-weight:500;
   color:var(--text2);background:var(--gray);border:1px solid var(--border-soft);
   padding:7px 15px;border-radius:999px;cursor:pointer;transition:.15s}
@@ -522,11 +537,13 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;
 JS = r"""const search = document.getElementById('search');
 const grid = document.getElementById('grid');
 const cards = Array.from(grid.querySelectorAll('.card'));
-const chips = Array.from(document.querySelectorAll('.chip'));
+const catChips = Array.from(document.querySelectorAll('.chip[data-cat]'));
+const personChips = Array.from(document.querySelectorAll('.chip[data-person]'));
 const empty = document.getElementById('empty');
 const recent = document.getElementById('recent');
 const allTitle = document.getElementById('all-title');
 let activeCat = 'all';
+let activePerson = 'all';
 
 function apply(){
   const q = search.value.trim().toLowerCase();
@@ -534,23 +551,30 @@ function apply(){
   cards.forEach(card => {
     const matchText = !q || card.dataset.search.includes(q);
     const matchCat = activeCat === 'all' || card.dataset.category === activeCat;
-    const show = matchText && matchCat;
+    const matchPerson = activePerson === 'all' || card.dataset.contributor === activePerson;
+    const show = matchText && matchCat && matchPerson;
     card.style.display = show ? '' : 'none';
     if (show) shown++;
   });
   empty.hidden = shown !== 0;
   // The "Recently Added" strip and "All Recipes" heading are browse-only —
   // hide them once the user starts searching or filtering.
-  const browsing = !q && activeCat === 'all';
+  const browsing = !q && activeCat === 'all' && activePerson === 'all';
   if (recent) recent.style.display = browsing ? '' : 'none';
   if (allTitle) allTitle.style.display = browsing ? '' : 'none';
 }
 
 search.addEventListener('input', apply);
-chips.forEach(chip => chip.addEventListener('click', () => {
-  chips.forEach(c => c.classList.remove('active'));
+catChips.forEach(chip => chip.addEventListener('click', () => {
+  catChips.forEach(c => c.classList.remove('active'));
   chip.classList.add('active');
   activeCat = chip.dataset.cat;
+  apply();
+}));
+personChips.forEach(chip => chip.addEventListener('click', () => {
+  personChips.forEach(c => c.classList.remove('active'));
+  chip.classList.add('active');
+  activePerson = chip.dataset.person;
   apply();
 }));
 """

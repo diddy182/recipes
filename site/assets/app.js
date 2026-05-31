@@ -3,6 +3,8 @@ const grid = document.getElementById('grid');
 const cards = Array.from(grid.querySelectorAll('.card'));
 const chips = Array.from(document.querySelectorAll('.chip'));
 const empty = document.getElementById('empty');
+const recent = document.getElementById('recent');
+const allTitle = document.getElementById('all-title');
 let activeCat = 'all';
 
 function apply(){
@@ -16,6 +18,11 @@ function apply(){
     if (show) shown++;
   });
   empty.hidden = shown !== 0;
+  // The "Recently Added" strip and "All Recipes" heading are browse-only —
+  // hide them once the user starts searching or filtering.
+  const browsing = !q && activeCat === 'all';
+  if (recent) recent.style.display = browsing ? '' : 'none';
+  if (allTitle) allTitle.style.display = browsing ? '' : 'none';
 }
 
 search.addEventListener('input', apply);

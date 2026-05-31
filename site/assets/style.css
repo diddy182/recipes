@@ -44,6 +44,15 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;
 /* Grid of recipe cards */
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
   gap:36px 28px;padding:48px 0 24px}
+.section-title{font-family:var(--sans);font-size:.75rem;font-weight:700;
+  text-transform:uppercase;letter-spacing:.13em;color:var(--muted);
+  margin:0;padding-top:40px}
+.recent{padding-bottom:8px;border-bottom:1px solid var(--border)}
+.recent .section-title{padding-top:36px}
+.recent-grid{padding-top:24px;padding-bottom:0}
+.all-title{padding-top:36px}
+.all-title + .empty + .grid,
+.all-title + .grid{padding-top:24px}
 .card{display:flex;flex-direction:column}
 .card-img{position:relative;aspect-ratio:1/1;background:var(--gray);overflow:hidden}
 .card-rating{position:absolute;top:9px;right:9px;z-index:1;

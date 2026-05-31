@@ -309,6 +309,19 @@ def render_card(recipe):
 </a>"""
 
 
+def render_recent(recipes, n=4):
+    """Strip of the most-recently-added recipes (those with an 'added' date)."""
+    dated = [r for r in recipes if r.get("added")]
+    if not dated:
+        return ""
+    dated.sort(key=lambda r: r["title"].lower())            # title asc…
+    dated.sort(key=lambda r: r["added"], reverse=True)      # …then newest first (stable)
+    cards = "\n".join(render_card(r) for r in dated[:n])
+    return ('<section class="recent" id="recent">'
+            '<h2 class="section-title">Recently Added</h2>'
+            f'<div class="grid recent-grid">{cards}</div></section>')
+
+
 def render_index(recipes):
     cats = sorted({r.get("category") for r in recipes if r.get("category")})
     chips = '<button class="chip active" data-cat="all">All</button>'
@@ -328,6 +341,8 @@ def render_index(recipes):
 <input id="search" type="search" placeholder="Search by name, ingredient, or tag…" autocomplete="off">
 <div class="chips">{chips}</div>
 </section>
+{render_recent(recipes)}
+<h2 class="section-title all-title" id="all-title">All Recipes</h2>
 <p id="empty" class="empty" hidden>No recipes match your search.</p>
 <section class="grid" id="grid">
 {cards}
@@ -385,6 +400,15 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;
 /* Grid of recipe cards */
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
   gap:36px 28px;padding:48px 0 24px}
+.section-title{font-family:var(--sans);font-size:.75rem;font-weight:700;
+  text-transform:uppercase;letter-spacing:.13em;color:var(--muted);
+  margin:0;padding-top:40px}
+.recent{padding-bottom:8px;border-bottom:1px solid var(--border)}
+.recent .section-title{padding-top:36px}
+.recent-grid{padding-top:24px;padding-bottom:0}
+.all-title{padding-top:36px}
+.all-title + .empty + .grid,
+.all-title + .grid{padding-top:24px}
 .card{display:flex;flex-direction:column}
 .card-img{position:relative;aspect-ratio:1/1;background:var(--gray);overflow:hidden}
 .card-rating{position:absolute;top:9px;right:9px;z-index:1;
@@ -486,6 +510,8 @@ const grid = document.getElementById('grid');
 const cards = Array.from(grid.querySelectorAll('.card'));
 const chips = Array.from(document.querySelectorAll('.chip'));
 const empty = document.getElementById('empty');
+const recent = document.getElementById('recent');
+const allTitle = document.getElementById('all-title');
 let activeCat = 'all';
 
 function apply(){
@@ -499,6 +525,11 @@ function apply(){
     if (show) shown++;
   });
   empty.hidden = shown !== 0;
+  // The "Recently Added" strip and "All Recipes" heading are browse-only —
+  // hide them once the user starts searching or filtering.
+  const browsing = !q && activeCat === 'all';
+  if (recent) recent.style.display = browsing ? '' : 'none';
+  if (allTitle) allTitle.style.display = browsing ? '' : 'none';
 }
 
 search.addEventListener('input', apply);

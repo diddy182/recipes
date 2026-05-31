@@ -55,7 +55,12 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;
   margin:0;padding-top:40px}
 .recent{padding-bottom:8px;border-bottom:1px solid var(--border)}
 .recent .section-title{padding-top:36px}
-.recent-grid{padding-top:24px;padding-bottom:0}
+.recent-grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr));
+  gap:24px 18px;padding-top:24px;padding-bottom:0}
+.recent-grid .card-body{padding-top:10px}
+.recent-grid .card-body h2{font-size:1.0625rem;line-height:1.25}
+.recent-grid .card-meta{font-size:.625rem}
+.recent-grid .card-rating{font-size:.6875rem;padding:4px 7px;top:7px;right:7px}
 .all-title{padding-top:36px}
 .all-title + .empty + .grid,
 .all-title + .grid{padding-top:24px}

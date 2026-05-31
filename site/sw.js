@@ -1,10 +1,10 @@
 /* Jordan's Recipes — service worker */
-const CACHE_VERSION = 'recipes-0b86ccd3';
+const CACHE_VERSION = 'recipes-37da8975';
 const SHELL = [
   '/',
   '/index.html',
-  '/assets/style.css?v=0b86ccd3',
-  '/assets/app.js?v=0b86ccd3',
+  '/assets/style.css?v=37da8975',
+  '/assets/app.js?v=37da8975',
   '/manifest.json',
   '/app-icons/icon-192.png',
   '/app-icons/icon-512.png',

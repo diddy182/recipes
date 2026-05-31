@@ -1,14 +1,14 @@
 /* Jordan's Recipes — service worker */
-const CACHE_VERSION = 'recipes-393857d0';
+const CACHE_VERSION = 'recipes-393857d0-appicons';
 const SHELL = [
   '/',
   '/index.html',
   '/assets/style.css?v=393857d0',
   '/assets/app.js?v=393857d0',
   '/manifest.json',
-  '/icons/icon-192.png',
-  '/icons/icon-512.png',
-  '/icons/icon-180.png',
+  '/app-icons/icon-192.png',
+  '/app-icons/icon-512.png',
+  '/app-icons/icon-180.png',
 ];
 
 self.addEventListener('install', (event) => {

@@ -8,7 +8,7 @@ For each recipe JSON it:
 Then it renders site/index.html (search + category filters + cards), writes the
 CSS/JS assets, and the PWA manifest + service worker.
 
-All asset URLs are absolute ("/assets/...", "/icons/...") because the Apache
+All asset URLs are absolute ("/assets/...", "/app-icons/...") because the Apache
 docroot is the site/ folder itself.
 
 Usage: python scripts/build.py
@@ -196,8 +196,8 @@ def render_ratings(recipe):
 HEAD_META = """<meta name="theme-color" content="#1a1a1a">
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" type="image/png" href="/icons/icon-32.png">
-<link rel="apple-touch-icon" href="/icons/icon-180.png">
+<link rel="icon" type="image/png" href="/app-icons/icon-32.png">
+<link rel="apple-touch-icon" href="/app-icons/icon-180.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -520,9 +520,9 @@ MANIFEST = {
     "background_color": "#ffffff",
     "theme_color": "#1a1a1a",
     "icons": [
-        {"src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
-        {"src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png"},
-        {"src": "/icons/icon-maskable-512.png", "sizes": "512x512",
+        {"src": "/app-icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+        {"src": "/app-icons/icon-512.png", "sizes": "512x512", "type": "image/png"},
+        {"src": "/app-icons/icon-maskable-512.png", "sizes": "512x512",
          "type": "image/png", "purpose": "maskable"},
     ],
 }
@@ -535,9 +535,9 @@ const SHELL = [
   '/assets/style.css?v=__ASSET_VER__',
   '/assets/app.js?v=__ASSET_VER__',
   '/manifest.json',
-  '/icons/icon-192.png',
-  '/icons/icon-512.png',
-  '/icons/icon-180.png',
+  '/app-icons/icon-192.png',
+  '/app-icons/icon-512.png',
+  '/app-icons/icon-180.png',
 ];
 
 self.addEventListener('install', (event) => {

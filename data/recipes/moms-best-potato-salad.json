@@ -3,7 +3,7 @@
   "title": "Mom's Best Potato Salad",
   "description": "A classic, creamy potato salad with tender potatoes and eggs in a tangy mayonnaise and sour cream dressing with sweet pickle relish and dill.",
   "source_name": "Favorite Family Recipes",
-  "source_url": null,
+  "source_url": "https://www.favfamilyrecipes.com/homestyle-potato-salad/",
   "yield": "10 servings",
   "prep_time": "20 mins",
   "cook_time": "40 mins",
@@ -54,5 +54,5 @@
   "calories": "236kcal",
   "pdf": "Mom's Best Potato Salad Recipe - Favorite Family Recipes.pdf",
   "contributor": null,
-  "image": null
+  "image": "moms-best-potato-salad.png"
 }

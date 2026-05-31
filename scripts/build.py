@@ -247,9 +247,10 @@ def render_recipe_page(recipe):
     eyebrow = '<span>' + '</span><span>'.join(e(b) for b in eyebrow_bits) + '</span>'
     body = f"""<header class="site-header">
 <a class="brand" href="/index.html">{e(SITE_TITLE)}</a>
-<a class="back" href="/index.html">All recipes</a>
+<a class="back" href="/index.html"><span class="arr">←</span> All recipes</a>
 </header>
 <main class="recipe">
+<a class="back-top" href="/index.html"><span class="arr">←</span> Back to all recipes</a>
 <div class="{top_class}">
 <div class="recipe-head">
 <p class="eyebrow">{eyebrow}</p>
@@ -378,6 +379,12 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;
   text-transform:uppercase;letter-spacing:.08em;color:var(--muted);
   border-bottom:1px solid transparent;padding-bottom:1px;transition:.15s}
 .back:hover{color:var(--dark);border-bottom-color:var(--dark)}
+.back .arr{border-bottom:none}
+.back-top{display:inline-flex;align-items:center;gap:7px;font-family:var(--sans);
+  font-weight:600;font-size:.8125rem;text-transform:uppercase;letter-spacing:.08em;
+  color:var(--muted);margin:0 0 26px;transition:color .15s}
+.back-top:hover{color:var(--dark)}
+.back-top .arr{font-size:1.05rem;line-height:1}
 .site-footer{font-family:var(--sans);text-align:center;color:var(--muted2);
   padding:56px 0 72px;font-size:.8125rem;letter-spacing:.08em;text-transform:uppercase}
 

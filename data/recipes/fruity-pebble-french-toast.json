@@ -1,0 +1,47 @@
+{
+  "slug": "fruity-pebble-french-toast",
+  "title": "(NOT Fred Flintstone's) Fruity Pebble French Toast",
+  "description": "Custard-soaked bread pressed into crushed Fruity Pebbles and pan-fried until crisp — a colorful, crunchy twist on classic French toast.",
+  "source_name": null,
+  "source_url": null,
+  "yield": "8 slices",
+  "prep_time": "10 mins",
+  "cook_time": "10 mins",
+  "total_time": "20 mins",
+  "category": "Breakfast",
+  "tags": ["breakfast", "french toast", "fruity pebbles", "cereal", "kids", "brunch"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "8 slices bread",
+        "3 large eggs",
+        "1 cup milk",
+        "3 cups Fruity Pebbles",
+        "4 tablespoons butter",
+        "1 teaspoon vanilla",
+        "½ teaspoon cinnamon"
+      ]
+    }
+  ],
+  "instructions": [
+    "In a shallow dish, whisk together eggs, milk, vanilla, and cinnamon until combined.",
+    "In a separate bowl, add Fruity Pebbles. Crush the cereal to make it easier to stick to the bread.",
+    "Working on 1 slice at a time, dip bread until fully soaked, about 45 seconds.",
+    "Transfer soaked bread to the Fruity Pebbles and press to coat. Use your hands if necessary to get the cereal to stick.",
+    "In a large skillet over medium-low heat, melt 2 tablespoons of butter. Add French toast and cook about 3 minutes each side.",
+    "Repeat with remaining bread, adding butter if needed."
+  ],
+  "notes": [
+    {
+      "label": "Tip",
+      "text": "Pour ½ cup of cereal into the milk mixture and let it sit for a few minutes to sweeten up the milk before dipping the bread."
+    }
+  ],
+  "nutrition": null,
+  "calories": null,
+  "added": "2026-05-30",
+  "pdf": "Fruity Pebble French Toast.pdf",
+  "contributor": null,
+  "image": null
+}

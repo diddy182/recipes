@@ -1,0 +1,68 @@
+{
+  "slug": "peperes-pork-pie",
+  "title": "(NOT Your) Pepere's Pork Pie",
+  "description": "A French-Canadian tourtière: spiced ground pork and beef with mashed potato, baked in a flaky double crust. Warm with cinnamon, cloves, and nutmeg.",
+  "source_name": null,
+  "source_url": null,
+  "yield": "1 pie (8 slices)",
+  "prep_time": "30 mins",
+  "cook_time": "30 mins",
+  "total_time": "1 hr",
+  "category": "Main Course",
+  "tags": ["main course", "pork pie", "tourtiere", "pork", "beef", "pie", "french canadian", "dinner"],
+  "ingredients": [
+    {
+      "heading": "Pie Pastry",
+      "items": [
+        "2 cups all-purpose flour",
+        "⅔ cup butter or lard, chilled",
+        "6–7 tablespoons ice-cold water",
+        "½ teaspoon kosher salt"
+      ]
+    },
+    {
+      "heading": "Meat Filling",
+      "items": [
+        "2 large russet or Yukon gold potatoes (~1 lb)",
+        "1 small onion, finely chopped",
+        "1 lb ground pork",
+        "1 lb ground beef",
+        "1 large egg, beaten (for glazing)",
+        "1 clove garlic, finely minced",
+        "½ teaspoon poultry seasoning",
+        "½ teaspoon ground cinnamon",
+        "¼ teaspoon ground cloves",
+        "¼ teaspoon ground nutmeg",
+        "¼ teaspoon kosher salt",
+        "⅛ teaspoon pepper",
+        "Olive oil, for sautéing"
+      ]
+    }
+  ],
+  "instructions": [
+    "Prepare the pastry: Combine flour and salt in a large bowl.",
+    "Cut in butter or lard until the mixture is a rough, crumbly texture.",
+    "Add ice water, one tablespoon at a time, and mix just until the dough comes together.",
+    "Shape the dough into a ball, flatten, wrap, and chill in the refrigerator. While the pastry chills, prepare the filling.",
+    "Make the filling: Peel and cut potatoes into 2-inch chunks, add them to a medium saucepan, and fill with water until it covers the potatoes by 2 inches.",
+    "Bring the saucepan to a boil over high heat, then reduce to medium-high and boil until the potatoes are tender, about 12 minutes.",
+    "Reserve ½ cup of the potato water and drain the rest. Mash the potatoes and set aside.",
+    "Heat a large skillet over medium heat. Add olive oil, onions, and garlic, and sauté until softened, about 3 minutes.",
+    "Add the ground beef and pork and cook until the meat is no longer pink. Drain excess grease.",
+    "Add poultry seasoning, cinnamon, cloves, nutmeg, salt, pepper, and the reserved potato water. Mix well and simmer about 10 minutes, until the liquid is absorbed.",
+    "Remove the skillet from the heat, stir in the mashed potatoes, and set the filling aside to cool slightly.",
+    "Assemble the pie: Preheat the oven to 400°F.",
+    "On a lightly floured surface, divide the dough in half and flatten one ball with your hands. Roll the dough to about 12 inches in diameter to fit a 9-inch pie pan.",
+    "Place the pastry into the pie plate and add the meat filling. Brush around the outer edge of the pastry with the beaten egg.",
+    "Roll out the top pastry and place it on top of the filling. Fold the top crust under the bottom crust and pinch or flute the edges. Brush with egg wash and cut vent holes.",
+    "Bake the pie in the preheated oven for 30 to 35 minutes, or until the pastry is golden brown.",
+    "Remove the pie from the oven and let it cool at least 10 minutes before serving."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": "520",
+  "added": "2026-05-30",
+  "pdf": "Peperes Pork Pie.pdf",
+  "contributor": null,
+  "image": null
+}

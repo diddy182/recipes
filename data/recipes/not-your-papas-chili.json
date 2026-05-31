@@ -1,0 +1,60 @@
+{
+  "slug": "not-your-papas-chili",
+  "title": "(NOT Your) Papa's Chili",
+  "description": "A hearty slow-cooker chili loaded with ground beef, two kinds of beans, corn, and a trio of tomatoes, finished with cheese, avocado, and sour cream.",
+  "source_name": null,
+  "source_url": null,
+  "yield": "8 servings",
+  "prep_time": null,
+  "cook_time": "3–4 hrs on high / 6–8 hrs on low",
+  "total_time": null,
+  "category": "Main Course",
+  "tags": ["main course", "chili", "beef", "slow cooker", "beans", "dinner"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "2 pounds ground beef",
+        "1 green bell pepper, seeded and diced",
+        "1 onion, diced",
+        "4 garlic cloves, minced",
+        "14½ oz crushed tomatoes",
+        "14½ oz diced tomatoes, with juice",
+        "8 oz tomato sauce",
+        "1 tablespoon tomato paste",
+        "1 can whole kernel corn",
+        "19 oz kidney beans, canned — drained and rinsed",
+        "19 oz pinto beans, canned — drained and rinsed",
+        "2½ cups beef broth",
+        "2½ tablespoons chili powder",
+        "1 teaspoon cumin",
+        "1 teaspoon oregano",
+        "1 tablespoon brown sugar",
+        "Salt and pepper, to taste"
+      ]
+    },
+    {
+      "heading": "For Serving",
+      "items": [
+        "Shredded cheese mix",
+        "Avocado, cubed",
+        "Sour cream",
+        "Crackers"
+      ]
+    }
+  ],
+  "instructions": [
+    "Brown ground beef in a large skillet over medium-high heat until thoroughly cooked.",
+    "Add onion and sauté until tender (4–5 minutes). Add minced garlic and seasonings: cumin, chili powder, oregano, salt and pepper. Cook until combined, stirring constantly. Transfer to slow cooker.",
+    "Add remaining ingredients to the slow cooker: beans (drained and rinsed), diced tomatoes with their juice, crushed tomatoes with their juice, tomato sauce, tomato paste, brown sugar, and corn.",
+    "Stir to combine and cook on high for 3–4 hours or on low for 6–8 hours.",
+    "Garnish with cheese, sour cream, avocado, and crackers, as desired."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "added": "2026-05-30",
+  "pdf": "NOT Your Papas Chili.pdf",
+  "contributor": null,
+  "image": null
+}

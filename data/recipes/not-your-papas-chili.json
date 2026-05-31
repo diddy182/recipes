@@ -8,7 +8,7 @@
   "prep_time": null,
   "cook_time": "3–4 hrs on high / 6–8 hrs on low",
   "total_time": null,
-  "category": "Main Course",
+  "category": "Soup",
   "tags": ["main course", "chili", "beef", "slow cooker", "beans", "dinner"],
   "ingredients": [
     {
@@ -55,6 +55,6 @@
   "calories": null,
   "added": "2026-05-30",
   "pdf": "NOT Your Papas Chili.pdf",
-  "contributor": null,
+  "contributor": "Brittany",
   "image": null
 }

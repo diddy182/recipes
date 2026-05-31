@@ -1,0 +1,40 @@
+{
+  "slug": "jamies-taco-stuffed-tomatoes",
+  "title": "Jamie's Taco Stuffed Tomatoes",
+  "description": "Hollowed beefsteak tomatoes filled with seasoned taco beef and topped with Mexican cheese, sour cream, and lettuce — a fresh, low-carb take on tacos.",
+  "source_name": null,
+  "source_url": null,
+  "yield": "2 servings",
+  "prep_time": "10 mins",
+  "cook_time": "10 mins",
+  "total_time": "20 mins",
+  "category": "Main Course",
+  "tags": ["main course", "tacos", "beef", "tomatoes", "stuffed", "mexican", "low carb"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "2 beefsteak tomatoes",
+        "¼ lb ground beef",
+        "Taco seasoning (1 packet or to taste)",
+        "Cumin, to taste",
+        "Mexican shredded cheese",
+        "Sour cream",
+        "Lettuce, shredded"
+      ]
+    }
+  ],
+  "instructions": [
+    "Cut a circle out of the top of each tomato and scoop out the filling to make a cup.",
+    "Brown the ground beef in a skillet, draining excess grease. Season with taco seasoning and cumin (add a splash of water and simmer until thickened).",
+    "Spoon the seasoned taco beef into the hollowed tomatoes.",
+    "Top with shredded Mexican cheese, sour cream, and shredded lettuce. Serve."
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "added": "2026-05-31",
+  "pdf": null,
+  "contributor": "Jamie",
+  "image": "jamies-taco-stuffed-tomatoes.png"
+}

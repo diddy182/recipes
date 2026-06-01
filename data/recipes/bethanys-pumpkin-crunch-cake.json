@@ -42,6 +42,9 @@
   ],
   "nutrition": null,
   "calories": null,
+  "ratings": [
+    {"name": "Jordan", "score": 9}
+  ],
   "pdf": "Bethany/Bethany’s Pumpkin Crunch Cake.pdf",
   "contributor": "Bethany",
   "image": null

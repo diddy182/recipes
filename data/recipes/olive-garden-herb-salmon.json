@@ -42,6 +42,9 @@
   "notes": [],
   "nutrition": null,
   "calories": null,
+  "ratings": [
+    {"name": "Jordan", "score": 9}
+  ],
   "pdf": "Olive Garden herb salmon.pdf",
   "contributor": null,
   "image": null

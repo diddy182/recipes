@@ -45,6 +45,9 @@
   "notes": [],
   "nutrition": null,
   "calories": null,
+  "ratings": [
+    {"name": "Jordan", "score": 8}
+  ],
   "pdf": "Pan Roasted Kielbasa & Cabbage Dinner.pdf",
   "contributor": null,
   "image": null

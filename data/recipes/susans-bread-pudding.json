@@ -43,6 +43,9 @@
   "notes": [],
   "nutrition": null,
   "calories": null,
+  "ratings": [
+    {"name": "Jordan", "score": 8}
+  ],
   "pdf": "Susan/Susan’s Bread Pudding with Vanilla Sauce.pdf",
   "contributor": "Susan",
   "image": null

@@ -57,6 +57,9 @@
   "notes": [],
   "nutrition": null,
   "calories": null,
+  "ratings": [
+    {"name": "Jordan", "score": 9}
+  ],
   "pdf": "Bethany/Bethany's Fish Chowder.pdf",
   "contributor": "Bethany",
   "image": "bethanys-fish-chowder.png"

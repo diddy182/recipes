@@ -1,0 +1,52 @@
+{
+  "slug": "cucumber-salad",
+  "title": "Cucumber Salad",
+  "description": "Thinly sliced cucumbers and red onion in a sweet-and-tangy white wine vinegar dressing, showered with fresh dill and chives — a cooling, refreshing summer side.",
+  "source_name": "loveandlemons.com",
+  "source_url": "https://www.loveandlemons.com/cucumber-salad/",
+  "yield": "6 servings",
+  "prep_time": "10 mins",
+  "cook_time": null,
+  "total_time": "30 mins (incl. 20 min chill)",
+  "category": "Salad",
+  "tags": ["salad", "cucumber", "summer", "side dish", "vegan", "vegetarian", "no cook"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "2 English cucumbers, very thinly sliced",
+        "½ large red onion, very thinly sliced",
+        "¼ cup white wine vinegar",
+        "1 tablespoon honey or agave nectar",
+        "1 teaspoon sea salt",
+        "2 tablespoons chopped fresh dill",
+        "Chopped fresh chives, optional, for garnish",
+        "Freshly ground black pepper"
+      ]
+    }
+  ],
+  "instructions": [
+    "In a large bowl, toss together the cucumber, onion, vinegar, honey, and salt. Chill for 20 minutes.",
+    "Transfer to a serving bowl, leaving any excess water behind. Sprinkle with the dill and chives, if desired. Season with several grinds of pepper and serve."
+  ],
+  "notes": [
+    {
+      "label": "Less soggy",
+      "text": "Chilling the dressed cucumbers for 20 minutes draws out their water — transfer to a clean bowl and leave the released liquid behind."
+    },
+    {
+      "label": "Regular cucumbers",
+      "text": "If using regular cucumbers instead of English, peel them and scoop out the seeds before slicing."
+    },
+    {
+      "label": "Storage",
+      "text": "Best the day it's made; leftovers keep in an airtight container in the fridge for up to 3 days."
+    }
+  ],
+  "nutrition": null,
+  "calories": null,
+  "added": "2026-06-01",
+  "pdf": null,
+  "contributor": null,
+  "image": null
+}

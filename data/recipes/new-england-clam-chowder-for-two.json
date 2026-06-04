@@ -1,0 +1,52 @@
+{
+  "slug": "new-england-clam-chowder-for-two",
+  "title": "New England Clam Chowder for Two",
+  "description": "A creamy New England clam chowder with bacon, Yukon Gold potatoes, and chopped clams, thickened by pureeing some of the solids. Finished with parsley and lemon.",
+  "source_name": null,
+  "source_url": null,
+  "yield": "2 servings",
+  "prep_time": "15 mins",
+  "cook_time": "35 mins",
+  "total_time": "50 mins",
+  "category": "Soup",
+  "tags": ["soup", "clam chowder", "new england", "seafood", "bacon", "potatoes", "creamy"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "2 strips of bacon (diced)",
+        "2 tablespoons butter",
+        "1 medium onion (large dice)",
+        "2 stalks of celery (large dice)",
+        "2 medium Yukon Gold potatoes (bite-size pieces)",
+        "2 teaspoons garlic (minced)",
+        "¼ cup white wine",
+        "1 cup (8 oz) clam juice",
+        "1 cup heavy cream",
+        "1 tablespoon Worcestershire sauce",
+        "1 teaspoon hot sauce",
+        "2 bay leaves",
+        "2 (6.5 ounce) cans chopped clams (save the juice)",
+        "¼ cup fresh parsley (chopped)",
+        "Salt and pepper",
+        "Lemon wedges"
+      ]
+    }
+  ],
+  "instructions": [
+    "In a large pot, cook the diced bacon over medium heat until crispy.",
+    "Add the butter, onions, and celery. Season with salt and pepper and cook until the onions are translucent and the celery has softened, about 5–6 minutes.",
+    "Add the potatoes, season with salt, and cook for another 3–4 minutes. Add the garlic and cook for another 1–2 minutes.",
+    "Add the white wine, clam juice, heavy cream, Worcestershire, hot sauce, and bay leaves. Stir to combine and simmer for at least 20 minutes.",
+    "Add the clams with their juice.",
+    "With a slotted spoon, scoop out some of the solids and puree in a blender, then return the puree to the pot to thicken the chowder.",
+    "Add the parsley and season with salt and pepper if needed. Garnish with lemon wedges. Enjoy!"
+  ],
+  "notes": [],
+  "nutrition": null,
+  "calories": null,
+  "added": "2026-06-02",
+  "pdf": null,
+  "contributor": null,
+  "image": "new-england-clam-chowder-for-two.webp"
+}

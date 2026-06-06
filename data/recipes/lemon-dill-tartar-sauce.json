@@ -1,0 +1,46 @@
+{
+  "slug": "lemon-dill-tartar-sauce",
+  "title": "Lemon-Dill Tartar Sauce",
+  "description": "Bright, tangy tartar sauce with red onion, fresh dill, and a splash of pickle brine. Makes about 1.5 cups.",
+  "source_name": null,
+  "source_url": null,
+  "yield": "About 1.5 cups (8 servings)",
+  "prep_time": "5 mins",
+  "cook_time": null,
+  "total_time": "35 mins (incl. 30 min chill)",
+  "category": "Sauce",
+  "tags": ["sauce", "tartar sauce", "condiment", "dill", "lemon", "seafood"],
+  "ingredients": [
+    {
+      "heading": null,
+      "items": [
+        "1 cup mayonnaise",
+        "⅓ cup dill pickles, finely chopped",
+        "2 tablespoons red onion, finely minced",
+        "1 tablespoon fresh dill, chopped",
+        "1 tablespoon pickle brine",
+        "1 tablespoon lemon juice",
+        "1 teaspoon lemon zest",
+        "¼ teaspoon black pepper",
+        "¼ teaspoon salt"
+      ]
+    }
+  ],
+  "instructions": [
+    "In a bowl, stir together the mayonnaise, chopped pickles, red onion, and fresh dill.",
+    "Add the pickle brine, lemon juice, lemon zest, black pepper, and salt. Mix well.",
+    "Cover and refrigerate at least 30 minutes so the flavors meld. Taste and adjust salt or lemon before serving."
+  ],
+  "notes": [
+    {
+      "label": "Storage",
+      "text": "Keeps 1–2 weeks in an airtight container in the fridge, limited by the freshness of the mayo. Adjust brine or lemon for more tang."
+    }
+  ],
+  "nutrition": null,
+  "calories": null,
+  "added": "2026-06-05",
+  "pdf": "Lemon-Dill-Tartar-Sauce.pdf",
+  "contributor": null,
+  "image": "lemon-dill-tartar-sauce.png"
+}
